@@ -1,0 +1,626 @@
+idx,project,fold,gold,text,MNB,LogReg,LinearSVM,DistilBERT,DistilBERT_pmax,DistilBERT_secs_per_fold
+0,1,1,NFR,The system shall refresh the display every 60 seconds.,NFR,NFR,NFR,NFR,0.9974454641342163,206.77825288772584
+1,1,1,NFR,The application shall match the color of the schema set forth by Department of Homeland Security,NFR,NFR,NFR,NFR,0.9853405356407166,206.77825288772584
+2,1,1,NFR, If projected  the data must be readable.  On a 10x10 projection screen  90% of viewers must be able to read Event / Activity data from a viewing distance of 30,NFR,NFR,NFR,NFR,0.9969227910041809,206.77825288772584
+3,1,1,NFR, The product shall be available during normal business hours. As long as the user has access to the client PC  the system will be available 99% of the time during the first six months of operation.,NFR,NFR,NFR,NFR,0.9978431463241577,206.77825288772584
+4,1,1,NFR, If projected  the data must be understandable. On a 10x10 projection screen  90% of viewers must be able to determine that Events or Activities are occuring in current time from a viewing distance of 100,NFR,NFR,NFR,NFR,0.9968650937080383,206.77825288772584
+5,1,1,NFR,The product shall ensure that it can only be accessed by authorized users.  The product will be able to distinguish between authorized and unauthorized users in all access attempts,NFR,NFR,NFR,NFR,0.9979516863822937,206.77825288772584
+6,1,1,NFR,The product shall be intuitive and self-explanatory.  :  90% of new users shall be able to start the display of Events or Activities within 90 minutes of using the product.,NFR,NFR,NFR,NFR,0.9977752566337585,206.77825288772584
+7,1,1,NFR,The product shall respond fast to keep up-to-date data in the display.,NFR,NFR,NFR,NFR,0.9974620342254639,206.77825288772584
+8,1,1,F,The system shall have a MDI form that allows for the viewing of the graph and the data table.,NFR,NFR,NFR,NFR,0.99642014503479,206.77825288772584
+9,1,1,F,The system shall display Events in a vertical table by time.,F,F,F,F,0.5036201477050781,206.77825288772584
+10,1,1,F,The system shall display the Events in a graph by time.,F,F,F,NFR,0.7643203735351562,206.77825288772584
+11,1,1,F,The system shall display Events or Activities.,F,F,F,F,0.9972676038742065,206.77825288772584
+12,1,1,F, The display shall have two regions:  left 2/3 of the display is graphical  right 1/3 of the display is a data table,NFR,F,F,NFR,0.9938779473304749,206.77825288772584
+13,1,1,F,The data displayed in both the nodes within the graph and the rows in the table are MSEL Summary data,F,NFR,NFR,F,0.6338505744934082,206.77825288772584
+14,1,1,F,The table side of the display shall be split into 2 regions: sequential and temporal.,NFR,F,F,NFR,0.9923256635665894,206.77825288772584
+15,1,1,F,The top 1/4 of the table will hold events that are to occur sequentially.,NFR,NFR,NFR,NFR,0.503399670124054,206.77825288772584
+16,1,1,F,The bottom 3/4 of the table will hold events that occur according to its relevance to current time.,F,NFR,NFR,F,0.5418086647987366,206.77825288772584
+17,1,1,F,The system shall color code events according to their variance from current time.,NFR,NFR,NFR,NFR,0.706410825252533,206.77825288772584
+18,1,1,F,The system shall display data from the Sync Matrix 1.0 and Exercise Management Tool 1.0 applications,NFR,F,F,NFR,0.995465874671936,206.77825288772584
+19,1,1,F,The system shall link Events back to either the Sync Matrix 1.0 or the Exercise Managment Tool 1.0 applications for modifications.,NFR,NFR,NFR,NFR,0.9927532076835632,206.77825288772584
+20,1,1,F,The system shall allow modification of the display.,F,F,F,F,0.9468919038772583,206.77825288772584
+21,1,1,F,The system shall offer a display of all the Events in the exercise.,F,F,F,F,0.9964151382446289,206.77825288772584
+22,1,1,F,The system shall filter data by: Venues and Key Events.,NFR,NFR,NFR,F,0.7213453650474548,206.77825288772584
+23,1,1,F,The system shall allow a user to define the time segments,F,F,F,F,0.996737539768219,206.77825288772584
+24,1,1,F,The system shall display the local and exercise time in separate clocks,F,F,F,F,0.9970856308937073,206.77825288772584
+25,1,1,F,The system shall offer the ability to pause and resume the refresh of data.,NFR,NFR,NFR,NFR,0.9948174357414246,206.77825288772584
+26,1,1,F,The system shall provide charts for the Activity or Event actual versus assumed time.,NFR,NFR,NFR,F,0.9979000091552734,206.77825288772584
+27,1,1,F,The system shall provide a history report of changes made to the Activity or Event data,NFR,NFR,NFR,F,0.9983569979667664,206.77825288772584
+28,2,0,NFR,The look and feel of the system shall conform to the user interface standards of the smart device.,NFR,NFR,NFR,NFR,0.9979815483093262,206.77825288772584
+29,2,0,NFR, The user interface shall have standard menus  buttons for navigation,NFR,NFR,NFR,NFR,0.9933632612228394,206.77825288772584
+30,2,0,NFR,The system shall have a professional appearance,NFR,NFR,NFR,F,0.9897566437721252,206.77825288772584
+31,2,0,NFR,The product shall have a consistent color scheme and fonts.,NFR,NFR,NFR,NFR,0.997995138168335,206.77825288772584
+32,2,0,NFR,The system shall be used by realtors with no training.,NFR,NFR,NFR,NFR,0.9976546168327332,206.77825288772584
+33,2,0,NFR,The system shall be intuitive and self explanatory.,NFR,NFR,NFR,NFR,0.9965406060218811,206.77825288772584
+34,2,0,NFR,The product shall be easy for a realtor to learn.,NFR,NFR,NFR,NFR,0.9974406957626343,206.77825288772584
+35,2,0,NFR,The product shall use symbols and words that are naturally understandable by the realtor community.,NFR,NFR,NFR,NFR,0.9975084066390991,206.77825288772584
+36,2,0,NFR,The product shall produce search results in an acceptable time,F,NFR,NFR,NFR,0.996103048324585,206.77825288772584
+37,2,0,NFR,The search results shall be returned no later 30      seconds  after the user has entered the search criteria,F,NFR,NFR,NFR,0.95720374584198,206.77825288772584
+38,2,0,NFR,The product shall generate a CMA report in an acceptable time.,F,NFR,NFR,NFR,0.9973379969596863,206.77825288772584
+39,2,0,NFR,The CMA report shall be returned no later 60 seconds after the user has entered the CMA report criteria.,NFR,NFR,NFR,NFR,0.9870597124099731,206.77825288772584
+40,2,0,NFR,The product shall synchronize contacts and appointments in an acceptable time.,NFR,NFR,NFR,NFR,0.9980165958404541,206.77825288772584
+41,2,0,NFR,The product shall synchronize with the office system every hour.,NFR,NFR,NFR,NFR,0.9981402158737183,206.77825288772584
+42,2,0,NFR, The product shall be available for use 24 hours per day  365 days  per year,NFR,NFR,NFR,NFR,0.9978470802307129,206.77825288772584
+43,2,0,NFR, Out of 1000 accesses to the system  the system is available 999 times.,NFR,NFR,NFR,NFR,0.9974925518035889,206.77825288772584
+44,2,0,NFR,The product shall operate in offline mode whenever internet connection is unavailable.,NFR,NFR,NFR,NFR,0.9980302453041077,206.77825288772584
+45,2,0,NFR, The product shall allow the user to view previously downloaded search results  CMA reports  and appointments.,F,F,F,F,0.9912703037261963,206.77825288772584
+46,2,0,NFR,The product shall retain user preferences in the event of a failure.,NFR,NFR,NFR,NFR,0.9971354007720947,206.77825288772584
+47,2,0,NFR,100% of saved user preferences shall be restored when system comes back online.,NFR,NFR,NFR,NFR,0.9975934624671936,206.77825288772584
+48,2,0,NFR,The product shall be able to support multiple remote users,NFR,NFR,NFR,NFR,0.9978727102279663,206.77825288772584
+49,2,0,NFR,The product shall be able support 1000 simultaneous users.,NFR,NFR,NFR,NFR,0.9977869987487793,206.77825288772584
+50,2,0,NFR,The product shall be capable of handling the existing 1000 users. This number is expected to grow 5 times within the next year.,NFR,NFR,NFR,NFR,0.9978805780410767,206.77825288772584
+51,2,0,NFR,The product shall be installed by an untrained realtor   without recourse to separately-printed instructions.,NFR,NFR,NFR,NFR,0.9973410964012146,206.77825288772584
+52,2,0,NFR,90% of untrained realtors shall be able to install the product on their device without printed instructions,NFR,NFR,NFR,NFR,0.9977385997772217,206.77825288772584
+53,2,0,NFR,The product is expected to run on Windows CE and Palm operating systems.,NFR,NFR,NFR,NFR,0.9975958466529846,206.77825288772584
+54,2,0,NFR,Only registered realtors shall be able to access the system.,NFR,NFR,NFR,NFR,0.997075080871582,206.77825288772584
+55,2,0,NFR,Every user of the system shall be authenticated and authorized.,NFR,NFR,NFR,NFR,0.9976450800895691,206.77825288772584
+56,2,0,NFR,The product shall prevent its data from incorrect data being introduced.,NFR,NFR,NFR,NFR,0.9979066848754883,206.77825288772584
+57,2,0,F,The system shall allow a real estate agent to query MLS information,F,F,F,F,0.9989197254180908,206.77825288772584
+58,2,0,F,The user shall be able to get driving directions to a selected property,F,NFR,NFR,NFR,0.830727756023407,206.77825288772584
+59,2,0,F,The user shall be able to download appointments and contact information for clients,F,F,F,NFR,0.9923447966575623,206.77825288772584
+60,2,0,F,The system shall display clear property images in the search results,F,F,F,F,0.9989751577377319,206.77825288772584
+61,2,0,F,The system shall update or create new property listings in the MLS,F,NFR,NFR,F,0.9989767074584961,206.77825288772584
+62,2,0,F,Realtor shall be able to generate a CMA report based on property criteria,F,NFR,NFR,F,0.9956931471824646,206.77825288772584
+63,2,0,F,The system shall be able to call the seller or buyer to schedule an appointment,NFR,NFR,NFR,F,0.9989890456199646,206.77825288772584
+64,2,0,F,The realtor shall be notified of new client appointments after automatic synchronization with office system,NFR,NFR,NFR,F,0.902079701423645,206.77825288772584
+65,2,0,F,The realtor shall be able to retrieve a map showing property locations for a specified area,NFR,NFR,NFR,F,0.9986625909805298,206.77825288772584
+66,2,0,F,The system shall notify the realtor when a seller or buyer responds to an appointment request,F,F,F,F,0.998923122882843,206.77825288772584
+67,2,0,F,The product shall allow the user to save the property search results.,F,F,F,F,0.9973251819610596,206.77825288772584
+68,3,2,NFR,The system shall be easy to use by the Program Administrators/Nursing Staff Members.,NFR,NFR,NFR,NFR,0.9924114942550659,206.77825288772584
+69,3,2,NFR,All of the users shall be able to use the system after one day of training.,NFR,NFR,NFR,NFR,0.9982902407646179,206.77825288772584
+70,3,2,NFR,The system shall help the user avoid making mistakes while scheduling classes and clinicals for the nursing students.,NFR,NFR,NFR,NFR,0.9787358641624451,206.77825288772584
+71,3,2,NFR,The number of mistakes noted by the students shall be decreased by 50% in the first year.,NFR,NFR,NFR,NFR,0.9977052807807922,206.77825288772584
+72,3,2,NFR,The system shall be intuitive to the Program Administrators/Nursing Staff Members.,NFR,NFR,NFR,NFR,0.5558943748474121,206.77825288772584
+73,3,2,NFR,2 out of 3 Program Administrators/Nursing Staff Members shall successfully be able to use the system to manage the scheduling of classes and clinicals.,NFR,NFR,NFR,NFR,0.9976217150688171,206.77825288772584
+74,3,2,NFR,The system shall use symbols and words that are naturally understandable by the user community.,NFR,NFR,NFR,NFR,0.9977713823318481,206.77825288772584
+75,3,2,NFR,The verbiage used within the system shall be consistent with Standard English and the terminology of the national Nursing Community.,NFR,NFR,NFR,NFR,0.9963548183441162,206.77825288772584
+76,3,2,NFR,Staff members shall be able to complete a set of tasks in a timely manner.,NFR,NFR,NFR,NFR,0.9966425895690918,206.77825288772584
+77,3,2,NFR,The response time of general student management tasks shall take no longer than 5 seconds and the response time of schedule generation shall take no longer than 30 seconds.,NFR,NFR,NFR,NFR,0.9982380867004395,206.77825288772584
+78,3,2,NFR,The system shall be available for use between the hours of 8am and 6pm.,NFR,NFR,NFR,NFR,0.997921884059906,206.77825288772584
+79,3,2,NFR,The system shall achieve 95% up time.,NFR,NFR,NFR,NFR,0.9981158971786499,206.77825288772584
+80,3,2,NFR,system shall be able to handle all of the user requests/usage during business hours.,NFR,NFR,NFR,NFR,0.9976778626441956,206.77825288772584
+81,3,2,NFR,The system shall cater to 10 simultaneous users from 9am to 5pm.,NFR,NFR,NFR,NFR,0.9980692267417908,206.77825288772584
+82,3,2,NFR,The system shall be capable of processing 100% of nursing students and their classes for the next 10 years.,NFR,NFR,NFR,NFR,0.997857391834259,206.77825288772584
+83,3,2,NFR,The system shall be expected to manage the nursing program curriculum and class/clinical scheduling for a minimum of 5 years.,NFR,NFR,NFR,NFR,0.9967652559280396,206.77825288772584
+84,3,2,NFR,The system shall able to operate within a business office environment typical of the Nursing Department at DePaul University.,NFR,NFR,NFR,NFR,0.995880126953125,206.77825288772584
+85,3,2,NFR,The system shall be used within the specifications defined by the computers used by the Program Administrators/Nursing Staff Members.,NFR,NFR,NFR,NFR,0.9974827170372009,206.77825288772584
+86,3,2,NFR,The system shall operate within the Windows XP Professional operating system.,NFR,NFR,NFR,NFR,0.9978476762771606,206.77825288772584
+87,3,2,NFR,The system shall interface with CampusConnects central server,NFR,NFR,NFR,NFR,0.9892897009849548,206.77825288772584
+88,3,2,NFR,The system shall interface with the faculty central server.,NFR,NFR,NFR,NFR,0.9961633682250977,206.77825288772584
+89,3,2,NFR,The system shall interface with the student master server.,NFR,NFR,NFR,NFR,0.9966371059417725,206.77825288772584
+90,3,2,NFR,We must be able to interface with any HTML browser.,NFR,NFR,NFR,NFR,0.9979288578033447,206.77825288772584
+91,3,2,NFR,Only authorized users shall have access to clinical site information.,NFR,NFR,NFR,NFR,0.9980461597442627,206.77825288772584
+92,3,2,NFR,Program Administrators/Nursing Staff Members are the only people who shall have access to clinical site details.,NFR,NFR,NFR,NFR,0.9964751601219177,206.77825288772584
+93,3,2,NFR,Only authorized users shall have access to students personal information.,NFR,NFR,NFR,NFR,0.9981521964073181,206.77825288772584
+94,3,2,NFR,Dr Susan Poslusny and Dr Julie Donalek are the only people who shall have access to students personal information.,NFR,NFR,NFR,NFR,0.9968631267547607,206.77825288772584
+95,3,2,NFR,Only authorized users shall have access to the portion of the system that interfaces with CampusConnect.,NFR,NFR,NFR,NFR,0.9981027245521545,206.77825288772584
+96,3,2,NFR,Fit Criterion: Dr Susan Poslusny and Karen Sysol are the only people who shall have access to the final class section scheduling for the system that interfaces with CampusConnect.,NFR,NFR,NFR,NFR,0.9902948141098022,206.77825288772584
+97,3,2,NFR,The system shall have basic data integrity checking to reduce the possibility of incorrect or invalid data being introduced.,NFR,NFR,NFR,NFR,0.997830331325531,206.77825288772584
+98,3,2,NFR,The system shall protect private information in accordance with the organizations information policy.,NFR,NFR,NFR,NFR,0.9977935552597046,206.77825288772584
+99,3,2,NFR,The system shall be built such that it is as secure as possible from malicious interference.,NFR,NFR,NFR,NFR,0.9979779124259949,206.77825288772584
+100,3,2,NFR,The system shall use the organizations standard virus protection software to help monitor threats to itself.,NFR,NFR,NFR,NFR,0.9978356957435608,206.77825288772584
+101,3,2,F,A cohort shall be associated to one Program of Study offered by the department.,NFR,NFR,NFR,NFR,0.9934739470481873,206.77825288772584
+102,3,2,F,Program Administrators and Nursing Staff Members shall be able to add a listing of students to a cohort.,NFR,NFR,NFR,F,0.8410696387290955,206.77825288772584
+103,3,2,F,Program Administrators and Nursing Staff Members shall be able to add a single student to a cohort,NFR,NFR,NFR,NFR,0.7104032635688782,206.77825288772584
+104,3,2,F,Students added to a cohort shall be eligible for the cohorts Program of Study.,NFR,NFR,NFR,NFR,0.9771727919578552,206.77825288772584
+105,3,2,F,Program Administrators and Nursing Staff Members shall be able to specify the preferred sequence of classes for a given cohort.,NFR,NFR,NFR,F,0.7302123308181763,206.77825288772584
+106,3,2,F, For each class within a sequence for a cohort  Program Administrators and Nursing Staff Members shall be able to specify which quarter that class will be offered.,NFR,NFR,NFR,NFR,0.6979266405105591,206.77825288772584
+107,3,2,F, For each class within a sequence for a cohort  Program Administrators and Nursing Staff Members shall be able to specify which quarter that class will be offered.,NFR,NFR,NFR,NFR,0.6979266405105591,206.77825288772584
+108,3,2,F,Program Administrators and Nursing Staff Members shall be able to add new classes to a sequence of classes,NFR,NFR,NFR,F,0.979588508605957,206.77825288772584
+109,3,2,F,Program Administrators and Nursing Staff Members shall be able to add clinical classes or sections to a sequence of classes,NFR,NFR,NFR,F,0.9712544083595276,206.77825288772584
+110,3,2,F, Program Administrators and Nursing Staff Members shall be able to add a new cohort to the system  identified by start month and year.,NFR,NFR,NFR,NFR,0.9262735247612,206.77825288772584
+111,3,2,F,Program Administrators and Nursing Staff Members shall be able to add new classes for the nursing department into the system.,NFR,NFR,NFR,F,0.7267656326293945,206.77825288772584
+112,3,2,F,A class shall be either a non-clinical class or a clinical class.,NFR,NFR,NFR,NFR,0.8628160357475281,206.77825288772584
+113,3,2,F, A non-clinical class shall specify the course name  lecture room requirements  and instructor needs.,NFR,NFR,NFR,F,0.9873724579811096,206.77825288772584
+114,3,2,F, A clinical class shall specify the course name  lecture room requirements  clinical site needs  lecture instructor needs  and clinical lab instructor needs.,NFR,NFR,NFR,F,0.9970171451568604,206.77825288772584
+115,3,2,F,Program Administrators/Nursing Staff Members shall be able to create a new Program of Study.,NFR,NFR,NFR,NFR,0.5161545872688293,206.77825288772584
+116,3,2,F,A Program of Study shall consist of a program name and listing of required classes (both clinical and non-clinical) that must be completed.,NFR,NFR,NFR,NFR,0.9313639402389526,206.77825288772584
+117,3,2,F,Program Administrators and Nursing Staff Members shall have the ability to specify which classes are required for a Program of Study,NFR,NFR,NFR,F,0.980943500995636,206.77825288772584
+118,3,2,F,The system shall be able to display a report of needed classes for a given quarter for all cohorts of all programs for Program Administrators/Nursing Staff Members planning purposes.,NFR,NFR,NFR,F,0.9907700419425964,206.77825288772584
+119,3,2,F, The report of needed classes shall include (but not be limited to) classes to be offered  number of sections needed  number of labs needed  and room types needed.,F,NFR,NFR,NFR,0.9590010046958923,206.77825288772584
+120,3,2,F,Classes for a given cohort shall not conflict with regards to the time and day that they are offered.,NFR,NFR,NFR,NFR,0.992607831954956,206.77825288772584
+121,3,2,F,Program Administrators and Nursing Staff Members shall be able to add a new clinical site into the system.,NFR,NFR,NFR,NFR,0.9607586860656738,206.77825288772584
+122,3,2,F, Clinical site information shall include (but not be limited to) the name of the site  contact person  and contact information.,F,F,F,NFR,0.7822818756103516,206.77825288772584
+123,3,2,F,Program Administrators and Nursing Staff Members shall be able to add a new clinical lab section for an existing clinical class into the System.,NFR,NFR,NFR,F,0.8655021786689758,206.77825288772584
+124,3,2,F, A clinical lab section shall include the clinical site name  the class  instructor  day and time of the lab.,NFR,NFR,NFR,F,0.9900835752487183,206.77825288772584
+125,3,2,F,Program Administrators and Nursing Staff Members shall be able to add a student who has registered for a clinical class to a clinical lab section for that class.,NFR,NFR,NFR,F,0.9565971493721008,206.77825288772584
+126,3,2,F,The system shall allow a Program Administrator or Nursing staff member to remove a student from a clinical lab section.,F,F,F,F,0.9979254007339478,206.77825288772584
+127,3,2,F,The system shall allow a Program Administrator/Nursing Staff Member to move a student from one clinical lab section to another clinical lab section corresponding to the same clinical class.,NFR,F,F,F,0.9975264668464661,206.77825288772584
+128,3,2,F,Program Administrators/Nursing Staff Members shall be able to cancel a clinical lab section only if there are no students registered for that clinical lab section.,NFR,NFR,NFR,NFR,0.9910133481025696,206.77825288772584
+129,3,2,F,A Program Administrator/Nursing Staff Member shall be able to add a new nursing student to the system.,NFR,NFR,NFR,F,0.9856604337692261,206.77825288772584
+130,3,2,F, A staff member shall have the ability to manage the progress of a part time student  which includes modifying their sequence of classes and timeline of classes.,F,F,F,F,0.8857533931732178,206.77825288772584
+131,3,2,F, The system shall be able to display a printable summary for individual cohorts  which will include the students enlisted  the Program of study  sequence of classes  cohort progress through the program  and timeline of completion.,NFR,NFR,NFR,F,0.9981556534767151,206.77825288772584
+132,3,2,F, The system shall be able to display a printable summary for individual clinical sites  which will include information on labs being held at that site for the given quarter (Clinical site  general information on labs held at that location  dates and times of all labs held there).,NFR,NFR,NFR,F,0.9972237348556519,206.77825288772584
+133,3,2,F, The system shall be able to display a printable summary for individual clinical labs  which will include (but not be limited to) class name  class number  lab section  listing of students enrolled  instructor  day(s)  time  and location.,NFR,NFR,NFR,F,0.9976344108581543,206.77825288772584
+134,3,2,F, The system shall be able to display a printable summary for individual nursing students  which will include (but not be limited to) student name  student ID  admission date  classes  credits  GPA  and the cohort that the student is enrolled in.,NFR,NFR,NFR,F,0.9978203773498535,206.77825288772584
+135,3,2,F,The system shall be able to display a printable summary of the system log.,NFR,NFR,NFR,F,0.994878888130188,206.77825288772584
+136,3,2,F, The system shall contain contact information (e-mail and phone number) for all people relevant to the system  including (but not limited to) staff members  students  lecture instructors  clinical lab instructors  and clinical site administrators.,NFR,NFR,NFR,NFR,0.9969102740287781,206.77825288772584
+137,3,2,F,The system will use the stored e-mail addresses as a primary means of communicating information to affected parties.,NFR,NFR,NFR,NFR,0.9974421262741089,206.77825288772584
+138,3,2,F, The system will notify affected parties for routine communication purposes  including but not limited to informing students of upcoming offered classes (timeline) and what their schedule will be/shall be.,F,F,F,F,0.9957627654075623,206.77825288772584
+139,3,2,F, The system will notify affected parties when changes occur affecting clinicals  including but not limited to clinical section capacity changes  and clinical section cancellations.,NFR,NFR,NFR,F,0.9965608716011047,206.77825288772584
+140,3,2,F, The system will notify affected parties when changes occur affecting classes  including but not limited to class cancellations  class section detail changes  and changes to class offerings for a given quarter.,F,NFR,NFR,F,0.9950997233390808,206.77825288772584
+141,3,2,F, The system will notify affected parties when changes occur affecting cohorts  including but not limited to changes to the sequence for a cohorts program of study and changes to a given weeks schedule (lab cancelled this week due to instructor illness).,NFR,NFR,NFR,F,0.9966115355491638,206.77825288772584
+142,3,2,F, The system will notify affected parties when changes occur affecting specific students  including but not limited to changing a students status from full time to part time and moving a student to a different clinical section.,F,F,F,F,0.9942100048065186,206.77825288772584
+143,3,2,F, Program Administrators/Nursing Staff Members shall have the ability to modify information relating to cohorts  including cohort identifier  program of study  preferred sequence of classes and quarters that a cohort will be taking specific classes.,NFR,NFR,NFR,F,0.990970253944397,206.77825288772584
+144,3,2,F, Program Administrators/Nursing Staff Members shall have the ability to modify information relating to a Program of Study within the Nursing Department  including the Program of study name  and required classes for that Program of Study.,NFR,NFR,NFR,F,0.9825901389122009,206.77825288772584
+145,3,2,F, Program Administrators/Nursing Staff Members shall have the ability to modify information relating to a Clinical Site  including the clinical site name  site contact person  contact information  and address.,NFR,NFR,NFR,F,0.9030429720878601,206.77825288772584
+146,3,2,F, Program Administrators/Nursing Staff Members shall have the ability to modify information relating to a Clinical Lab Section  including the clinical site name  the department/section for the lab  the class  instructor  day and time of lab  and contact information.,NFR,NFR,NFR,F,0.9897319674491882,206.77825288772584
+147,3,2,F, Program Administrators/Nursing Staff Members shall have the ability to modify information relating to a Nursing Student  including student ID  student name  phone number  e-mail  status (full time or part time)  and program of study.,NFR,NFR,NFR,F,0.9589847922325134,206.77825288772584
+148,4,1,NFR,The Disputes application shall comply with the corporate standards for user interface creation for internally and externally used applications.,NFR,NFR,NFR,NFR,0.9975281357765198,206.77825288772584
+149,4,1,NFR,All screens created as part of the Disputes application must comply with corporate standards for interface creation.,NFR,NFR,NFR,NFR,0.9975186586380005,206.77825288772584
+150,4,1,NFR,The list of dispute cases that are displayed after a search is performed must be color coded for easy identification of dispute cases based upon the dispute case status.,F,F,F,F,0.98177170753479,206.77825288772584
+151,4,1,NFR,100% of the cardmember and merchant services representatives shall use the Disputes application regularly after a 2-day training course.,NFR,NFR,NFR,NFR,0.9979912042617798,206.77825288772584
+152,4,1,NFR,100% of cardmember services representatives shall be able to successfully create a dispute case on the first encounter after completing the training course.,NFR,NFR,NFR,NFR,0.9965187311172485,206.77825288772584
+153,4,1,NFR,100% of merchant services representatives shall be able to successfully perform a follow up action on a dispute case on the first encounter after completing the training course.,NFR,NFR,NFR,NFR,0.9971464276313782,206.77825288772584
+154,4,1,NFR,The maximum wait time for a user navigating from one screen to another within the Disputes application shall be no more than 5 seconds.,NFR,NFR,NFR,NFR,0.9977560639381409,206.77825288772584
+155,4,1,NFR,The Disputes application shall support 350 concurrent users without any degradation of performance in the application.,NFR,NFR,NFR,NFR,0.9977384805679321,206.77825288772584
+156,4,1,NFR, The Disputes application shall be available 24x7x365  with the exception of the following scheduled maintenance windows.  Monday  Saturday 3:00am to 4:00am EST Sunday 1:00amd to 5:00am EST,NFR,NFR,NFR,NFR,0.9974091649055481,206.77825288772584
+157,4,1,NFR,The Disputes application shall interface with the Statement Database. The Statement Database provides the transaction details to the Disputes System. All transaction details must be obtained from the Statement Database,NFR,NFR,NFR,NFR,0.9971979856491089,206.77825288772584
+158,4,1,NFR,The Disputes application shall interface with the Cardmember Information Database.  The Cardmember Information Database provides detailed information with regard to a cardmember.  All cardmember detail information must be obtained from the Cardmember Information Database.,NFR,NFR,NFR,NFR,0.9971451163291931,206.77825288772584
+159,4,1,NFR,The Disputes applications shall interface with the Merchant Information Database.  The Merchant Information Database provides detailed information with regard to the merchant. All merchant detail information shall be obtained from the Merchant Information Database.,NFR,NFR,NFR,NFR,0.9976758360862732,206.77825288772584
+160,4,1,NFR,The Disputes application shall interface with the Letters application.  This will allow the Disputes application to request letters as part of the dispute initiation and dispute follow up process. All letter requests must be sent to the Print Letter Utility application.,NFR,NFR,NFR,NFR,0.9959815740585327,206.77825288772584
+161,4,1,NFR,The Disputes application shall interface with the Cardmember Posting and Billing System.  This will allow the Disputes application to request adjustments to cardmember and merchants accounts. All adjustment requests must be sent to the Cardmember Posting and Billing System.,NFR,NFR,NFR,NFR,0.9973469972610474,206.77825288772584
+162,4,1,NFR,The Disputes application shall ensure that only users with the appropriate access level are allowed to initiate dispute requests.,NFR,NFR,NFR,NFR,0.9980973601341248,206.77825288772584
+163,4,1,NFR,Only users with Update access must be able to initiate dispute requests.,NFR,NFR,NFR,NFR,0.9980265498161316,206.77825288772584
+164,4,1,NFR,The Disputes application shall ensure that only authorized users are allowed to logon to the application.,NFR,NFR,NFR,NFR,0.9978838562965393,206.77825288772584
+165,4,1,NFR, All authorized users  once authenticated must be able to logon to the Disputes System,NFR,NFR,NFR,NFR,0.9974265694618225,206.77825288772584
+166,4,1,NFR,The Disputes System shall generate a User Report that details any new users that have been added and any changes to an existing users access level.  The report will be reviewed for auditing purposes.,NFR,NFR,NFR,NFR,0.997083842754364,206.77825288772584
+167,4,1,NFR,All additions of new users and modifications to users access shall be recorded on the User Report.,NFR,NFR,NFR,NFR,0.9961349964141846,206.77825288772584
+168,4,1,NFR, If a user account is revoked  it can only be re-instantiated by the System Administrator.,NFR,F,F,NFR,0.9977013468742371,206.77825288772584
+169,4,1,NFR,Only the System Administrator shall be able to reset a revoked user logon account,NFR,F,F,NFR,0.9959468245506287,206.77825288772584
+170,4,1,NFR,The Disputes application shall manipulate and view business data. Users will not have direct access to data files or databases.,NFR,NFR,NFR,NFR,0.9981611371040344,206.77825288772584
+171,4,1,NFR,All updates to data files or database must be initiated from the Disputes System.,NFR,NFR,NFR,NFR,0.9954511523246765,206.77825288772584
+172,4,1,NFR,The Disputes application must conform to the legal requirements as specified by the Merchant Operating Regulations.,NFR,NFR,NFR,NFR,0.9970629811286926,206.77825288772584
+173,4,1,NFR,All business rules specified in the Disputes System shall be in compliance with the Merchant Operating Regulations.,NFR,NFR,NFR,NFR,0.9971193075180054,206.77825288772584
+174,4,1,NFR,The Disputes application must conform to the legal requirements as specified by Regulation E and Regulation Z that govern credit card disputes processing.,NFR,NFR,NFR,NFR,0.9971053004264832,206.77825288772584
+175,4,1,NFR,All business rules specified in the Disputes System shall be in compliance to the guidelines of Regulation E and Regulation Z.,NFR,NFR,NFR,NFR,0.9958083629608154,206.77825288772584
+176,4,1,NFR,The Disputes application must maintain a detailed history of every action that a user takes on a dispute case.  This ensures a complete audit trail if questions arise later on with regard to a particular dispute case.,NFR,NFR,NFR,NFR,0.9975425004959106,206.77825288772584
+177,4,1,NFR,All actions that modify an existing dispute case must be recorded in the case history.,F,NFR,NFR,F,0.9949951171875,206.77825288772584
+178,4,1,F,The Disputes System must be accessible by both internal and external users.,NFR,NFR,NFR,NFR,0.9978437423706055,206.77825288772584
+179,4,1,F,The Disputes System must prevent users from accessing any dispute cases that do not belong to their cardholder base.,NFR,NFR,NFR,NFR,0.9969847798347473,206.77825288772584
+180,4,1,F,The Disputes System will facilitate direct data entry of a dispute case via a user interface that supports real time responses to the users.,NFR,NFR,NFR,NFR,0.9938451051712036,206.77825288772584
+181,4,1,F,The Disputes System must provide different levels of access with regard to disputes case initiation and follow-up actions.,NFR,NFR,NFR,NFR,0.8791287541389465,206.77825288772584
+182,4,1,F,The Disputes System shall provide view access capability for authorized users of the application.,NFR,NFR,NFR,NFR,0.9976619482040405,206.77825288772584
+183,4,1,F,The Disputes System shall provide update access capability for authorized users of the application.,NFR,NFR,NFR,NFR,0.9976557493209839,206.77825288772584
+184,4,1,F,The Disputes System must allow the users to select disputable transactions (based on the age of the transaction) from a user interface and initiate a dispute (ticket retrieval request or chargeback notification) on the selected transaction.,NFR,NFR,NFR,NFR,0.9898442029953003,206.77825288772584
+185,4,1,F,The Disputes System must provide the user the ability to initiate a single dispute case on multiple transactions that belong to a single merchant.,NFR,NFR,NFR,NFR,0.9970093965530396,206.77825288772584
+186,4,1,F,The Disputes System will provide the user the ability to create or initiate a ticket retrieval request.   As part of ticket retrieval creation process the system must prompt the user to enter all the required information to create the ticket retrieval request.  The ticket retrieval request is a document that is sent to merchant inquiring the validity of a transaction.,F,NFR,NFR,NFR,0.9905320405960083,206.77825288772584
+187,4,1,F,The Disputes System must allow the user to create three unique types of ticket retrieval requests.  The three types of ticket retrieval requests are (1) Request for original receipt (2) Request for a copy of the receipt or (3) Request for a portfolio. A portfolio consists of documentation that would provide proof of a purchase such as the documentation that is received from a car rental agency that is more than a sales receipt.,F,F,F,NFR,0.9351510405540466,206.77825288772584
+188,4,1,F,The Disputes System must prevent external users from requesting original receipts. Requests for original receipts are restricted to internal users.,NFR,NFR,NFR,NFR,0.9870801568031311,206.77825288772584
+189,4,1,F, The Disputes System must provide a confirmation to the user upon the creation of ticket retrieval request that contains the following information; the dispute case number  the type of retrieval requested (copy  original or portfolio)  and the date that the merchant response is due.,NFR,NFR,NFR,F,0.9767459630966187,206.77825288772584
+190,4,1,F,The Disputes System shall allow the user to create or initiate a chargeback request.  The system must prompt the user to enter the required information to initiate a chargeback request. The chargeback request results in a printed chargeback notification that is sent to merchant indicating that their account will be charged back if no proof is provided that the disputed transaction is valid.,F,F,F,NFR,0.9962159991264343,206.77825288772584
+191,4,1,F, The Disputes System must provide a confirmation to the user upon the creation of a chargeback request. The confirmation must contain the following information; the dispute case number  the type of chargeback requested (pending or immediate)  and the date that the merchant response is due.,NFR,NFR,NFR,NFR,0.9431800246238708,206.77825288772584
+192,4,1,F,The Disputes System shall prevent the creation of duplicate dispute requests 100% of the time.,NFR,NFR,NFR,NFR,0.9978554844856262,206.77825288772584
+193,4,1,F, The Disputes System shall accurately provide a list of possible reason codes for a given transaction.  The list of possible reason codes must be derived based on the type of transaction and the industry that the merchant belongs to  according to the business rules defined for the Disputes System.,NFR,NFR,NFR,NFR,0.9397907853126526,206.77825288772584
+194,4,1,F,The Disputes System must provide the ability to view existing dispute cases.,NFR,NFR,NFR,F,0.7527651190757751,206.77825288772584
+195,4,1,F, The Disputes System must provide Search functionality.  The search method must include the ability to search by (1) the dispute case number  (2) the merchant account number  (3) the cardmember account number and (4) the issuer number.  In addition to the above criteria  the search functionality must further allow the user to limit the results of the search by a date range  the type of dispute (ticket retrieval request or chargeback notification)  the case status (open  closed or all) and the dispute reason code.,F,F,F,NFR,0.9963445067405701,206.77825288772584
+196,4,1,F,A list of all disputes cases that meet the entered search criteria must be provided to the user.  The list of cases must differentiate the type and/or status of the case by color -coding the line item in the list.  For example all open cases will be yellow and all closed cases will be gray.,F,NFR,NFR,F,0.8172810673713684,206.77825288772584
+197,4,1,F,The Disputes System shall provide the users the ability to view the history of all activities that have occurred on the dispute case.,NFR,NFR,NFR,NFR,0.9793892502784729,206.77825288772584
+198,4,1,F,The Dispute System shall provide the users with the ability to follow up on a dispute case via follow-up actions.  The list of available follow up actions for a given dispute case must be filtered by the status of the case and the access level of the user.,NFR,NFR,NFR,NFR,0.9771708250045776,206.77825288772584
+199,4,1,F, The Disputes System shall record the name of the user and the date for any activity that creates or modifies the disputes case in the system.  A detailed history of the actions taken on the case  including the date and the user that performed the action must be maintained for auditing purposes.,F,F,F,NFR,0.9916568994522095,206.77825288772584
+200,4,1,F, For any systematic (non-user initiated) action that occurs on a case such as the disputes aging process  a case activity will be generated.  Upon the next logon the user that initiated the dispute case must be notified that a systematic action has occurred on the dispute case.,NFR,NFR,NFR,NFR,0.9974616765975952,206.77825288772584
+201,4,1,F,All letter requests must be formatted according to guidelines specified by the Print Letter Utility system.,NFR,NFR,NFR,NFR,0.9868881106376648,206.77825288772584
+202,4,1,F,Any disputes cases that have been closed for over 6 months must be purged from the online disputes database.,NFR,NFR,NFR,NFR,0.99718177318573,206.77825288772584
+203,5,2,NFR,The product must support Internet Explorer 5.5 and above.,NFR,NFR,NFR,NFR,0.9979786276817322,206.77825288772584
+204,5,2,NFR,The product must support Mozilla Firefox 1.0 and above.,NFR,NFR,NFR,NFR,0.9979220032691956,206.77825288772584
+205,5,2,NFR,The product shall interface with the Choice Parts System.  This provides the feed of recycled parts data.,NFR,NFR,NFR,NFR,0.9313057661056519,206.77825288772584
+206,5,2,NFR,The product shall run on the existing hardware for all environments.,NFR,NFR,NFR,NFR,0.9977349042892456,206.77825288772584
+207,5,2,NFR,The product shall adhere to the corporate Architecture guidelines,NFR,NFR,NFR,NFR,0.9956947565078735,206.77825288772584
+208,5,2,NFR,The product shall comply with corporate User Interface Guidelines,NFR,NFR,NFR,NFR,0.9973136782646179,206.77825288772584
+209,5,2,NFR,The product shall comply with corporate color scheme,NFR,NFR,NFR,NFR,0.9868386387825012,206.77825288772584
+210,5,2,NFR,The appearance of the product shall appear professional,NFR,NFR,NFR,NFR,0.640509843826294,206.77825288772584
+211,5,2,NFR,The product shall be easy to use by Adjusters and Collision Estimators.  95% of Adjusters and Collision Estimators shall find the product easy to use.,NFR,NFR,NFR,NFR,0.9981635212898254,206.77825288772584
+212,5,2,NFR,The product shall increase productivity of Collision Estimators. 80% of the Collision Estimators shall agree their productivity has increase within 1 month of using the product.,NFR,NFR,NFR,NFR,0.9981715679168701,206.77825288772584
+213,5,2,NFR,Users shall feel satisfied using the product.  85% of all users will be satisfied with the product.,NFR,NFR,NFR,NFR,0.997984766960144,206.77825288772584
+214,5,2,NFR,The product shall be easy to learn by Adjusters and Collision Estimators.  The product shall be learned with two days onsite training,NFR,NFR,NFR,NFR,0.9973982572555542,206.77825288772584
+215,5,2,NFR,The user shall easily locate instructions while using the product.  User help can be found within 90% of the system.,NFR,NFR,NFR,NFR,0.9982732534408569,206.77825288772584
+216,5,2,NFR,The search for recycled parts shall take no longer than 15 seconds.  The search results shall be returned in under 15 seconds.,NFR,NFR,NFR,NFR,0.9980295300483704,206.77825288772584
+217,5,2,NFR,The search for the preferred repair facility shall take no longer than 8 seconds.  The preferred repair facility is returned within 8 seconds,NFR,NFR,NFR,NFR,0.9982282519340515,206.77825288772584
+218,5,2,NFR,The recycled parts audit report shall be returned to the user within 10 seconds.  The audit report shall be returned within 10 seconds.,NFR,NFR,NFR,NFR,0.9979501366615295,206.77825288772584
+219,5,2,NFR,The preferred repair facility ratings shall be saved within 5 seconds. The save shall occur within 5 seconds.,NFR,NFR,NFR,NFR,0.9981624484062195,206.77825288772584
+220,5,2,NFR,The product shall adhere to the corporate online availability schedule.  The application is brought down only within 98% of the scheduled outages per the availability schedule.,NFR,NFR,NFR,NFR,0.9982755184173584,206.77825288772584
+221,5,2,NFR,The product shall achieve a 98% uptime. The product shall not fail more than 2% of the available online time.,NFR,NFR,NFR,NFR,0.9982255101203918,206.77825288772584
+222,5,2,NFR,The product shall be able to handle up to 1500 simultaneous users. The system shall perform with 1500 users as a time.,NFR,NFR,NFR,NFR,0.9981860518455505,206.77825288772584
+223,5,2,NFR, The average number of recycled parts records per day shall be 50 000.,NFR,NFR,NFR,NFR,0.9970464110374451,206.77825288772584
+224,5,2,NFR, The product shall be able to handle 10 000 concurrent users within 2 years of the initial launch.,NFR,NFR,NFR,NFR,0.9980083107948303,206.77825288772584
+225,5,2,NFR, For estimators  the product shall be able to be operated in a repair facility during dirty and noisy conditions.,NFR,NFR,NFR,NFR,0.9947903156280518,206.77825288772584
+226,5,2,NFR,The product shall interface with the ChoiceParts system once per day at approximately 1:00 AM.,NFR,NFR,NFR,NFR,0.9979971051216125,206.77825288772584
+227,5,2,NFR,The maintenance of the product will fall within the established corporate maintenance windows.,NFR,NFR,NFR,NFR,0.9970566034317017,206.77825288772584
+228,5,2,NFR,The product shall be supported using the corporate support center.,NFR,NFR,NFR,NFR,0.9971906542778015,206.77825288772584
+229,5,2,NFR,Product installations and upgrades shall be handled by the middleware technology team within established launch time frames.,NFR,NFR,NFR,NFR,0.9979166388511658,206.77825288772584
+230,5,2,NFR,Only adjusters can request recycled parts audit reports. No users without an adjuster role shall request recycled parts audits.,NFR,NFR,NFR,NFR,0.9979130625724792,206.77825288772584
+231,5,2,NFR,Only adjusters with a supervisor role can update preferred repair facility ratings. Users without the supervisor role cannot access the repair facility ratings.,NFR,NFR,NFR,NFR,0.9976689219474792,206.77825288772584
+232,5,2,NFR,Only collision estimators shall search for recycled parts.  Users without the collision estimator role shall not have access to the search for recycled parts.,NFR,NFR,NFR,NFR,0.9978172779083252,206.77825288772584
+233,5,2,NFR,Only valid data shall be entered into the system.  No invalid data shall be entered into the system.,F,NFR,NFR,NFR,0.9982404708862305,206.77825288772584
+234,5,2,NFR,One insurance company shall not be able to view another insurance companys claim data.,NFR,NFR,NFR,NFR,0.995757520198822,206.77825288772584
+235,5,2,NFR,The product shall free of computer viruses.,NFR,NFR,NFR,NFR,0.9979332685470581,206.77825288772584
+236,5,2,NFR,The system shall prevent malicious attacks including denial of service.,NFR,NFR,NFR,NFR,0.9975780844688416,206.77825288772584
+237,5,2,NFR,The product must comply with Sarbanes-Oxley.,NFR,NFR,NFR,NFR,0.9949082732200623,206.77825288772584
+238,5,2,NFR,The product shall comply with the estimatics laws relating to recycled parts usage.,NFR,NFR,NFR,NFR,0.9948298335075378,206.77825288772584
+239,5,2,NFR,The product shall comply with insurance regulations regarding claims processing.,NFR,NFR,NFR,NFR,0.9970715045928955,206.77825288772584
+240,5,2,F, The user shall search for the preferred repair facility using vehicle  vehicle location  and radius in miles,NFR,NFR,NFR,F,0.9909290671348572,206.77825288772584
+241,5,2,F, The vehicle data shall include vehicle year  make  and model,NFR,NFR,NFR,F,0.9873086810112,206.77825288772584
+242,5,2,F, The vehicle location shall include street address  city  state  and zipcode,NFR,NFR,NFR,F,0.9943142533302307,206.77825288772584
+243,5,2,F, The system shall resolve the zipcode for the street address  city  and state if zipcode is unknown.,NFR,NFR,NFR,F,0.9975409507751465,206.77825288772584
+244,5,2,F,The search radius shall be between 1 and 30 miles,NFR,NFR,NFR,NFR,0.9970071911811829,206.77825288772584
+245,5,2,F,The system shall locate the preferred repair facility with the highest ratings for the input criteria,NFR,NFR,NFR,F,0.9859091639518738,206.77825288772584
+246,5,2,F,The adjuster shall enter the preferred repair facility on the estimate assignment.,NFR,NFR,NFR,F,0.9954713582992554,206.77825288772584
+247,5,2,F,The adjuster shall be able to override the preferred repair facitlity on the estimate assignment.,NFR,NFR,NFR,F,0.9934697151184082,206.77825288772584
+248,5,2,F,The preferred repair facility shall be returned to the user.,NFR,NFR,NFR,NFR,0.6212195754051208,206.77825288772584
+249,5,2,F,The system shall return a list of repair facilities within the radius if the preferred repair facility cannot be determined.,F,F,F,F,0.9841794371604919,206.77825288772584
+250,5,2,F,The estimator shall search for available recycled parts using damaged vehicle parts information.,NFR,NFR,NFR,F,0.9971388578414917,206.77825288772584
+251,5,2,F,The estimator shall search for available recycled parts using a list of preferred parts suppliers.,NFR,NFR,NFR,F,0.996159553527832,206.77825288772584
+252,5,2,F,The system shall search for available recycled parts for the supplied vehicle parts and suppliers.,NFR,NFR,NFR,F,0.9966793060302734,206.77825288772584
+253,5,2,F,The estimator shall search by zipcode with a radius of 30 miles if no parts are found for the preferred parts suppliers,NFR,NFR,NFR,NFR,0.9973443150520325,206.77825288772584
+254,5,2,F,The system shall retain the available recycled parts and suppliers returned from the search.,NFR,NFR,NFR,F,0.7909998297691345,206.77825288772584
+255,5,2,F,The available recycled parts information and their suppliers shall be returned to the user.,NFR,NFR,NFR,F,0.9912139773368835,206.77825288772584
+256,5,2,F,The estimator shall apply selected recycled parts to the collision estimate.,NFR,NFR,NFR,F,0.9979300498962402,206.77825288772584
+257,5,2,F,The estimator shall not apply recycled parts to the collision estimate if no available parts are returned.,NFR,NFR,NFR,F,0.8929913640022278,206.77825288772584
+258,5,2,F,The adjuster shall review the collision estimate.,F,F,F,F,0.9979215264320374,206.77825288772584
+259,5,2,F,The adjuster shall request a recycled parts audit of the collision estimate.,NFR,NFR,NFR,F,0.99802565574646,206.77825288772584
+260,5,2,F,The recycled parts search results provided to the estimator shall be retrieved by the system.,F,NFR,NFR,F,0.9964255690574646,206.77825288772584
+261,5,2,F,The system shall generate an audit report based on the available recycled parts and the collision estimate.,NFR,NFR,NFR,F,0.9963861703872681,206.77825288772584
+262,5,2,F,The audit report shall include the total number of recycled parts used in the estimate.,NFR,NFR,NFR,NFR,0.9627510905265808,206.77825288772584
+263,5,2,F,The audit report shall include the number of available recycled parts from the original search results.,NFR,NFR,NFR,NFR,0.81586754322052,206.77825288772584
+264,5,2,F, The audit report shall include the percentage of available recycled parts used in the estimate ,NFR,NFR,NFR,F,0.5811306238174438,206.77825288772584
+265,5,2,F,The audit report shall include the total score of the audit which sums the indivual line items.,NFR,NFR,NFR,F,0.9813900589942932,206.77825288772584
+266,5,2,F,The audit report shall be displayed to the user.,NFR,NFR,NFR,F,0.9493007659912109,206.77825288772584
+267,5,2,F,The audit report shall be available to other adjusters at later points in time.,NFR,NFR,NFR,NFR,0.9950426816940308,206.77825288772584
+268,5,2,F,The user shall select to view the preferred repair facility ratings.,NFR,NFR,NFR,F,0.9974696636199951,206.77825288772584
+269,5,2,F,The current repair facility ratings shall be displayed to the user.,F,NFR,NFR,F,0.9966775178909302,206.77825288772584
+270,5,2,F,The system will display a blank set of ratings if there are not ratings yet defined.,F,F,F,F,0.9280785918235779,206.77825288772584
+271,5,2,F,The user shall enter new ratings based on the audit report,NFR,NFR,NFR,F,0.9737850427627563,206.77825288772584
+272,5,2,F,The ratings shall be from a scale of 1-10,NFR,NFR,NFR,NFR,0.9721140265464783,206.77825288772584
+273,5,2,F,The ratings shall include categories for attempted use of recycled parts and actual use of recycled parts,NFR,NFR,NFR,F,0.9884759187698364,206.77825288772584
+274,5,2,F,The user shall select to save the preferred repair facility ratings.,F,NFR,NFR,F,0.9977338314056396,206.77825288772584
+275,5,2,F,The preferred repair facility ratings shall be saved by the system.,NFR,NFR,NFR,F,0.9477142095565796,206.77825288772584
+276,6,0,NFR, The product must work with most database management systems (DBMS) on the market  whether the DBMS is colocated with the product on the same machine or is located on a different machine on the computer network.,NFR,NFR,NFR,NFR,0.9978649020195007,206.77825288772584
+277,6,0,NFR,The product will function alongside server software on any operating system where the Java runtime can be installed.,NFR,NFR,NFR,NFR,0.9980241060256958,206.77825288772584
+278,6,0,NFR,The product will require collaboration with a database management system (DBMS).  The DBMS may be located on the same machine as the product or on a separate machine residing on the same computer network.,NFR,NFR,NFR,NFR,0.9978165626525879,206.77825288772584
+279,6,0,NFR, The product must make use of web/application server technology.  Open source examples include Apache web server  Tomcat  and the JBoss application server.,NFR,NFR,NFR,NFR,0.9978176355361938,206.77825288772584
+280,6,0,NFR, A database management system such as Oracle  DB2  MySql or HSQL will need to be integrated with the product.,NFR,NFR,NFR,NFR,0.9980342984199524,206.77825288772584
+281,6,0,NFR, The products Look and Feel shall be able to incorporate aspects of the customers organization such as logo  branding  and identity,NFR,NFR,NFR,NFR,0.9975941777229309,206.77825288772584
+282,6,0,NFR,The product shall have a conservative and professional appearance.,NFR,NFR,NFR,NFR,0.997326135635376,206.77825288772584
+283,6,0,NFR,The product shall make the users want to use it. 80% of the users surveyed report they are regularly using the product after the first 2 weeks post-launch.,NFR,NFR,NFR,NFR,0.9978781938552856,206.77825288772584
+284,6,0,NFR,The product shall be easy to use. 90% of users will be able to successfully reserve a conference room within 5 minutes of product use.,NFR,NFR,NFR,NFR,0.9979400038719177,206.77825288772584
+285,6,0,NFR,The product shall give users feedback when necessary. 80% of the users surveyed report that the product accurately confirms their actions.,NFR,NFR,NFR,NFR,0.9980672001838684,206.77825288772584
+286,6,0,NFR,The product shall allow the user to select a chosen language from one of the target market countries.,F,F,F,F,0.9943404197692871,206.77825288772584
+287,6,0,NFR,The product shall allow for customization of start page and views preferences.,NFR,F,F,NFR,0.993759036064148,206.77825288772584
+288,6,0,NFR, An employee will be able to successfully use the product within a few minutes.  After informally navigating the product for less than 15 minutes  users shall be able to successfully setup meetings and reserve conference rooms.,NFR,NFR,NFR,NFR,0.9979706406593323,206.77825288772584
+289,6,0,NFR,The product shall use a standard navigation menu familiar to most web users.,NFR,NFR,NFR,NFR,0.9979588985443115,206.77825288772584
+290,6,0,NFR,The product shall allow for intuitive searching of available conference rooms.,F,F,F,NFR,0.9967436790466309,206.77825288772584
+291,6,0,NFR,The product shall conform to the Americans with Disabilities Act.,NFR,NFR,NFR,NFR,0.9979346990585327,206.77825288772584
+292,6,0,NFR,The response shall be fast enough to avoid interrupting the users flow of thought.  90% of tasks shall complete within 5 seconds.  98% of tasks shall complete within 8 seconds.,NFR,NFR,NFR,NFR,0.9981289505958557,206.77825288772584
+293,6,0,NFR, Aside from server failure  the software product shall achieve 99.99% up time.,NFR,NFR,NFR,NFR,0.9981589913368225,206.77825288772584
+294,6,0,NFR,The product shall create an exception log of problems encountered within the product for transmission to our company for analysis and resolution.,NFR,NFR,NFR,NFR,0.948372483253479,206.77825288772584
+295,6,0,NFR, The product shall be capable of handling up to 1 000 concurrent requests.  This number will increase to 2 000 by Release 2.  The concurrency capacity must be able to handle peak scheduling times such as early morning and late afternoon hours.,NFR,NFR,NFR,NFR,0.9980936646461487,206.77825288772584
+296,6,0,NFR, The product shall be able to process 10 000 transactions per hour within two years of its launch.  This number will increase to 20 000 by Release 2.,NFR,NFR,NFR,NFR,0.9979758858680725,206.77825288772584
+297,6,0,NFR,The product shall be expected to operate for at least 5 years for each customer installation.,NFR,NFR,NFR,NFR,0.9978880286216736,206.77825288772584
+298,6,0,NFR,The product shall be used in office environments.,NFR,NFR,NFR,NFR,0.9980158805847168,206.77825288772584
+299,6,0,NFR,The product must be able to interface with any HTML browser.  The product shall transmit data between the user and the product without problems. The product shall display HTML properly in 80% of all HTML browsers tested (minimum is to test 8 browsers).,NFR,NFR,NFR,NFR,0.998121440410614,206.77825288772584
+300,6,0,NFR,The product must be able to interface with various database management systems. The product shall communicate successfully with the database management system on 100% of all transactions.,NFR,NFR,NFR,NFR,0.9980311989784241,206.77825288772584
+301,6,0,NFR,The product must be able to interface with various email servers. The product shall be able to send email.,NFR,NFR,NFR,NFR,0.9979516863822937,206.77825288772584
+302,6,0,NFR,The product shall be available for distribution via the Internet as a binary or ZIP file.,NFR,NFR,NFR,NFR,0.9975661039352417,206.77825288772584
+303,6,0,NFR,The product shall be available for distribution as a packaged CD.,NFR,NFR,NFR,NFR,0.9967001080513,206.77825288772584
+304,6,0,NFR, The product will be available for licensing as a one-server  two-five servers  or five-or-more servers license.,NFR,NFR,NFR,NFR,0.9971144199371338,206.77825288772584
+305,6,0,NFR,A new user must be able to be added to the system within 10 minutes.  90% of new users are able to log into the system within 10 minutes.,NFR,NFR,NFR,NFR,0.997788667678833,206.77825288772584
+306,6,0,NFR,The product must be designed using Design Patterns and coding best practices.  90% of maintenance software developers are able to integrate new functionality into the product with 2 working days.,NFR,NFR,NFR,NFR,0.9979713559150696,206.77825288772584
+307,6,0,NFR,The product must be highly configurable for use with various database management systems for the end users.  80% of end users are able to integrate new database management systems with the product without changing the products software code.,NFR,NFR,NFR,NFR,0.9980485439300537,206.77825288772584
+308,6,0,NFR,Maintenance releases will be offered to customers once a year.  The releases shall take no longer than 5 minutes for 80% of the customer base to install.,NFR,NFR,NFR,NFR,0.9979034662246704,206.77825288772584
+309,6,0,NFR,Every registered user will have access to the products support site via the Internet.  70% of registered users shall find a solution to their problem within 5 minutes of using the support site.,NFR,NFR,NFR,NFR,0.9978265166282654,206.77825288772584
+310,6,0,NFR,The customer shall be able to easily integrate new building maps with the product throughout the products lifecycle.  Integration of new maps with the product shall be possible with little to no support from product support staff.,NFR,NFR,NFR,NFR,0.9980069994926453,206.77825288772584
+311,6,0,NFR, The product shall be translated into foreign languages other than the target market countries languages in future releases.  For each emerging target market  it shall take no more than 5 days to configure the product for that markets language.,NFR,NFR,NFR,NFR,0.9980219602584839,206.77825288772584
+312,6,0,NFR, The product is expected to integrate with multiple database management systems.  The product will operate with Oracle  SQL Server  DB2  MySQL  HSQL  and MS Access.,NFR,NFR,NFR,NFR,0.9979318380355835,206.77825288772584
+313,6,0,NFR,The product shall be able to be installed in any operating environment within 2 days.,NFR,NFR,NFR,NFR,0.9979175925254822,206.77825288772584
+314,6,0,NFR,The product shall ensure that only company employees or external users with company-approved user IDs may have product access.  100% of all logons shall be by either company employees or external users with company-approved user IDs.,NFR,NFR,NFR,NFR,0.9981591105461121,206.77825288772584
+315,6,0,NFR,Only managers are able to perform search queries for reservations by user.  100% of all search queries for reservations by user shall be from logons of only management logons.,NFR,NFR,NFR,NFR,0.9978389143943787,206.77825288772584
+316,6,0,NFR,The product shall ensure that the databases data corresponds to the data entered by the user.  Each conference room reservation in the system will contain the same information as was entered by the user.,NFR,NFR,NFR,NFR,0.9979647397994995,206.77825288772584
+317,6,0,NFR,The product shall prevent the input of malicious data.  The product and/or adjacent hardware/software systems data shall remain 100% uncorrupted each time malicious data is input into the product.,NFR,NFR,NFR,NFR,0.9982237219810486,206.77825288772584
+318,6,0,NFR,The product and/or dependent databases/filesystems shall remain operational as a result of the input of malicious data.  The product and/or dependent databases/filesystems shall not crash 100% of the time that malicious data is input into the product.,NFR,NFR,NFR,NFR,0.9981862902641296,206.77825288772584
+319,6,0,NFR,The product shall have the ability to receive automatic software updates as new threats emerge.  100% of customers will be able to receive automatic software updates transmitted to the installed product.,NFR,NFR,NFR,NFR,0.9979541301727295,206.77825288772584
+320,6,0,NFR,The language of the product shall accommodate all of the target market countries. 90% of survey respondents from each target market country will find that the language of the product is acceptable.,NFR,NFR,NFR,NFR,0.997962236404419,206.77825288772584
+321,6,0,NFR,The product shall be able to display calendar dates and times according to the users locale.  90% of survey respondents from each target market country will find that the date and time formatting of the product is correct.,F,NFR,NFR,NFR,0.9980541467666626,206.77825288772584
+322,6,0,NFR,The product must be developed with the J2SE/J2EE programming language libraries,NFR,NFR,NFR,NFR,0.9976863861083984,206.77825288772584
+323,6,0,F,The product shall record meeting entries.,F,NFR,NFR,NFR,0.9670636653900146,206.77825288772584
+324,6,0,F,The product will notify employees of meeting invitations.,NFR,NFR,NFR,NFR,0.9975003600120544,206.77825288772584
+325,6,0,F,The product shall have the ability to send meeting reminders to employees.,F,NFR,NFR,NFR,0.9979023933410645,206.77825288772584
+326,6,0,F,The product shall assign the organizers contact information to each meeting they create.,F,NFR,F,F,0.9987196922302246,206.77825288772584
+327,6,0,F,The product will record meeting acknowledgements.,F,NFR,NFR,NFR,0.9980043768882751,206.77825288772584
+328,6,0,F,The product shall store new conference rooms.,NFR,NFR,NFR,NFR,0.9974175691604614,206.77825288772584
+329,6,0,F,The product shall update existing conference rooms.,NFR,NFR,NFR,NFR,0.9977564215660095,206.77825288772584
+330,6,0,F,The product will be able to delete conference rooms.,NFR,NFR,NFR,NFR,0.9977076053619385,206.77825288772584
+331,6,0,F,The product shall be able to store new room equipment.,NFR,NFR,NFR,NFR,0.9978713989257812,206.77825288772584
+332,6,0,F,The product will update existing room equipment.,NFR,NFR,NFR,NFR,0.9976168870925903,206.77825288772584
+333,6,0,F,The product shall be able to delete room equipment.,NFR,NFR,NFR,NFR,0.9979478716850281,206.77825288772584
+334,6,0,F,The product shall allow an organizer to invite other employees to meetings.,F,F,F,F,0.998763918876648,206.77825288772584
+335,6,0,F, Each time a conference room is reserved  the conference room schedule shall be updated to reflect the time and date of the reservation.,F,NFR,NFR,F,0.9985982775688171,206.77825288772584
+336,6,0,F,The product shall record the transportation status of equipment reserved.,F,NFR,NFR,NFR,0.9674014449119568,206.77825288772584
+337,6,0,F,The product shall display a map of the company building showing conference room locations.,F,NFR,NFR,NFR,0.9490473866462708,206.77825288772584
+338,6,0,F,The product shall record updated meeting agendas.,NFR,NFR,NFR,NFR,0.9977566599845886,206.77825288772584
+339,6,0,F,The product shall send a meeting confirmation to the meeting organizer.,F,NFR,NFR,F,0.9983785152435303,206.77825288772584
+340,6,0,F,The product shall display room equipment according to search parameters.,F,F,F,NFR,0.994206428527832,206.77825288772584
+341,6,0,F,The product shall display conference rooms according to search parameters.,F,F,F,NFR,0.9933860898017883,206.77825288772584
+342,6,0,F,The product shall record different meeting types.,F,NFR,NFR,NFR,0.9971823692321777,206.77825288772584
+343,6,0,F,The product shall record all the equipment that has been reserved.,NFR,NFR,NFR,NFR,0.9840293526649475,206.77825288772584
+344,6,0,F,The product shall notify building personnel of equipment transport requests.,NFR,NFR,NFR,NFR,0.9973909258842468,206.77825288772584
+345,6,0,F,The product will allow priviledged users to view meeting schedules in multiple reporting views.,F,F,F,NFR,0.9669653177261353,206.77825288772584
+346,6,0,F,The product shall be able to send meeting notifications via different kinds of end-user specified methods.,NFR,NFR,NFR,NFR,0.9978287816047668,206.77825288772584
+347,6,0,F,The product shall have a customizable Look and Feel.,NFR,NFR,NFR,NFR,0.9977675676345825,206.77825288772584
+348,6,0,F,The product shall have an intuitive user interface.,NFR,NFR,NFR,NFR,0.9980498552322388,206.77825288772584
+349,6,0,F,The product will display an available status for unreserved conference rooms.,F,F,F,NFR,0.997038722038269,206.77825288772584
+350,7,3,NFR,Recreation of Inventory Quantity Adjustment for the period of previous 30 days shall take no more than 30min.,NFR,NFR,NFR,NFR,0.9965894222259521,206.77825288772584
+351,7,3,NFR,The System shall allow for a minimum of  6 users to work at the same time.,NFR,F,F,NFR,0.9983514547348022,206.77825288772584
+352,7,3,NFR,The System shall utilize currently owned computer equipment.,NFR,NFR,NFR,NFR,0.9975341558456421,206.77825288772584
+353,7,3,NFR,The System shall be able to automatically backup business data and restore them on demand.,NFR,NFR,NFR,NFR,0.9696821570396423,206.77825288772584
+354,7,3,NFR,The System shall maintain consistent security.  Any changes in user passwords and/or permissions should take affect in all parts of the System.,NFR,NFR,NFR,NFR,0.9982011318206787,206.77825288772584
+355,7,3,NFR,The System shall granularly control access rights to all major subsystems.  It should be possible to assign access rights to all subsystems independently.,F,NFR,NFR,NFR,0.9918667674064636,206.77825288772584
+356,7,3,NFR,The System shall meet all applicable accounting standards.  The final version of the System must successfully pass independent audit performed by a certified auditor.,NFR,NFR,NFR,NFR,0.9982669353485107,206.77825288772584
+357,7,3,NFR,The System shall not require additional third party licenses resulting in royalty fees.,NFR,NFR,NFR,NFR,0.985028862953186,206.77825288772584
+358,7,3,F,The System shall allow generation of Inventory Quantity Adjustment documents on demand.,NFR,F,F,F,0.9984240531921387,206.77825288772584
+359,7,3,F,The System shall allow on demand generation of all Inventory Quantity Adjustment documents since certain point of time.,NFR,F,F,F,0.9982740879058838,206.77825288772584
+360,7,3,F,The IQA subsystem shall take into account current inventory status and adjust inventory of substitutionary ingredients accordingly.,NFR,F,F,F,0.9985275268554688,206.77825288772584
+361,7,3,F, The System shall allow entering  storing and modifying product formulas.,F,F,F,F,0.9970038533210754,206.77825288772584
+362,7,3,F, Product formulas shall allow use of semi-products  which have own formulas.,NFR,F,F,NFR,0.7124671339988708,206.77825288772584
+363,7,3,F,Product formula ingredients shall allow defining substitutionary ingredients.,F,F,F,F,0.9832741618156433,206.77825288772584
+364,7,3,F,Product formula substitutionary ingredients shall be entered automatically by the PFE subsystem.,NFR,NFR,NFR,F,0.951063334941864,206.77825288772584
+365,7,3,F,Formula substitutionary ingredients shall be kept in persisted order,NFR,NFR,NFR,NFR,0.5996594429016113,206.77825288772584
+366,7,3,F, Product shall allow entering  storing and modifying product menus used by POS terminals.,NFR,NFR,NFR,F,0.8069021701812744,206.77825288772584
+367,7,3,F,PME Subsystem shall allow building product menus based on the list of products kept in the accounting system.,F,F,F,F,0.9920917749404907,206.77825288772584
+368,7,3,F,PME Subsystem shall allow keeping submenus within menus and products within submenus in a managed and persisted order.,NFR,F,F,NFR,0.9951311349868774,206.77825288772584
+369,7,3,F,PME Subsystem shall allow for a product to exist in more than one submenu,F,F,F,NFR,0.9972900152206421,206.77825288772584
+370,7,3,F,The RMS System shall have Windows XP look and feel and use GUI futures making its use intuitive.,NFR,NFR,NFR,NFR,0.9960046410560608,206.77825288772584
+371,7,3,F,The System shall generate Inventory Quantity Adjustment document based on product daily sales data and product formulas.,NFR,NFR,NFR,F,0.9988934397697449,206.77825288772584
+372,7,3,F,The System shall generate Inventory Quantity Adjustment document automatically when daily Product Sales data is available.,F,NFR,NFR,F,0.9976254105567932,206.77825288772584
+373,8,4,NFR,Administrator shall be able to activate a pre-paid card via the Administration section in under 5 seconds.,NFR,NFR,NFR,NFR,0.9977213740348816,206.77825288772584
+374,8,4,NFR, Customer shall be able to check the status of their prepaid card  by entering in the PIN number  in under 5 seconds.,NFR,NFR,NFR,NFR,0.9974920749664307,206.77825288772584
+375,8,4,NFR,System shall let customers register on the website as a pay as you go user in under 5 minutes.,NFR,NFR,NFR,NFR,0.9984467625617981,206.77825288772584
+376,8,4,NFR,System shall let customers register on the website as a unlimited movie subscriber user in under 10 minutes.,NFR,NFR,NFR,NFR,0.9985087513923645,206.77825288772584
+377,8,4,NFR,System shall let existing customers log into the website with their email address and password in under 5 seconds.,NFR,NFR,NFR,NFR,0.9986717700958252,206.77825288772584
+378,8,4,NFR, System shall let customers cancel their account  process shall take no longer than 2 minutes.  Database will mark the account as inactive  and user will not be able to log into the website.,NFR,NFR,NFR,NFR,0.9986673593521118,206.77825288772584
+379,8,4,NFR,System shall let administrator de-activate a customer account in under 1 minute. Customer will no longer be able to access the website.,NFR,NFR,NFR,NFR,0.9987258315086365,206.77825288772584
+380,8,4,NFR,System shall let administrator add/remove movies on the website in under 5 minutes.  Entered movie information will be stored in the database and will now be available on the website.,F,NFR,NFR,NFR,0.9978880286216736,206.77825288772584
+381,8,4,NFR,System shall let the administrator add/remove categories on the website in under 5 minutes.,F,F,F,NFR,0.9832823872566223,206.77825288772584
+382,8,4,NFR,System shall let Izogn Manager access sales and usage statistics in under 2 minutes.,NFR,NFR,NFR,NFR,0.9985817670822144,206.77825288772584
+383,8,4,NFR,System shall let administrators generate unique pre-paid pins in under 2 minutes and generate an Excel file with the generated PINs.,NFR,NFR,NFR,NFR,0.9982190728187561,206.77825288772584
+384,8,4,NFR,The website shall be attractive to all audiences.  The website shall appear to be fun and the colors should be bright and vibrant.,NFR,NFR,NFR,NFR,0.9867838621139526,206.77825288772584
+385,8,4,NFR, The website should have an African feel  but should not alienate non-Africans.  The website should use animation on pages which are describing the services  to grab the users attention and encourage them to sign up.,NFR,NFR,NFR,NFR,0.9915894865989685,206.77825288772584
+386,8,4,NFR, The website design should be modern  clean  and concise.,NFR,NFR,NFR,NFR,0.9906812310218811,206.77825288772584
+387,8,4,NFR,The product should be able to be used by 90% of novice users on the Internet.,NFR,NFR,NFR,NFR,0.9979411959648132,206.77825288772584
+388,8,4,NFR, Users should only have to navigate through a maximum of 4 pages  to create an account with the website.,NFR,NFR,NFR,NFR,0.9978444576263428,206.77825288772584
+389,8,4,NFR,Users should be able to access their streaming movies in under 2 clicks after logging into the website.,NFR,NFR,NFR,NFR,0.9982140064239502,206.77825288772584
+390,8,4,NFR,An anonymous survey will show that 70% of customers are comfortable purchasing streaming movies after 2 weeks using the website.,NFR,NFR,NFR,NFR,0.9977194666862488,206.77825288772584
+391,8,4,NFR,An anonymous survey will show that 95% of customers are comfortable using and purchasing pre-paid cards after a month of using the system.,NFR,NFR,NFR,NFR,0.9972463846206665,206.77825288772584
+392,8,4,NFR,The product shall retain the customers buying preferences and information.,NFR,NFR,NFR,NFR,0.9904153347015381,206.77825288772584
+393,8,4,NFR,The product shall be easy for customers with novice skills on the  Internet to purchase and watch streaming movies.  Customers should be able to purchase and watch a pre-determined movie in under 3 minutes.,NFR,NFR,NFR,NFR,0.9979652166366577,206.77825288772584
+394,8,4,NFR,The product shall use symbols and words that are naturally understandable by users familiar with websites,NFR,NFR,NFR,NFR,0.9940627217292786,206.77825288772584
+395,8,4,NFR,The website will use standard Internet conventions when interacting with the user.,NFR,NFR,NFR,NFR,0.9970146417617798,206.77825288772584
+396,8,4,NFR, Any interface between a user and the automated system shall have a maximum response time of 5 seconds  unless noted by an exception below.,NFR,NFR,NFR,NFR,0.9986553192138672,206.77825288772584
+397,8,4,NFR, When purchasing a streaming movie or pre-paid card via credit card  the processing time should have a maximum response time of 15 seconds.,NFR,NFR,NFR,NFR,0.9985792636871338,206.77825288772584
+398,8,4,NFR, When streaming a movie  the buffering time should take no longer than 10 seconds (plus any latency on the users connection.),NFR,NFR,NFR,NFR,0.9985477328300476,206.77825288772584
+399,8,4,NFR, While streaming a movie  buffering should only occur if there is latency in the users connection.,NFR,NFR,NFR,NFR,0.998024582862854,206.77825288772584
+400,8,4,NFR, All credit card information will be secured on the server  and only accessible by authorized Izogn administrators.  Information will be encrypted in the database.,NFR,NFR,NFR,NFR,0.997803270816803,206.77825288772584
+401,8,4,NFR, The website shall be available for use 24 hours per day  365 days per year.,NFR,NFR,NFR,NFR,0.9984380602836609,206.77825288772584
+402,8,4,NFR,The website shall achieve 99.5% up time.,NFR,NFR,NFR,NFR,0.9982505440711975,206.77825288772584
+403,8,4,NFR, All movies shall be streamed on demand  at any time of the day.,F,NFR,NFR,NFR,0.9970366954803467,206.77825288772584
+404,8,4,NFR,The website shall continue to operate if the streaming server goes down.,NFR,NFR,NFR,NFR,0.9965772032737732,206.77825288772584
+405,8,4,NFR,The website shall continue to operate if the payment gateway goes down.,NFR,NFR,NFR,NFR,0.9957728981971741,206.77825288772584
+406,8,4,NFR,The streaming server will support 50 simultaneous streaming connections.,NFR,NFR,NFR,NFR,0.9976935982704163,206.77825288772584
+407,8,4,NFR,The streaming server will support a maximum of 700 movies; new servers can be added to support more movies.,NFR,NFR,NFR,NFR,0.9978370070457458,206.77825288772584
+408,8,4,NFR, The server will support a maximum of 1 000 simultaneous users.,NFR,NFR,NFR,NFR,0.998430073261261,206.77825288772584
+409,8,4,NFR, The website shall be capable of supporting 100 000 customers.,NFR,NFR,NFR,NFR,0.9980394244194031,206.77825288772584
+410,8,4,NFR,The product shall be expected to operate within the maximum maintenance budget for a minimum of 2 years.,NFR,NFR,NFR,NFR,0.9977468848228455,206.77825288772584
+411,8,4,NFR,All aspects of the website shall be accessed by a web browser over the Internet.,NFR,NFR,NFR,NFR,0.9982194304466248,206.77825288772584
+412,8,4,NFR,The same hardware supporting the current website will be used to support the new system.,NFR,NFR,NFR,NFR,0.9982319474220276,206.77825288772584
+413,8,4,NFR, We must be able to interface with the following browsers: IE 5.X  6.0  Netscape 6.x  7.x  8.x and Firefox 1.0.,NFR,NFR,NFR,NFR,0.9984197616577148,206.77825288772584
+414,8,4,NFR,Website must interface with the CyberSource API to process credit card transactions.,NFR,NFR,NFR,NFR,0.9980754852294922,206.77825288772584
+415,8,4,NFR,Website must be fully operational with MSN TV2.,NFR,NFR,NFR,NFR,0.9970412850379944,206.77825288772584
+416,8,4,NFR,Movies shall be encoded and streamed via Windows Media Player 9.0.,F,F,F,NFR,0.9916951060295105,206.77825288772584
+417,8,4,NFR,Movies shall be encoded for 56k and 256k streams.,NFR,NFR,NFR,NFR,0.996436595916748,206.77825288772584
+418,8,4,NFR,Promotional updates to the website should take a day to update.,NFR,NFR,NFR,NFR,0.9947683811187744,206.77825288772584
+419,8,4,NFR,Izogn Administrator must be able to update the category listings on the website within 2 minutes.,F,NFR,NFR,NFR,0.9827004075050354,206.77825288772584
+420,8,4,NFR,Izogn Administrator must be able to add new products to the website within 2 minutes.,F,F,F,NFR,0.9982011318206787,206.77825288772584
+421,8,4,NFR,The system will provide a 24 hour 800 toll free number for support to its customers.,NFR,NFR,NFR,NFR,0.9947507977485657,206.77825288772584
+422,8,4,NFR,The website will provide a help section with answers and solutions to common problems.,NFR,NFR,NFR,F,0.6589560508728027,206.77825288772584
+423,8,4,NFR, Velkat staff will be available for phone support between 7am-7pm  M-F to provide technical support to the Izogn administrators.,NFR,NFR,NFR,NFR,0.9963087439537048,206.77825288772584
+424,8,4,NFR,The product shall be able to be installed in the specified environment within 1 working day.,NFR,NFR,NFR,NFR,0.9982746839523315,206.77825288772584
+425,8,4,NFR,Only registered customers can purchase streaming movies.,NFR,NFR,NFR,NFR,0.9977147579193115,206.77825288772584
+426,8,4,NFR, A customer can only stream a movie if they purchased it  and are within the 2 day viewing period.,NFR,NFR,NFR,NFR,0.9980496168136597,206.77825288772584
+427,8,4,NFR,Only authorized personnel can access customer records in the database.,NFR,NFR,NFR,NFR,0.9982231259346008,206.77825288772584
+428,8,4,NFR,Only administrators can activate a pre-paid card.,NFR,NFR,NFR,NFR,0.9979356527328491,206.77825288772584
+429,8,4,NFR,Only authorized personnel can access sales information.,F,NFR,NFR,NFR,0.9975847005844116,206.77825288772584
+430,8,4,NFR,The website shall prevent its data from being corrupted when incorrect data is entered in.,NFR,NFR,NFR,NFR,0.9979959726333618,206.77825288772584
+431,8,4,NFR, The website shall protect itself from intentional abuse  and notify the administrator at all occurrences.,NFR,NFR,NFR,NFR,0.8759663105010986,206.77825288772584
+432,8,4,NFR,Data integrity scripts will be run on a weekly basis to verify the integrity of the database.,NFR,NFR,NFR,NFR,0.9980592131614685,206.77825288772584
+433,8,4,NFR, The website shall make its user aware of its information practices before collection data from them via a Privacy Policy  accessible on all pages of the website.,NFR,NFR,NFR,NFR,0.9979020357131958,206.77825288772584
+434,8,4,NFR,The system shall notify customers of changes to its information policy.,F,F,F,F,0.9975144863128662,206.77825288772584
+435,8,4,NFR,The system shall reveal private information only in compliance with the organizations information policy.,NFR,NFR,NFR,NFR,0.9978911280632019,206.77825288772584
+436,8,4,NFR, All customer information will be stored on a secure database  accessible only to authorized personnel.,NFR,NFR,NFR,NFR,0.9981631636619568,206.77825288772584
+437,8,4,NFR,All credit card information will be encrypted in the database.,NFR,NFR,NFR,NFR,0.9883127808570862,206.77825288772584
+438,8,4,NFR,The streaming server will have anti-virus software to prevent infection of malicious viruses.,NFR,NFR,NFR,NFR,0.9901599287986755,206.77825288772584
+439,8,4,NFR,The website should cater to all tribes in Nigeria.,NFR,NFR,NFR,NFR,0.9926406741142273,206.77825288772584
+440,8,4,NFR,The website shall not be offensive to religious or ethnic groups.,F,F,F,NFR,0.9889674782752991,206.77825288772584
+441,8,4,NFR, The website should appeal to all Africans  not only Nigerians.,NFR,NFR,NFR,NFR,0.9922865629196167,206.77825288772584
+442,8,4,NFR,The website should use Flash to provide animation on the home page.,NFR,NFR,NFR,NFR,0.9380300641059875,206.77825288772584
+443,8,4,NFR,IzognMovies shall meet the licensing requirements set forth by the appropriate organizations in order to stream African movies.,NFR,NFR,NFR,NFR,0.9967128038406372,206.77825288772584
+444,8,4,NFR,The website will comply with W3C standards.,NFR,NFR,NFR,NFR,0.9971099495887756,206.77825288772584
+445,8,4,NFR,The PHP code will comply with PEAR standards.,NFR,NFR,NFR,NFR,0.9981805086135864,206.77825288772584
+446,8,4,F, The website will allow customers to search for movies by title  actor  or director.,NFR,F,F,F,0.9739384651184082,206.77825288772584
+447,8,4,F, viewing a movie details  the website will display the movies description  actor  and director entered in by the administrator.,NFR,NFR,NFR,F,0.9983628392219543,206.77825288772584
+448,8,4,F, Website shall request  and authorize credit card payment before allowing a user to stream a movie.,NFR,NFR,NFR,F,0.9957818984985352,206.77825288772584
+449,8,4,F, shall be able to stream purchased movie via Windows Media Player  for up to 2 days aftere purchase date.,NFR,F,F,NFR,0.9970597624778748,206.77825288772584
+450,8,4,F,Website shall allow customers to browse movies by categories entered in by izogn administrator.,F,F,F,F,0.9809385538101196,206.77825288772584
+451,8,4,F,Website shall allow customers to view reviews of selected movies by other customers.,F,F,F,F,0.9846231341362,206.77825288772584
+452,8,4,F,Website shall allow customers to add their own movie review for a selected movie.,F,F,F,F,0.9974477291107178,206.77825288772584
+453,8,4,F,Website shall allow the Izogn administrator to approve a review posted by a customer.,F,F,F,F,0.997860848903656,206.77825288772584
+454,8,4,F,System will allow customers to pay for a streaming movie with a pre-paid card.,NFR,F,F,F,0.9752912521362305,206.77825288772584
+455,8,4,F, Website shall allow customers to purchase pre-paid cards of $5  $10  or $20 value either by credit card or mail-in payment option.,NFR,F,F,F,0.9874217510223389,206.77825288772584
+456,8,4,F, System shall automatically update the main page of the website every Friday  and show the 4 latest movies that have been added to the website.,NFR,NFR,NFR,F,0.9204357266426086,206.77825288772584
+457,8,4,F,System shall allow users to update their billing and contact information via the My Account section of the website.,F,F,F,F,0.9985095858573914,206.77825288772584
+458,8,4,F, Pre-paid cards shall be distributed via email  or via a printed paper card.,NFR,NFR,NFR,NFR,0.6043397784233093,206.77825288772584
+459,8,4,F,Only registered customers can purchase streaming movies.,NFR,NFR,NFR,NFR,0.9977147579193115,206.77825288772584
+460,8,4,F, Movies can only be streamed if the customer has purchased a movie  and is within the 2-day time period to stream the movie.,NFR,NFR,NFR,NFR,0.9985228180885315,206.77825288772584
+461,8,4,F,Website must be able to support free trial periods with various parameters set by the Izogn Manager.,NFR,NFR,NFR,NFR,0.5588765144348145,206.77825288772584
+462,8,4,F, All streaming movie sales will be logged in the database  and accessible by the administrator.,F,NFR,NFR,NFR,0.971258282661438,206.77825288772584
+463,8,4,F, All registered customer information shall be stored and maintained in the database  even after the customer cancels their account.,NFR,NFR,NFR,NFR,0.9982810020446777,206.77825288772584
+464,8,4,F, Daily usage statistics should be logged  and accessible by the administrator.,F,NFR,NFR,NFR,0.9868098497390747,206.77825288772584
+465,8,4,F,The owner shall have free access to all of the streaming movies.,NFR,NFR,NFR,NFR,0.996778666973114,206.77825288772584
+466,9,4,NFR,Total lead cycle time must be completed in 5 minutes for 90% of lead volume between the business hours of 8AM CST to 8PM CST; then 3 minutes for 99% of lead volume during off business hours.,NFR,NFR,NFR,NFR,0.9986633062362671,206.77825288772584
+467,9,4,NFR,No lead evaluation will complete in a time period longer than 25 seconds for 97% of all leads processed.,NFR,NFR,NFR,NFR,0.9982357025146484,206.77825288772584
+468,9,4,NFR,For leads that process longer than 25 seconds the system will record the event and duration,NFR,NFR,NFR,F,0.9632813930511475,206.77825288772584
+469,9,4,NFR,The process must fit within the processing time conditions set forth by the Auto Rep Assignment process in which a lead is assigned within 3 minutes of the total life cycle.,NFR,NFR,NFR,NFR,0.9984890222549438,206.77825288772584
+470,9,4,NFR,The lead washing process will operate within the established physical web service structure.,NFR,NFR,NFR,NFR,0.9566135406494141,206.77825288772584
+471,9,4,NFR, The washing process must use a non binding  neutral data format  such as xml  when receiving and processing lead data.,NFR,NFR,NFR,NFR,0.8859078884124756,206.77825288772584
+472,9,4,NFR,Defect reports will be available to technical units on a 24x7 basis.,NFR,NFR,NFR,F,0.950739860534668,206.77825288772584
+473,9,4,NFR,Washing parameters will be updated during scheduled maintenance hours.,NFR,NFR,NFR,NFR,0.990628182888031,206.77825288772584
+474,9,4,F,The vendor will verify the invalid lead.,NFR,NFR,NFR,F,0.9962729215621948,206.77825288772584
+475,9,4,F,Vendor will submit a credit validation record to be applied to the enterprise billing system.,NFR,F,F,F,0.9986088871955872,206.77825288772584
+476,9,4,F,If a lead is scored to the high range the system will supply the lead data and score to the enterprise system.,F,NFR,NFR,F,0.8307204246520996,206.77825288772584
+477,9,4,F,The leads washing functionality will validate all leads received by the web service for valid data,NFR,NFR,NFR,NFR,0.7931256294250488,206.77825288772584
+478,9,4,F,The leads washing functionality will insert all leads captured by the web service.,NFR,NFR,NFR,F,0.9944447875022888,206.77825288772584
+479,9,4,F,If the leads score falls within the high average score then it will be process by the ARA functionality.,NFR,NFR,NFR,F,0.890743613243103,206.77825288772584
+480,9,4,F,If the leads score falls within the medium average then it will be set for manual verification by an Enrollment Coordinator through the eleads system.,NFR,NFR,NFR,F,0.8897930979728699,206.77825288772584
+481,9,4,F,If the leads score falls within the low average then it will be returned to the supplying vendor,NFR,NFR,NFR,F,0.9980131387710571,206.77825288772584
+482,9,4,F,The leads washing functionality will compile both contact and academic scoring information for a total score.,F,F,F,F,0.9986649751663208,206.77825288772584
+483,9,4,F,The leads washing functionality will use the parameters supplied by corporate and schools to score part of the lead.,F,NFR,NFR,NFR,0.5824824571609497,206.77825288772584
+484,9,4,F,The leads washing functionality will return the lead data supplied to the vendor along with the reason of rejection.,F,NFR,NFR,F,0.9981396198272705,206.77825288772584
+485,9,4,F,The leads washing functionality will have an interface in which lead data parameters can be maintained.,F,NFR,NFR,NFR,0.9717303514480591,206.77825288772584
+486,9,4,F,The leads washing functionality will verify the users authentication and rights to make parameter updates.,NFR,NFR,NFR,F,0.7661455273628235,206.77825288772584
+487,9,4,F,The leads washing functionality will store any potential lead duplicates returned by the enterprise system.,F,NFR,F,F,0.9967471361160278,206.77825288772584
+488,9,4,F,Prior to submitting the lead to the enterprise system the leads washing functionality will assign the lead to an admissions rep.,NFR,NFR,NFR,F,0.9986333250999451,206.77825288772584
+489,9,4,F,The leads washing functionality shall receive a period list of available reps from the enterprise system.,NFR,NFR,NFR,F,0.9988683462142944,206.77825288772584
+490,10,1,NFR,The product shall simulate the look of ships at sea.,NFR,NFR,NFR,NFR,0.860999345779419,206.77825288772584
+491,10,1,NFR,The product shall display the grids within a circle as a view from a periscope.,F,F,F,F,0.9917997121810913,206.77825288772584
+492,10,1,NFR,The product shall display each type of ship in a grid using an image of the specific type of ship.,F,NFR,NFR,F,0.9853048920631409,206.77825288772584
+493,10,1,NFR, When the offensive player takes a shot  the product shall simulate the sound of a ship at sea.,NFR,NFR,NFR,NFR,0.9738969802856445,206.77825288772584
+494,10,1,NFR, When a shot is marked as a miss  the product shall simulate the sound of a shot missing its target.,NFR,NFR,NFR,F,0.9244455099105835,206.77825288772584
+495,10,1,NFR, When a shot is marked as a hit  the product shall simulate the sound of a shot hitting its target.,NFR,NFR,NFR,F,0.7432668805122375,206.77825288772584
+496,10,1,NFR, When a ship is sunk  the product shall simulate the sound of a sinking ship.,NFR,NFR,NFR,NFR,0.952386200428009,206.77825288772584
+497,10,1,NFR, The product shall be available 24 hours per day  seven days per week.,NFR,NFR,NFR,NFR,0.9977937936782837,206.77825288772584
+498,10,1,NFR,The product shall able to handle a large number of games simultaneously.,NFR,NFR,NFR,NFR,0.9959386587142944,206.77825288772584
+499,10,1,NFR,The response time shall be fast enough to maintain the flow of the game.  The response time shall be no more than 2 seconds for 95% of responses and no more than 4% for the remaining responses.,NFR,NFR,NFR,NFR,0.9979210495948792,206.77825288772584
+500,10,1,NFR,The product shall protect the identity of the players. The product shall provide players no access to information that might reveal the identity of another player.,NFR,NFR,NFR,NFR,0.9968785047531128,206.77825288772584
+501,10,1,NFR,The product shall be intuitive and self-explanatory.  Nine out ten users shall be able to successfully complete a game with no training.,NFR,NFR,NFR,NFR,0.9959911704063416,206.77825288772584
+502,10,1,NFR, The product shall be available to players who understand English  Spanish and French.  The product shall allow the user to select the language upon accessing the product.,NFR,NFR,NFR,NFR,0.9970519542694092,206.77825288772584
+503,10,1,NFR,The product shall provide players no access to information that might reveal the identity of another player,NFR,NFR,NFR,NFR,0.9958055019378662,206.77825288772584
+504,10,1,NFR,The response time shall be fast enough to maintain the flow of the game. The response time shall be no more than 2 seconds for 95% of responses and no more than 4% for the remaining responses.,NFR,NFR,NFR,NFR,0.9979210495948792,206.77825288772584
+505,10,1,F,The product shall maintain a list of players.,NFR,NFR,NFR,F,0.8790064454078674,206.77825288772584
+506,10,1,F,The product shall allow a user to identify himself or herself as a player.,NFR,F,F,NFR,0.9961624145507812,206.77825288772584
+507,10,1,F, Once a game has been initiated  the product shall make the players assigned to the game unavailable for selection from the list of players.,NFR,NFR,NFR,NFR,0.9904006123542786,206.77825288772584
+508,10,1,F,The product shall allow a user to remove himself or herself from the list of players at any time.,F,F,F,NFR,0.99554044008255,206.77825288772584
+509,10,1,F,The product shall make inactive players unavailable for selection from the list of players.,NFR,NFR,NFR,F,0.7524051070213318,206.77825288772584
+510,10,1,F,The product shall remove players who have been inactive for 24 hours from the list of players.,NFR,NFR,NFR,NFR,0.9977993369102478,206.77825288772584
+511,10,1,F,The product shall allow a player to initiate a game by selecting another available player from the list of players.,F,F,F,NFR,0.9076006412506104,206.77825288772584
+512,10,1,F, Once a game is initiated  the product shall display a defensive grid to each player,F,NFR,F,NFR,0.5252094268798828,206.77825288772584
+513,10,1,F, Once a game is initiated  the product shall display an offensive grid to each player.,NFR,NFR,NFR,NFR,0.9521418809890747,206.77825288772584
+514,10,1,F,The product shall prevent a player from viewing the offensive or defensive grids of the other player.,NFR,NFR,NFR,NFR,0.9795979857444763,206.77825288772584
+515,10,1,F, Once a game is initiated  the product shall allow each player to position their 5 ships on their respective defensive grids.,NFR,F,F,F,0.8371821045875549,206.77825288772584
+516,10,1,F,The product shall allow a player to position ships horizontally on their grid.,NFR,F,F,F,0.5901268124580383,206.77825288772584
+517,10,1,F,The product shall allow the player to position ships vertically on their grid.,NFR,F,F,F,0.6846911311149597,206.77825288772584
+518,10,1,F,The product shall allow the player to position ships diagonally on their grid,NFR,F,F,F,0.9711650609970093,206.77825288772584
+519,10,1,F,The product shall prevent the player from overlapping ships on their grid.,NFR,NFR,NFR,NFR,0.982313871383667,206.77825288772584
+520,10,1,F, When both players have positioned their 5 ships on their defensive grids  the product shall define the status of each player for the first turn.,NFR,NFR,NFR,NFR,0.5878386497497559,206.77825288772584
+521,10,1,F, For each turn  the product shall identify one player as offensive status and one player as defensive status.,NFR,NFR,NFR,NFR,0.6079059839248657,206.77825288772584
+522,10,1,F, The product shall maintain the status of each player for a turn  either offensive or defensive.,NFR,NFR,NFR,NFR,0.984602689743042,206.77825288772584
+523,10,1,F, At the start of each turn  the product shall notify each player of his or her status.,F,NFR,NFR,NFR,0.9662558436393738,206.77825288772584
+524,10,1,F, For each turn  the product shall allow the offensive player to define a shot.,NFR,F,F,F,0.9811455607414246,206.77825288772584
+525,10,1,F, For each shot  the product shall examine the defensive grid of the defensive player to determine whether the shot was a hit or miss.,NFR,NFR,NFR,F,0.9957077503204346,206.77825288772584
+526,10,1,F, For each shot  the product shall notify the players whether the shot was a hit or miss.,F,NFR,NFR,F,0.9941052198410034,206.77825288772584
+527,10,1,F, For each shot  the product shall mark the shot as a hit or miss on the defensive grid of the defensive player.,NFR,NFR,NFR,F,0.9916245341300964,206.77825288772584
+528,10,1,F, For each shot  the product shall mark the shot as a hit or miss on the offensive grid of the offensive player.,NFR,NFR,NFR,F,0.9903267025947571,206.77825288772584
+529,10,1,F, When the hit results in sinking a ship  the product shall notify the players that the ship was sunk.,F,NFR,NFR,F,0.994142472743988,206.77825288772584
+530,10,1,F, When the hit results in sinking a ship  the product shall mark the ship as sunk on the defensive grid of the defensive player.,NFR,NFR,NFR,F,0.993509829044342,206.77825288772584
+531,10,1,F, When the hit results in sinking a ship  the product shall indicate the type of ship sunk on the defensive grid of the defensive player.,NFR,NFR,NFR,F,0.9947260022163391,206.77825288772584
+532,10,1,F, When the hit results in sinking a ship  the product shall mark the ship as sunk on the offensive grid of the offensive player.,NFR,NFR,NFR,F,0.9829798936843872,206.77825288772584
+533,10,1,F, If the shot was marked as a hit  the product shall allow the offensive player to define a shot.,NFR,F,F,F,0.9956563711166382,206.77825288772584
+534,10,1,F, If the shot was marked as a miss  the product shall change the status of the offensive player to defensive,NFR,NFR,NFR,F,0.9940310120582581,206.77825288772584
+535,10,1,F, If the shot was marked as a miss  the product shall change the status of the defensive player to offensive,NFR,NFR,NFR,F,0.9936284422874451,206.77825288772584
+536,10,1,F,The product shall continue to assign turns until the game is ended.,NFR,NFR,NFR,F,0.8893252015113831,206.77825288772584
+537,10,1,F, The product shall end a game when a hit by the offensive player results in sinking the last of the defensive players ships  which had not been previously marked as sunk.,NFR,NFR,NFR,NFR,0.9619070887565613,206.77825288772584
+538,10,1,F,The product shall allow a player to end a game at any time during the game.,NFR,F,F,NFR,0.9941867589950562,206.77825288772584
+539,10,1,F, When a game is ended  the product shall notify the players that the game is ended.,F,NFR,NFR,NFR,0.7351885437965393,206.77825288772584
+540,10,1,F, The notification of the game ending will include the reason the game is ended (i.e.  a player has won the game or a player has ended the game).,F,NFR,NFR,NFR,0.9176580905914307,206.77825288772584
+541,10,1,F, When a game is ended  the product shall allow each player to identify himself or herself as an available player in the list of players.,F,F,F,NFR,0.9496135711669922,206.77825288772584
+542,10,1,F, When a game is ended  the product shall allow each player to remove himself or herself from the list of players.,F,F,F,NFR,0.9061477184295654,206.77825288772584
+543,11,1,NFR,The system shall be easy to use by callers and supervisors. Callers and supervisors must be able to accomplish any system task within 2 minutes.,NFR,NFR,NFR,NFR,0.9979166388511658,206.77825288772584
+544,11,1,NFR,The system shall be easy to learn by callers and supervisors. Callers and supervisors shall learn how to use the system within 10 minutes.,NFR,NFR,NFR,NFR,0.9979842901229858,206.77825288772584
+545,11,1,NFR, The system shall be responsive. At the DePaul TeleServices Center  when a supervisor uses the system to view a callers schedule  the system response time must be no more than 2 seconds 90% of the time and no more than 5 seconds the rest of the time.,NFR,NFR,NFR,NFR,0.9980207681655884,206.77825288772584
+546,11,1,NFR, On a 56k connection  the system response time for all operations must be no more than 6 seconds 90% of the time.,NFR,NFR,NFR,NFR,0.9977030158042908,206.77825288772584
+547,11,1,NFR, On a 112k connection or faster  the system response time for all operations must be no more than 3 seconds 90% of the time.,NFR,NFR,NFR,NFR,0.9977070093154907,206.77825288772584
+548,11,1,NFR,The system shall have high availability every day of the year.The system must be available for use between 12:00AM and 6:00PM all days of the year.,NFR,NFR,NFR,NFR,0.9978970289230347,206.77825288772584
+549,11,1,NFR,The system must be available for use between 7:00AM and 11:59PM all days of the year.,NFR,NFR,NFR,NFR,0.9978101849555969,206.77825288772584
+550,11,1,NFR,The product shall be internet browser independent.The product must run using Internet Explorer and Netscape Navigator.,NFR,NFR,NFR,NFR,0.9969683289527893,206.77825288772584
+551,11,1,NFR,The product shall ensure that only supervisors can advertise empty time slots.The product must ensure that supervisors are allowed to access advertise empty time slots.,NFR,NFR,NFR,NFR,0.9973377585411072,206.77825288772584
+552,11,1,NFR,The product shall ensure that only supervisors can enter a callers schedule.The product must ensure that supervisors are allowed to access advertise empty time slots.,NFR,NFR,NFR,NFR,0.9976270794868469,206.77825288772584
+553,11,1,NFR,The product shall ensure that only supervisors can view schedule of all callers.The product must ensure that supervisors are allowed to access advertise empty time slots.,NFR,NFR,NFR,NFR,0.9970040917396545,206.77825288772584
+554,11,1,NFR, The interface shall have a simple look. In the interface and usability survey  90% of beta testers must report that the interface is adequately simple.,NFR,NFR,NFR,NFR,0.9965527057647705,206.77825288772584
+555,11,1,NFR, The interface shall be appealing to callers and supervisors. In the interface and usability survey  80% of beta testers must report that the interface is appealing.,NFR,NFR,NFR,NFR,0.9967336654663086,206.77825288772584
+556,12,3,NFR,The product shall provide GUI based Monitoring Services.System Administrators shall monitor message exchanges will predict and determine problems and will also provide internal and external support.,NFR,F,F,NFR,0.9981291890144348,206.77825288772584
+557,12,3,NFR,The product shall comply with City of Chicago Application Development Guide Framework.Application Development Framework will provide structured Graphical User Interface.,NFR,NFR,NFR,NFR,0.9975475668907166,206.77825288772584
+558,12,3,NFR,The product shall provide Monitoring Services.The product shall be easy for System Administrators and DBAs to use after two weeks of usage.,NFR,NFR,NFR,NFR,0.9983391761779785,206.77825288772584
+559,12,3,NFR,The product shall provide Error Tracking Services.The product shall help the System Administrators and DBAs to resolve transaction errors 99% of the time.,NFR,NFR,NFR,NFR,0.9983958601951599,206.77825288772584
+560,12,3,NFR,The product shall provide Portals.The product shall help System Administrators to analyze the transactions with ad-hoc reporting and KPIs (Key Performance Indicators),NFR,NFR,NFR,NFR,0.9968453049659729,206.77825288772584
+561,12,3,NFR,The product shall provide Asynchronous Messaging.The product shall provide asynchronous messaging to enable parallel processing and reduce the overhead in communications,NFR,F,F,NFR,0.9978455305099487,206.77825288772584
+562,12,3,NFR,The product shall provide Multi-threading and Load Balancing.The product shall provide multi-threading technology as well as load balancing to overcome data load spikes and traffic.,NFR,F,F,NFR,0.99770587682724,206.77825288772584
+563,12,3,NFR,The product shall process messages within 2 seconds.The product shall have a maximum message processing time of 2 seconds,NFR,NFR,NFR,NFR,0.9984564781188965,206.77825288772584
+564,12,3,NFR,The product shall poll the system for messages every second.The product shall poll the system for new messages at a maximum of every 1 second.,NFR,NFR,NFR,NFR,0.9984292387962341,206.77825288772584
+565,12,3,NFR,The product shall provide Dynamic Change Support and Transparent resource addition.The product shall support Transparent Resource addition and Dynamic Change support to provide scalability and avoid service interruptions of more than 1 day.,NFR,NFR,NFR,NFR,0.9983378648757935,206.77825288772584
+566,12,3,NFR,The product shall be available 99% of the time. Rationale: To avoid service interruption during busiest customer service response periods. The product shall be available 99.99% of the time for regular business days.,NFR,NFR,NFR,NFR,0.9983782768249512,206.77825288772584
+567,12,3,NFR,The product shall be robust.The product shall have fault avoidance based on standards adoption.,NFR,NFR,NFR,NFR,0.9965370893478394,206.77825288772584
+568,12,3,NFR,The product shall be robust with fault tolerance.The product shall have fault tolerance by using recovery technique compensatory transaction and routing around failures.,NFR,NFR,NFR,NFR,0.9975886344909668,206.77825288772584
+569,12,3,NFR,The product shall be able to process all transactions.The product shall process minimum of 1 million transactions per year.,NFR,NFR,NFR,NFR,0.9984481334686279,206.77825288772584
+570,12,3,NFR,The product shall be platform independent.The product shall enable access to any type of development environment and platform.,NFR,NFR,NFR,NFR,0.9980822801589966,206.77825288772584
+571,12,3,NFR,The product shall interface CSR and Datastream.The product shall exchange messages between CSR and EAM on a real time basis without any direct interfaces between two systems.,NFR,NFR,NFR,NFR,0.9982450008392334,206.77825288772584
+572,12,3,NFR, : The product shall continue to operate during upgrade  change or new resource addition.The product shall be able to continue to operate with no interruption in service due to new resource additions.,NFR,NFR,NFR,NFR,0.9980947375297546,206.77825288772584
+573,12,3,NFR,The product shall be updated on a regular basis.The product will have a new major feature introduced every six months and quarterly maintenance releases every six months.,NFR,NFR,NFR,NFR,0.9982837438583374,206.77825288772584
+574,12,3,NFR,The product shall operate with every platform.The product shall accommodate any new technology without any change in its architecture.,NFR,NFR,NFR,NFR,0.9973269701004028,206.77825288772584
+575,12,3,NFR, The product shall have security.The product shall provide authentication  and authorization.,F,F,F,NFR,0.9971055388450623,206.77825288772584
+576,12,3,NFR,The product shall information Security. The product shall enable privacy by encryption WS-Security and Integrity Checking.,NFR,NFR,NFR,NFR,0.9977523684501648,206.77825288772584
+577,12,3,NFR,The product shall have audit capabilities.The product shall store messages for a minimum of one year for audit and transaction tracking purposes.,F,NFR,NFR,NFR,0.9983841180801392,206.77825288772584
+578,13,4,NFR,The system shall use IBM and CCR branding standards. The interface must have one IBM logo and one CCR logo.,NFR,NFR,NFR,NFR,0.9979459643363953,206.77825288772584
+579,13,4,NFR,The system shall be displayable on any work computer a CCR user may have. The system interface shall be formatted to display at 800 by 600 pixel resolution.,NFR,NFR,NFR,NFR,0.9986560344696045,206.77825288772584
+580,13,4,NFR,The system interface will use CCR nomenclature. The system must use the same nomenclature used in the existing WCS system and reports,NFR,NFR,NFR,NFR,0.9982718229293823,206.77825288772584
+581,13,4,NFR,The interface must summarize the data in a fashion thats appealing to CCR management. Every report type must have at least one high level summary shown in the results dashboard/interface,NFR,NFR,NFR,NFR,0.9290366172790527,206.77825288772584
+582,13,4,NFR,The system must use a point and click interface. 100% of all selection and navigation functionality must be able to be activated/selected by either a mouse or a keyboard,NFR,NFR,NFR,NFR,0.9985684156417847,206.77825288772584
+583,13,4,NFR,The interface shall be easy to use. 90% of users should be able to successfully use the system to generate a report on their first use. The interface should adhere to IBM usability standards.,NFR,NFR,NFR,NFR,0.9985100626945496,206.77825288772584
+584,13,4,NFR,Rreports must be easy to generate. eports must be generated within one button click and exported within one button click (after selecting the report),F,NFR,NFR,NFR,0.9986795783042908,206.77825288772584
+585,13,4,NFR,A user shall be able to use the system without instruction after a short amount of time. After one use a user should understand and remember 90% of the system usage and navigation.,NFR,NFR,NFR,NFR,0.9987204074859619,206.77825288772584
+586,13,4,NFR,All CCR users shall receive training before the WCS system is deployed. One training session will be held for 100% of CCR users before system deployment (based on a CCR user being available),NFR,NFR,NFR,NFR,0.9987282156944275,206.77825288772584
+587,13,4,NFR,The WCS system shall use appropriate nomenclature and terminology as defined by the Corporate Community Grants organization. All interfaces and reports will undergo usability tests by CCR users.,NFR,NFR,NFR,NFR,0.9986440539360046,206.77825288772584
+588,13,4,NFR,The WCS system shall be available at all times as long as IBMs internal intranet W3 is accessible. The WCS system will be available 95% of the time IBMs internal intranet W3 is available.,NFR,NFR,NFR,NFR,0.9988138675689697,206.77825288772584
+589,13,4,NFR,The WCS system shall have the ability to connect other designated WCS databases currently not included in the system.,F,F,F,F,0.9593137502670288,206.77825288772584
+590,13,4,NFR,The WCS system shall have the ability to include data for regions outside the United States and be accessed by users outside of the United States if approved by CCR management.,F,F,F,NFR,0.6533064842224121,206.77825288772584
+591,13,4,NFR,The WCS system shall be run in a Windows environment. The WCS shall be accessed by users through the Internet on an IBM computer running a Windows 2000 or above operating system.,NFR,NFR,NFR,NFR,0.9986999034881592,206.77825288772584
+592,13,4,NFR,The Brio portion of the WCS system must be able to export files in spreadsheet form (Microsoft Excel and Lotus 1-2-3 formats).  Brio will provide buttons in the user interface that produce/export reports in .xls or .123 file formats.,NFR,NFR,NFR,NFR,0.8673949837684631,206.77825288772584
+593,13,4,NFR,The WCS system must run queries to the WCS databases once again (on a specified day) to update the available data available to CCR users. Queries must be made to external databases for data refresh once a week.,NFR,NFR,NFR,NFR,0.9978750944137573,206.77825288772584
+594,13,4,NFR, All changes  updates  and additions to the WCS system shall be updated in the WCS Developer and WCS User Guides. Every change must be reflected in WCS system documentation,NFR,NFR,NFR,NFR,0.9985584616661072,206.77825288772584
+595,13,4,NFR,The system shall only be accessed by authorized Corporate Community Grants (CCR) employees. Users must be authenticated using their IBM intranet user name and password.,NFR,NFR,NFR,NFR,0.9986741542816162,206.77825288772584
+596,13,4,NFR,The WCS system shall not allow automatic logins by any user. Cookies containing WCS login information about a user will not be stored on a users computer.,F,F,F,NFR,0.9986054301261902,206.77825288772584
+597,14,4,NFR,Each team owner will need to use a username and password in order to be authenticated to reach the team owners page,NFR,NFR,NFR,F,0.7040336728096008,206.77825288772584
+598,14,4,NFR,The Commissioner will be the only authorized user per league to adjust league settings.,NFR,NFR,NFR,F,0.7802925109863281,206.77825288772584
+599,14,4,NFR,Each page shall contain a navigation menu which shows the index into which the current page is contained.,NFR,NFR,NFR,F,0.9970699548721313,206.77825288772584
+600,14,4,NFR,Each page shall contain a similar format with action items in one location and navigation buttons in a different location.,F,NFR,NFR,F,0.9806534647941589,206.77825288772584
+601,14,4,NFR,The message board shall contain the 5 most recently posted messages on the league page. The messages will contain up to the first 150 characters of the message.,NFR,NFR,NFR,F,0.788357675075531,206.77825288772584
+602,14,4,NFR,	A new user shall be able to navigate through the league and team pages within 30 seconds of reaching the start-up page.,NFR,NFR,NFR,NFR,0.9983950257301331,206.77825288772584
+603,14,4,NFR, 	Users shall be able to reach the add  drop  and trade player pages with one click from the team owners page.,NFR,NFR,NFR,F,0.9937469959259033,206.77825288772584
+604,14,4,NFR,	Users shall be able to view at least 25 NFL player statistics and points on each page.,NFR,NFR,NFR,F,0.9930874705314636,206.77825288772584
+605,14,4,NFR,The application shall ask the user to confirm dropping a player or trading a player before performing the action.,NFR,F,F,F,0.9987928867340088,206.77825288772584
+606,14,4,NFR,The application shall be able to complete every user transaction within one fourth of a second of receiving the request over the network.,NFR,NFR,NFR,NFR,0.9987344145774841,206.77825288772584
+607,14,4,NFR,The application shall have a downtime of at most 10 minutes per year.,NFR,NFR,NFR,NFR,0.9984815716743469,206.77825288772584
+608,14,4,NFR,The application shall run on a web application server.,NFR,NFR,NFR,NFR,0.9982476234436035,206.77825288772584
+609,14,4,NFR,A primary database will be used to store cached data for active users.,NFR,NFR,NFR,F,0.9947333335876465,206.77825288772584
+610,14,4,NFR,A secondary database will be used to store historical statistics and data.,NFR,NFR,NFR,F,0.9979390501976013,206.77825288772584
+611,14,4,NFR,Application updates shall occur between 3AM and 6 AM CST on Wednesday morning during the middle of the NFL season.,NFR,NFR,NFR,NFR,0.9978687763214111,206.77825288772584
+612,14,4,NFR,New System version releases shall be released at the beginning of each NFL season.,NFR,NFR,NFR,NFR,0.8668279647827148,206.77825288772584
+613,15,1,NFR, 	The RFS system should be available 24/7  especially during the budgeting period. The RFS system shall be available 90% of the time all year  and 98% during the budgeting period. 2% of the time  the system will become available within 1 hour of the time that the situation is reported.,NFR,NFR,NFR,NFR,0.9980610013008118,206.77825288772584
+614,15,1,NFR,98% of the user workstations shall meet the minimum hardware requirements prior to implementation. Minimum Hard Disk Space:  400MB.,NFR,NFR,NFR,NFR,0.9973559379577637,206.77825288772584
+615,15,1,NFR,98% of the user workstations shall meet the minimum software requirements prior to implementation: Microsoft Internet Explorer 5.0. Microsoft .NET Framework 1.1. Microsoft Internet Explorer Web Controls,NFR,NFR,NFR,NFR,0.9977481961250305,206.77825288772584
+616,15,1,NFR, 	The RFS system should be able to easily interface with the BDW environment  in order to load the data. 	7 data files shall be received from the BDW and loaded into the RFS system within 3 hours one day prior to the start of budgeting process  every year. The data will be as of October month-end. 	Test files (7) shall be loaded up to 5 times throughout the year  from the BDW.,NFR,NFR,NFR,NFR,0.9979937076568604,206.77825288772584
+617,15,1,NFR, 	Changes to revenue and expense formulae must be applied to the RFS system  every year  prior to the budgeting process start. Revenue and expense formulae will be updated within one week of their receipt  after which 2 weeks will be allotted to testing of the budget calculations  to be conducted jointly by the project development team and PCG Finance.,NFR,NFR,NFR,NFR,0.9973195195198059,206.77825288772584
+618,15,1,NFR, 	New branches/complexes/districts/regions and revenue/expense accounts added to the BDW  must be reflected in the RFS system. 100% of the entities (mentioned above) available as of October month-end  will be loaded into the RFS system  prior to the budget start process.,NFR,NFR,NFR,NFR,0.9974272847175598,206.77825288772584
+619,15,1,NFR, 	Only authorized user shall access the RFS system. ONLY users that exist in the UAS system  with the RFS system assigned to their role(s)  shall access the RFS system and use it.,NFR,NFR,NFR,NFR,0.998055100440979,206.77825288772584
+620,15,1,NFR,	User access should be limited to the permissions granted to their role(s) Each level in the PCG hierarchy will be assigned a role and users will be assigned to these roles. Access to functionality within RFS system is dependent on the privileges/permission assigned to the role..,NFR,NFR,NFR,NFR,0.9974823594093323,206.77825288772584
+621,15,1,NFR, 	The product must comply with the intranet page standards and requirements of ENET Securities. 95% of the product look & feel will be approved by the Architecture group  prior to implementation. The remaining 5% will be corrected and approved within one month of product release.,NFR,NFR,NFR,NFR,0.9973860383033752,206.77825288772584
+622,15,1,NFR, The intranet pages should display appropriately in all resolutions  from 800x600 and higher. The display of all the pages will be correct in 95% of the resolutions  prior to implementation. The remaining 5% will be corrected within a week of notification of the incorrect display.,NFR,NFR,NFR,NFR,0.9980680346488953,206.77825288772584
+623,15,1,NFR, 	The users should be able to easily use the system to successfully complete their budgets  within the stipulated time for completion. With a week of training prior to product implementation  98% of the users shall complete their budgets within the stipulated time.,NFR,NFR,NFR,NFR,0.9980008006095886,206.77825288772584
+624,15,1,NFR, 	The product interface should be fast. The response time of the product interface should not exceed 2 seconds 90% of the time. For 10% of the time  the response time should not be more than 10 seconds.not be more than 10 seconds.,NFR,NFR,NFR,NFR,0.997890293598175,206.77825288772584

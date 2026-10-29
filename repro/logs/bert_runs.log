@@ -1,0 +1,263 @@
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+A random seed 42 fold 0 epoch 0 loss 0.5590 t=45s
+A random seed 42 fold 0 epoch 1 loss 0.2358 t=89s
+A random seed 42 fold 0 epoch 2 loss 0.1218 t=133s
+A random seed 42 fold 0 epoch 3 loss 0.0657 t=178s
+A random seed 42 fold 0 epoch 4 loss 0.0375 t=223s
+A random seed 42 fold 0 acc 0.857 secs 224
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+B random seed 42 fold 0 epoch 0 loss 1.3258 t=19s
+B random seed 42 fold 0 epoch 1 loss 0.7731 t=37s
+B random seed 42 fold 0 epoch 2 loss 0.2784 t=56s
+B random seed 42 fold 0 epoch 3 loss 0.1177 t=75s
+B random seed 42 fold 0 epoch 4 loss 0.0742 t=93s
+B random seed 42 fold 0 acc 0.880 secs 93
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+A grouped seed 42 fold 0 epoch 0 loss 0.5688 t=50s
+A grouped seed 42 fold 0 epoch 1 loss 0.2550 t=98s
+A grouped seed 42 fold 0 epoch 2 loss 0.1006 t=146s
+A grouped seed 42 fold 0 epoch 3 loss 0.0574 t=195s
+A grouped seed 42 fold 0 epoch 4 loss 0.0232 t=243s
+A grouped seed 42 fold 0 acc 1.000 secs 244
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+A grouped seed 42 fold 1 epoch 0 loss 0.5963 t=35s
+A grouped seed 42 fold 1 epoch 1 loss 0.2488 t=71s
+A grouped seed 42 fold 1 epoch 2 loss 0.1120 t=106s
+A grouped seed 42 fold 1 epoch 3 loss 0.0612 t=141s
+A grouped seed 42 fold 1 epoch 4 loss 0.0444 t=178s
+A grouped seed 42 fold 1 acc 0.632 secs 183
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+A grouped seed 42 fold 2 epoch 0 loss 0.5645 t=47s
+A grouped seed 42 fold 2 epoch 1 loss 0.2793 t=90s
+A grouped seed 42 fold 2 epoch 2 loss 0.1313 t=138s
+A grouped seed 42 fold 2 epoch 3 loss 0.0638 t=189s
+A grouped seed 42 fold 2 epoch 4 loss 0.0300 t=232s
+A grouped seed 42 fold 2 acc 0.889 secs 234
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+A grouped seed 42 fold 3 epoch 0 loss 0.5865 t=37s
+A grouped seed 42 fold 3 epoch 1 loss 0.2766 t=74s
+A grouped seed 42 fold 3 epoch 2 loss 0.1271 t=112s
+A grouped seed 42 fold 3 epoch 3 loss 0.0452 t=155s
+A grouped seed 42 fold 3 epoch 4 loss 0.0185 t=197s
+A grouped seed 42 fold 3 acc 0.803 secs 201
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+A grouped seed 42 fold 4 epoch 0 loss 0.6115 t=39s
+A grouped seed 42 fold 4 epoch 1 loss 0.2833 t=72s
+A grouped seed 42 fold 4 epoch 2 loss 0.1017 t=106s
+A grouped seed 42 fold 4 epoch 3 loss 0.0474 t=138s
+A grouped seed 42 fold 4 epoch 4 loss 0.0319 t=177s
+A grouped seed 42 fold 4 acc 0.817 secs 182
+DistilBERT complete A grouped 42
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+A grouped seed 43 fold 0 epoch 0 loss 0.5682 t=44s
+A grouped seed 43 fold 0 epoch 1 loss 0.2920 t=86s
+A grouped seed 43 fold 0 epoch 2 loss 0.1539 t=130s
+A grouped seed 43 fold 0 epoch 3 loss 0.0952 t=173s
+A grouped seed 43 fold 0 epoch 4 loss 0.0507 t=215s
+A grouped seed 43 fold 0 acc 0.754 secs 218
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+A grouped seed 43 fold 1 epoch 0 loss 0.5915 t=39s
+A grouped seed 43 fold 1 epoch 1 loss 0.2321 t=79s
+A grouped seed 43 fold 1 epoch 2 loss 0.1423 t=117s
+A grouped seed 43 fold 1 epoch 3 loss 0.0728 t=155s
+A grouped seed 43 fold 1 epoch 4 loss 0.0357 t=193s
+A grouped seed 43 fold 1 acc 0.652 secs 198
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+A grouped seed 43 fold 2 epoch 0 loss 0.5981 t=40s
+A grouped seed 43 fold 2 epoch 1 loss 0.2942 t=80s
+A grouped seed 43 fold 2 epoch 2 loss 0.1296 t=118s
+A grouped seed 43 fold 2 epoch 3 loss 0.1044 t=156s
+A grouped seed 43 fold 2 epoch 4 loss 0.0490 t=193s
+A grouped seed 43 fold 2 acc 0.850 secs 196
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+A grouped seed 43 fold 3 epoch 0 loss 0.5659 t=46s
+A grouped seed 43 fold 3 epoch 1 loss 0.2301 t=92s
+A grouped seed 43 fold 3 epoch 2 loss 0.1239 t=138s
+A grouped seed 43 fold 3 epoch 3 loss 0.0539 t=184s
+A grouped seed 43 fold 3 epoch 4 loss 0.0293 t=230s
+A grouped seed 43 fold 3 acc 0.889 secs 231
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+A grouped seed 43 fold 4 epoch 0 loss 0.5316 t=38s
+A grouped seed 43 fold 4 epoch 1 loss 0.1677 t=77s
+A grouped seed 43 fold 4 epoch 2 loss 0.0655 t=114s
+A grouped seed 43 fold 4 epoch 3 loss 0.0453 t=151s
+A grouped seed 43 fold 4 epoch 4 loss 0.0313 t=188s
+A grouped seed 43 fold 4 acc 0.822 secs 191
+DistilBERT complete A grouped 43
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+A grouped seed 44 fold 0 epoch 0 loss 0.5614 t=42s
+A grouped seed 44 fold 0 epoch 1 loss 0.2442 t=82s
+A grouped seed 44 fold 0 epoch 2 loss 0.0946 t=122s
+A grouped seed 44 fold 0 epoch 3 loss 0.0493 t=163s
+A grouped seed 44 fold 0 epoch 4 loss 0.0301 t=202s
+A grouped seed 44 fold 0 acc 0.674 secs 205
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+A grouped seed 44 fold 1 epoch 0 loss 0.5833 t=32s
+A grouped seed 44 fold 1 epoch 1 loss 0.2136 t=64s
+A grouped seed 44 fold 1 epoch 2 loss 0.0751 t=97s
+A grouped seed 44 fold 1 epoch 3 loss 0.0231 t=129s
+A grouped seed 44 fold 1 epoch 4 loss 0.0064 t=162s
+A grouped seed 44 fold 1 acc 0.759 secs 167
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+A grouped seed 44 fold 2 epoch 0 loss 0.5659 t=49s
+A grouped seed 44 fold 2 epoch 1 loss 0.2301 t=94s
+A grouped seed 44 fold 2 epoch 2 loss 0.1239 t=139s
+A grouped seed 44 fold 2 epoch 3 loss 0.0539 t=184s
+A grouped seed 44 fold 2 epoch 4 loss 0.0293 t=229s
+A grouped seed 44 fold 2 acc 0.889 secs 230
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+A grouped seed 44 fold 3 epoch 0 loss 0.5662 t=45s
+A grouped seed 44 fold 3 epoch 1 loss 0.2125 t=91s
+A grouped seed 44 fold 3 epoch 2 loss 0.0943 t=136s
+A grouped seed 44 fold 3 epoch 3 loss 0.0463 t=181s
+A grouped seed 44 fold 3 epoch 4 loss 0.0192 t=227s
+A grouped seed 44 fold 3 acc 0.853 secs 228
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+A grouped seed 44 fold 4 epoch 0 loss 0.5868 t=37s
+A grouped seed 44 fold 4 epoch 1 loss 0.2656 t=75s
+A grouped seed 44 fold 4 epoch 2 loss 0.1456 t=114s
+A grouped seed 44 fold 4 epoch 3 loss 0.0584 t=150s
+A grouped seed 44 fold 4 epoch 4 loss 0.0282 t=186s
+A grouped seed 44 fold 4 acc 0.820 secs 190
+DistilBERT complete A grouped 44
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+B grouped seed 42 fold 0 epoch 0 loss 1.3317 t=18s
+B grouped seed 42 fold 0 epoch 1 loss 0.7681 t=35s
+B grouped seed 42 fold 0 epoch 2 loss 0.2848 t=53s
+B grouped seed 42 fold 0 epoch 3 loss 0.1121 t=71s
+B grouped seed 42 fold 0 epoch 4 loss 0.0758 t=89s
+B grouped seed 42 fold 0 acc 0.969 secs 90
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+B grouped seed 42 fold 1 epoch 0 loss 1.3026 t=19s
+B grouped seed 42 fold 1 epoch 1 loss 0.7633 t=36s
+B grouped seed 42 fold 1 epoch 2 loss 0.2798 t=54s
+B grouped seed 42 fold 1 epoch 3 loss 0.1168 t=72s
+B grouped seed 42 fold 1 epoch 4 loss 0.0740 t=90s
+B grouped seed 42 fold 1 acc 1.000 secs 90
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+B grouped seed 42 fold 2 epoch 0 loss 1.3440 t=15s
+B grouped seed 42 fold 2 epoch 1 loss 0.9307 t=29s
+B grouped seed 42 fold 2 epoch 2 loss 0.4881 t=44s
+B grouped seed 42 fold 2 epoch 3 loss 0.2341 t=58s
+B grouped seed 42 fold 2 epoch 4 loss 0.1398 t=73s
+B grouped seed 42 fold 2 acc 0.823 secs 75
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+B grouped seed 42 fold 3 epoch 0 loss 1.3619 t=15s
+B grouped seed 42 fold 3 epoch 1 loss 0.9415 t=28s
+B grouped seed 42 fold 3 epoch 2 loss 0.4443 t=41s
+B grouped seed 42 fold 3 epoch 3 loss 0.1976 t=54s
+B grouped seed 42 fold 3 epoch 4 loss 0.1246 t=67s
+B grouped seed 42 fold 3 acc 0.803 secs 69
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+B grouped seed 42 fold 4 epoch 0 loss 1.3363 t=15s
+B grouped seed 42 fold 4 epoch 1 loss 0.8350 t=29s
+B grouped seed 42 fold 4 epoch 2 loss 0.3763 t=42s
+B grouped seed 42 fold 4 epoch 3 loss 0.1644 t=56s
+B grouped seed 42 fold 4 epoch 4 loss 0.0879 t=71s
+B grouped seed 42 fold 4 acc 0.785 secs 72
+DistilBERT complete B grouped 42
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+B grouped seed 43 fold 0 epoch 0 loss 1.3365 t=16s
+B grouped seed 43 fold 0 epoch 1 loss 0.8020 t=33s
+B grouped seed 43 fold 0 epoch 2 loss 0.3490 t=50s
+B grouped seed 43 fold 0 epoch 3 loss 0.1431 t=68s
+B grouped seed 43 fold 0 epoch 4 loss 0.0949 t=85s
+B grouped seed 43 fold 0 acc 0.804 secs 86
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+B grouped seed 43 fold 1 epoch 0 loss 1.3265 t=19s
+B grouped seed 43 fold 1 epoch 1 loss 0.7609 t=39s
+B grouped seed 43 fold 1 epoch 2 loss 0.2790 t=57s
+B grouped seed 43 fold 1 epoch 3 loss 0.1148 t=75s
+B grouped seed 43 fold 1 epoch 4 loss 0.0765 t=94s
+B grouped seed 43 fold 1 acc 0.933 secs 94
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+B grouped seed 43 fold 2 epoch 0 loss 1.3304 t=14s
+B grouped seed 43 fold 2 epoch 1 loss 0.8790 t=29s
+B grouped seed 43 fold 2 epoch 2 loss 0.3842 t=43s
+B grouped seed 43 fold 2 epoch 3 loss 0.1544 t=57s
+B grouped seed 43 fold 2 epoch 4 loss 0.0878 t=72s
+B grouped seed 43 fold 2 acc 0.766 secs 73
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+B grouped seed 43 fold 3 epoch 0 loss 1.3544 t=14s
+B grouped seed 43 fold 3 epoch 1 loss 0.9605 t=28s
+B grouped seed 43 fold 3 epoch 2 loss 0.4599 t=42s
+B grouped seed 43 fold 3 epoch 3 loss 0.2060 t=56s
+B grouped seed 43 fold 3 epoch 4 loss 0.1142 t=70s
+B grouped seed 43 fold 3 acc 0.795 secs 71
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+B grouped seed 43 fold 4 epoch 0 loss 1.3446 t=15s
+B grouped seed 43 fold 4 epoch 1 loss 0.8814 t=31s
+B grouped seed 43 fold 4 epoch 2 loss 0.3908 t=47s
+B grouped seed 43 fold 4 epoch 3 loss 0.1700 t=62s
+B grouped seed 43 fold 4 epoch 4 loss 0.1072 t=77s
+B grouped seed 43 fold 4 acc 0.843 secs 78
+DistilBERT complete B grouped 43
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+B grouped seed 44 fold 0 epoch 0 loss 1.3344 t=16s
+B grouped seed 44 fold 0 epoch 1 loss 0.8477 t=32s
+B grouped seed 44 fold 0 epoch 2 loss 0.4051 t=49s
+B grouped seed 44 fold 0 epoch 3 loss 0.1701 t=66s
+B grouped seed 44 fold 0 epoch 4 loss 0.0999 t=82s
+B grouped seed 44 fold 0 acc 0.792 secs 83
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+B grouped seed 44 fold 1 epoch 0 loss 1.3403 t=18s
+B grouped seed 44 fold 1 epoch 1 loss 0.7681 t=36s
+B grouped seed 44 fold 1 epoch 2 loss 0.2834 t=54s
+B grouped seed 44 fold 1 epoch 3 loss 0.1114 t=72s
+B grouped seed 44 fold 1 epoch 4 loss 0.0783 t=90s
+B grouped seed 44 fold 1 acc 0.864 secs 90
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+B grouped seed 44 fold 2 epoch 0 loss 1.3378 t=14s
+B grouped seed 44 fold 2 epoch 1 loss 0.9049 t=29s
+B grouped seed 44 fold 2 epoch 2 loss 0.4455 t=43s
+B grouped seed 44 fold 2 epoch 3 loss 0.1997 t=57s
+B grouped seed 44 fold 2 epoch 4 loss 0.1028 t=70s
+B grouped seed 44 fold 2 acc 0.886 secs 72
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+B grouped seed 44 fold 3 epoch 0 loss 1.3556 t=13s
+B grouped seed 44 fold 3 epoch 1 loss 0.9751 t=27s
+B grouped seed 44 fold 3 epoch 2 loss 0.5129 t=39s
+B grouped seed 44 fold 3 epoch 3 loss 0.2602 t=52s
+B grouped seed 44 fold 3 epoch 4 loss 0.1619 t=65s
+B grouped seed 44 fold 3 acc 0.728 secs 67
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+B grouped seed 44 fold 4 epoch 0 loss 1.3322 t=18s
+B grouped seed 44 fold 4 epoch 1 loss 0.7892 t=35s
+B grouped seed 44 fold 4 epoch 2 loss 0.3061 t=53s
+B grouped seed 44 fold 4 epoch 3 loss 0.1453 t=71s
+B grouped seed 44 fold 4 epoch 4 loss 0.0799 t=89s
+B grouped seed 44 fold 4 acc 0.913 secs 89
+DistilBERT complete B grouped 44
+QUEUE_DONE 0

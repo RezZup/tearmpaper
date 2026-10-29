@@ -1,0 +1,175 @@
+{
+ "COMPLETE": true,
+ "A_BERT": "0.901",
+ "B_BERT": "0.919",
+ "A_SVM": "0.916",
+ "A_SVM_MEAN": "0.912",
+ "A_SECS": "236",
+ "B_SECS": "88",
+ "RESULTS_PARA_1": "*Random folds.* All random-fold numbers in this paragraph come from seed 42, the only seed on which DistilBERT was trained under this protocol; [[tab:res]] gives the baseline means over three seeds. On Task A the four models finish within 1.5 points of each other. The linear SVM has the highest macro-F1 (0.916) and DistilBERT the lowest (0.901). DistilBERT recognises non-functional requirements well (recall 0.943) but misses more functional ones (recall 0.851; 38 of 255 were labelled NFR). An exact McNemar test on the pooled predictions finds no significant difference between DistilBERT and the SVM (24 items only DistilBERT got right, 32 only the SVM; p = 0.35). Task B tells a different story. DistilBERT reaches a macro-F1 of 0.919, against seed-42 values of 0.832 for the SVM, 0.824 for logistic regression and 0.783 for Naive Bayes (three-seed means in [[tab:res]]: 0.824, 0.819 and 0.791), and its F1 is at least 0.91 for every class. Here the McNemar tests are significant against all three baselines (30 versus 8 discordant items against the SVM; p < 0.001 in each case), and the differences remain significant after a Bonferroni correction for three comparisons. Over seeds 42–44 the baseline means in [[tab:res]] are within 0.01 of these seed-42 values.",
+ "MCN_ROWS": [
+  [
+   "A",
+   "42",
+   "TF-IDF+NB",
+   "< 0.001",
+   "< 0.001"
+  ],
+  [
+   "A",
+   "42",
+   "TF-IDF+LogReg",
+   "< 0.001",
+   "< 0.001"
+  ],
+  [
+   "A",
+   "42",
+   "TF-IDF+SVM",
+   "< 0.001",
+   "< 0.001"
+  ],
+  [
+   "A",
+   "43",
+   "TF-IDF+NB",
+   "< 0.001",
+   "< 0.001"
+  ],
+  [
+   "A",
+   "43",
+   "TF-IDF+LogReg",
+   "< 0.001",
+   "< 0.001"
+  ],
+  [
+   "A",
+   "43",
+   "TF-IDF+SVM",
+   "< 0.001",
+   "< 0.001"
+  ],
+  [
+   "A",
+   "44",
+   "TF-IDF+NB",
+   "0.003",
+   "0.010"
+  ],
+  [
+   "A",
+   "44",
+   "TF-IDF+LogReg",
+   "< 0.001",
+   "< 0.001"
+  ],
+  [
+   "A",
+   "44",
+   "TF-IDF+SVM",
+   "< 0.001",
+   "< 0.001"
+  ],
+  [
+   "B",
+   "42",
+   "TF-IDF+NB",
+   "< 0.001",
+   "< 0.001"
+  ],
+  [
+   "B",
+   "42",
+   "TF-IDF+LogReg",
+   "< 0.001",
+   "< 0.001"
+  ],
+  [
+   "B",
+   "42",
+   "TF-IDF+SVM",
+   "< 0.001",
+   "< 0.001"
+  ],
+  [
+   "B",
+   "43",
+   "TF-IDF+NB",
+   "< 0.001",
+   "0.003"
+  ],
+  [
+   "B",
+   "43",
+   "TF-IDF+LogReg",
+   "0.017",
+   "0.051"
+  ],
+  [
+   "B",
+   "43",
+   "TF-IDF+SVM",
+   "0.013",
+   "0.038"
+  ],
+  [
+   "B",
+   "44",
+   "TF-IDF+NB",
+   "0.002",
+   "0.006"
+  ],
+  [
+   "B",
+   "44",
+   "TF-IDF+LogReg",
+   "0.006",
+   "0.019"
+  ],
+  [
+   "B",
+   "44",
+   "TF-IDF+SVM",
+   "0.008",
+   "0.023"
+  ]
+ ],
+ "DB_FREC_PCT": "56",
+ "RESULTS_PARA_G": "*Project-held-out folds.* Holding out whole projects lowers every score (right-hand columns of [[tab:res]], and [[fig:res]]). On Task A each baseline loses at least 27 points of macro-F1 and ends at 0.589–0.638; DistilBERT reaches 0.751 ± 0.003. Most of the loss is in the functional class. Averaged over the three seeds, functional recall falls to 0.28 for the SVM, 0.36 for Naive Bayes and 0.56 for DistilBERT, so even the best model finds only about half of the functional requirements of an unseen project, while non-functional recall stays at 0.93 or above for the baselines. On an unseen project the models therefore label many functional requirements as non-functional. A plausible reason, which we did not test, is that functional requirements are written in each project's domain vocabulary, whereas quality requirements reuse phrases such as “shall be available” or “within 2 seconds” across projects. Task B loses less: the baselines drop by 9–11 points to 0.696–0.718, and DistilBERT reaches 0.813 ± 0.014. Exact McNemar tests ([[tab:mcn]]) favour DistilBERT over every baseline in every seed on both tasks (p ≤ 0.017 before correction); after a Bonferroni correction, one of the 18 comparisons is no longer significant, and the tests assume independent items ([[sec:threats]]). The drop should not be read as the effect of project leakage alone, because the two protocols differ in other ways. Five project-held-out folds train on about 80% of the items on average, against 90% for ten random folds (on Task A, 409–600 training items per fold instead of about 562). The folds are also uneven because PROMISE projects differ in size and content: Task A test folds hold between 25 and 216 items, and projects 11–15 contain no functional requirements at all. DistilBERT's confidence scores behaved differently on the two tasks. Averaged over seeds, a threshold of 0.95 would have auto-labelled 89% of Task A items with a precision of only 0.81, well short of the 0.95 target used as an example in [[sec:gate]]; on unseen projects the Task A scores were over-confident. On Task B the same threshold met the target (precision 0.99) but auto-labelled only 22% of the items and sent the rest to review.",
+ "RESULTS_PARA_2": "We read the random-fold contrast between the tasks as follows, although we did not test this explanation. In PROMISE the FR/NFR split is carried largely by surface cues, such as verbs of action versus adjectives of quality, and a bag of n-grams captures these well. Telling usability from operability or security is harder: words such as “user”, “system” and “shall” appear in every class, and each class has only 54–67 examples. This is the situation in which pre-trained representations are expected to help most. The errors also support the F+Q view of {{t:dalpiaz2019}}. Several Task A “errors” are debatable. One item requires that all changes to a dispute case be “recorded in the case history”; PROMISE labels it NFR, the model predicted F, and it reads like our audit-log example in [[tab:data]]. In Task B, a requirement to conform to the Americans with Disabilities Act is labelled usability but was predicted security, and arguably it is a legal requirement as well. Fold-level accuracy varied widely (DistilBERT on random Task B folds: 0.84 to 1.00 over test folds of about 25 items), which is why we report pooled scores.",
+ "LEAD_A": true,
+ "ABSTRACT_RESULT": "On the seed-42 random split, DistilBERT matched a linear SVM on functional versus non-functional classification (macro-F1 0.901 vs. 0.916, not significant) and beat it on four frequent quality classes (0.919 vs. 0.832). On unseen projects every score fell; DistilBERT led clearly: 0.751 versus 0.589–0.638 for the baselines on the first task and 0.813 versus 0.696–0.718 on the second, significantly in every seed (McNemar p ≤ 0.017) before multiple-comparison correction, yet it found only 56% of the functional requirements in unseen projects.",
+ "CONCL_RESULT": "on the seed-42 random split a CPU-trained DistilBERT was no better than a linear SVM at separating functional from non-functional requirements (macro-F1 0.901 vs. 0.916) but clearly better at telling the four most frequent quality classes apart (0.919 vs. 0.832). When whole projects were held out, every model lost ground, and the first task changed from a statistical tie to a clear DistilBERT lead: 0.751 against 0.589–0.638 for the baselines, and 0.813 against 0.696–0.718 on the second task. Even so, DistilBERT found only 56% of the functional requirements in unseen projects, and its confidence scores were over-confident on unseen projects for the first task, so a confidence gate needs calibration on the team's own items before it can be trusted.",
+ "DISC_RESULT": "Under random folds, a linear TF-IDF model was as good as DistilBERT for the coarse FR/NFR decision, whereas the transformer was clearly better at separating quality classes. Moving to project-held-out folds lowered every model's score by 15–32 points of macro-F1 on Task A and 9–11 points on Task B; DistilBERT ended ahead of the SVM on both tasks (0.751 vs. 0.593 and 0.813 vs. 0.718); part of the drop may come from smaller training sets and uneven test folds rather than from unseen projects alone. The transformer's advantage is therefore largest where it matters for adoption, on projects it has not seen, which agrees with the unseen-project results of NoRBERT {{hey2020norbert;hey2022corrected}}. For a team, one hypothesis follows that we did not test: a cheap linear model may be a reasonable Level 1 classifier only if it is trained on the team's own items. What our results do show is that any model should be checked on those items before its labels are trusted, because random-fold scores overstate how well it will do on a new project.",
+ "RES_ROWS": [
+  [
+   "TF-IDF+NB",
+   "0.906 ± 0.003",
+   "0.638 ± 0.036",
+   "0.791 ± 0.016",
+   "0.696 ± 0.009"
+  ],
+  [
+   "TF-IDF+LogReg",
+   "0.911 ± 0.003",
+   "0.589 ± 0.017",
+   "0.819 ± 0.008",
+   "0.718 ± 0.011"
+  ],
+  [
+   "TF-IDF+SVM",
+   "**0.912 ± 0.003**",
+   "0.593 ± 0.012",
+   "0.824 ± 0.012",
+   "0.718 ± 0.009"
+  ],
+  [
+   "DistilBERT",
+   "0.901†",
+   "**0.751 ± 0.003**",
+   "**0.919†**",
+   "**0.813 ± 0.014**"
+  ]
+ ]
+}

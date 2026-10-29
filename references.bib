@@ -1,0 +1,347 @@
+% references.bib -- 35 sources for \bibliographystyle{IEEEtran} (BibTeX). Journal and proceedings
+% names are abbreviated per the IEEE Reference Guide. IEEEtran.bst has no doi/eid fields, so DOIs are
+% given in "note" and article numbers as "Art. no." in number/volume. DOIs checked against
+% Crossref/DataCite/arXiv; see reference_audit.md.
+% The control entry below is activated by \bstctlcite{IEEEexample:BSTcontrol} in term_paper.tex:
+% "et al." after the first author when there are more than six authors; no dash for repeated authors.
+
+@IEEEtranBSTCTL{IEEEexample:BSTcontrol,
+  CTLuse_forced_etal       = "yes",
+  CTLmax_names_forced_etal = "6",
+  CTLnames_show_etal       = "1",
+  CTLdash_repeated_names   = "no"
+}
+
+@inproceedings{devlin2019,
+  author       = {Devlin, Jacob and Chang, Ming-Wei and Lee, Kenton and Toutanova, Kristina},
+  title        = {{BERT}: Pre-training of deep bidirectional transformers for language understanding},
+  booktitle    = {Proc. 2019 Conf. North Amer. Chapter Assoc. Comput. Linguistics: Human Lang. Technol.},
+  volume       = {1},
+  pages        = {4171--4186},
+  year         = {2019},
+  note         = {doi: \href{https://doi.org/10.18653/v1/N19-1423}{\nolinkurl{10.18653/v1/N19-1423}}}
+}
+
+@misc{liu2019roberta,
+  author       = {Liu, Yinhan and Ott, Myle and Goyal, Naman and Du, Jingfei and Joshi, Mandar and Chen, Danqi and Levy, Omer and Lewis, Mike and Zettlemoyer, Luke and Stoyanov, Veselin},
+  title        = {{RoBERTa}: A robustly optimized {BERT} pretraining approach},
+  year         = {2019},
+  note         = {arXiv:1907.11692, doi: \href{https://doi.org/10.48550/arXiv.1907.11692}{\nolinkurl{10.48550/arXiv.1907.11692}}}
+}
+
+@misc{sanh2019distilbert,
+  author       = {Sanh, Victor and Debut, Lysandre and Chaumond, Julien and Wolf, Thomas},
+  title        = {{DistilBERT}, a distilled version of {BERT}: Smaller, faster, cheaper and lighter},
+  year         = {2019},
+  note         = {arXiv:1910.01108, doi: \href{https://doi.org/10.48550/arXiv.1910.01108}{\nolinkurl{10.48550/arXiv.1910.01108}}}
+}
+
+@inproceedings{sun2019finetune,
+  author       = {Sun, Chi and Qiu, Xipeng and Xu, Yige and Huang, Xuanjing},
+  title        = {How to fine-tune {BERT} for text classification?},
+  booktitle    = {Chinese Comput. Linguistics},
+  series       = {Lecture Notes in Computer Science},
+  pages        = {194--206},
+  publisher    = {Springer},
+  year         = {2019},
+  note         = {doi: \href{https://doi.org/10.1007/978-3-030-32381-3_16}{\nolinkurl{10.1007/978-3-030-32381-3_16}}}
+}
+
+@article{clelandhuang2007,
+  author       = {Cleland-Huang, Jane and Settimi, Raffaella and Zou, Xuchang and Solc, Peter},
+  title        = {Automated classification of non-functional requirements},
+  journal      = {Requirements Eng.},
+  volume       = {12},
+  number       = {2},
+  pages        = {103--120},
+  year         = {2007},
+  note         = {doi: \href{https://doi.org/10.1007/s00766-007-0045-1}{\nolinkurl{10.1007/s00766-007-0045-1}}}
+}
+
+@misc{promisenfr2007,
+  author       = {Cleland-Huang, Jane and Mazrouee, Sepideh and Huang, Liguo and Port, Dan},
+  title        = {{nfr}},
+  howpublished = {PROMISE NFR data set, Zenodo},
+  month        = mar # "~17,",
+  year         = {2007},
+  note         = {doi: \href{https://doi.org/10.5281/zenodo.268542}{\nolinkurl{10.5281/zenodo.268542}}}
+}
+
+@inproceedings{lima2019,
+  author       = {Lima, M{\'a}rcia and Valle, Victor and Costa, Estev{\~a}o and Lira, Fylype and Gadelha, Bruno},
+  title        = {Software engineering repositories: Expanding the {PROMISE} database},
+  booktitle    = {Proc. 33rd Brazilian Symp. Softw. Eng.},
+  pages        = {427--436},
+  publisher    = {ACM},
+  year         = {2019},
+  note         = {doi: \href{https://doi.org/10.1145/3350768.3350776}{\nolinkurl{10.1145/3350768.3350776}}}
+}
+
+@inproceedings{kurtanovic2017,
+  author       = {Kurtanovi{\'c}, Zijad and Maalej, Walid},
+  title        = {Automatically classifying functional and non-functional requirements using supervised machine learning},
+  booktitle    = {Proc. 2017 IEEE 25th Int. Requirements Eng. Conf. (RE)},
+  pages        = {490--495},
+  year         = {2017},
+  note         = {doi: \href{https://doi.org/10.1109/RE.2017.82}{\nolinkurl{10.1109/RE.2017.82}}}
+}
+
+@inproceedings{dalpiaz2019,
+  author       = {Dalpiaz, Fabiano and Dell'Anna, Davide and Aydemir, Fatma Ba{\c{s}}ak and {\c{C}}evikol, Sercan},
+  title        = {Requirements classification with interpretable machine learning and dependency parsing},
+  booktitle    = {Proc. 2019 IEEE 27th Int. Requirements Eng. Conf. (RE)},
+  pages        = {142--152},
+  year         = {2019},
+  note         = {doi: \href{https://doi.org/10.1109/RE.2019.00025}{\nolinkurl{10.1109/RE.2019.00025}}}
+}
+
+@inproceedings{rahman2019,
+  author       = {Rahman, Md. Abdur and Haque, Md. Ariful and Tawhid, Md. Nurul Ahad and Siddik, Md. Saeed},
+  title        = {Classifying non-functional requirements using {RNN} variants for quality software development},
+  booktitle    = {Proc. 3rd ACM SIGSOFT Int. Workshop Mach. Learn. Techn. Softw. Qual. Eval.},
+  pages        = {25--30},
+  year         = {2019},
+  note         = {doi: \href{https://doi.org/10.1145/3340482.3342745}{\nolinkurl{10.1145/3340482.3342745}}}
+}
+
+@article{rahimi2021,
+  author       = {Rahimi, Nouf and Eassa, Fathy and Elrefaei, Lamiaa},
+  title        = {One- and two-phase software requirement classification using ensemble deep learning},
+  journal      = {Entropy},
+  volume       = {23},
+  number       = {10, Art.~no.~1264},
+  year         = {2021},
+  note         = {doi: \href{https://doi.org/10.3390/e23101264}{\nolinkurl{10.3390/e23101264}}}
+}
+
+@inproceedings{hey2020norbert,
+  author       = {Hey, Tobias and Keim, Jan and Koziolek, Anne and Tichy, Walter F.},
+  title        = {{NoRBERT}: Transfer learning for requirements classification},
+  booktitle    = {Proc. 2020 IEEE 28th Int. Requirements Eng. Conf. (RE)},
+  pages        = {169--179},
+  year         = {2020},
+  note         = {doi: \href{https://doi.org/10.1109/RE48521.2020.00028}{\nolinkurl{10.1109/RE48521.2020.00028}}}
+}
+
+@article{diascanedo2020,
+  author       = {{Dias Canedo}, Edna and {Cordeiro Mendes}, Bruno},
+  title        = {Software requirements classification using machine learning algorithms},
+  journal      = {Entropy},
+  volume       = {22},
+  number       = {9, Art.~no.~1057},
+  year         = {2020},
+  note         = {doi: \href{https://doi.org/10.3390/e22091057}{\nolinkurl{10.3390/e22091057}}}
+}
+
+@article{petrillo2025,
+  author       = {Petrillo, Luca and Martinelli, Fabio and Santone, Antonella and Mercaldo, Francesco},
+  title        = {Explainable security requirements classification through transformer models},
+  journal      = {Future Internet},
+  volume       = {17},
+  number       = {1, Art.~no.~15},
+  year         = {2025},
+  note         = {doi: \href{https://doi.org/10.3390/fi17010015}{\nolinkurl{10.3390/fi17010015}}}
+}
+
+@techreport{hey2022corrected,
+  author       = {Hey, Tobias and Keim, Jan and Koziolek, Anne and Tichy, Walter F.},
+  title        = {{NoRBERT}: Transfer learning for requirements classification},
+  institution  = {Karlsruhe Institute of Technology (KIT)},
+  year         = {2022},
+  note         = {corrected version, doi: \href{https://doi.org/10.5445/IR/1000150464}{\nolinkurl{10.5445/IR/1000150464}}}
+}
+
+@inproceedings{kici2021,
+  author       = {Kici, Derya and Malik, Garima and Cevik, Mucahit and Parikh, Devang and Ba{\c{s}}ar, Ay{\c{s}}e},
+  title        = {A {BERT}-based transfer learning approach to text classification on software requirements specifications},
+  booktitle    = {Proc. Can. Conf. Artif. Intell.},
+  publisher    = {Canadian Artificial Intelligence Association},
+  year         = {2021},
+  note         = {doi: \href{https://doi.org/10.21428/594757db.a4880a62}{\nolinkurl{10.21428/594757db.a4880a62}}}
+}
+
+@inproceedings{luo2022prcbert,
+  author       = {Luo, Xianchang and Xue, Yinxing and Xing, Zhenchang and Sun, Jiamou},
+  title        = {{PRCBERT}: Prompt learning for requirement classification using {BERT}-based pretrained language models},
+  booktitle    = {Proc. 37th IEEE/ACM Int. Conf. Automated Softw. Eng.},
+  pages        = {1--13},
+  year         = {2022},
+  note         = {doi: \href{https://doi.org/10.1145/3551349.3560417}{\nolinkurl{10.1145/3551349.3560417}}}
+}
+
+@article{tikayatray2023,
+  author       = {{Tikayat Ray}, Archana and Cole, Bjorn F. and {Pinon Fischer}, Olivia J. and White, Ryan T. and Mavris, Dimitri N.},
+  title        = {{aeroBERT-Classifier}: Classification of aerospace requirements using {BERT}},
+  journal      = {Aerospace},
+  volume       = {10},
+  number       = {3, Art.~no.~279},
+  year         = {2023},
+  note         = {doi: \href{https://doi.org/10.3390/aerospace10030279}{\nolinkurl{10.3390/aerospace10030279}}}
+}
+
+@article{yucalar2023,
+  author       = {Yucalar, Fatih},
+  title        = {Developing an advanced software requirements classification model using {BERT}: An empirical evaluation study on newly generated {Turkish} data},
+  journal      = {Appl. Sci.},
+  volume       = {13},
+  number       = {20, Art.~no.~11127},
+  year         = {2023},
+  note         = {doi: \href{https://doi.org/10.3390/app132011127}{\nolinkurl{10.3390/app132011127}}}
+}
+
+@article{alsanoosy2026,
+  author       = {Alsanoosy, Tawfeeq},
+  title        = {Requirement classification using transfer learning models},
+  journal      = {Arabian J. Sci. Eng.},
+  volume       = {51},
+  number       = {15},
+  pages        = {18047--18064},
+  year         = {2026},
+  note         = {doi: \href{https://doi.org/10.1007/s13369-026-11242-w}{\nolinkurl{10.1007/s13369-026-11242-w}}}
+}
+
+@article{eltahier2025,
+  author       = {Eltahier, Safaa and Dawood, Omer and Saeed, Imtithal},
+  title        = {{BERT} fine-tuning for software requirement classification: Impact of model components and dataset size},
+  journal      = {Information},
+  volume       = {16},
+  number       = {11, Art.~no.~981},
+  year         = {2025},
+  note         = {doi: \href{https://doi.org/10.3390/info16110981}{\nolinkurl{10.3390/info16110981}}}
+}
+
+@article{alhoshan2023,
+  author       = {Alhoshan, Waad and Ferrari, Alessio and Zhao, Liping},
+  title        = {Zero-shot learning for requirements classification: An exploratory study},
+  journal      = {Inf. Softw. Technol.},
+  volume       = {159, Art.~no.~107202},
+  year         = {2023},
+  note         = {doi: \href{https://doi.org/10.1016/j.infsof.2023.107202}{\nolinkurl{10.1016/j.infsof.2023.107202}}}
+}
+
+@misc{tunstall2022setfit,
+  author       = {Tunstall, Lewis and Reimers, Nils and Jo, Unso Eun Seo and Bates, Luke and Korat, Daniel and Wasserblat, Moshe and Pereg, Oren},
+  title        = {Efficient few-shot learning without prompts},
+  year         = {2022},
+  note         = {arXiv:2209.11055, doi: \href{https://doi.org/10.48550/arXiv.2209.11055}{\nolinkurl{10.48550/arXiv.2209.11055}}}
+}
+
+@article{hou2024llm4se,
+  author       = {Hou, Xinyi and Zhao, Yanjie and Liu, Yue and Yang, Zhou and Wang, Kailong and Li, Li and Luo, Xiapu and Lo, David and Grundy, John and Wang, Haoyu},
+  title        = {Large language models for software engineering: A systematic literature review},
+  journal      = {ACM Trans. Softw. Eng. Methodol.},
+  volume       = {33},
+  number       = {8},
+  pages        = {1--79},
+  year         = {2024},
+  note         = {doi: \href{https://doi.org/10.1145/3695988}{\nolinkurl{10.1145/3695988}}}
+}
+
+@misc{scrumguide2020,
+  author       = {Schwaber, Ken and Sutherland, Jeff},
+  title        = {The {Scrum} guide},
+  year         = {2020},
+  url          = {https://scrumguides.org/scrum-guide.html}
+}
+
+@inproceedings{sedano2019,
+  author       = {Sedano, Todd and Ralph, Paul and P{\'e}raire, C{\'e}cile},
+  title        = {The product backlog},
+  booktitle    = {Proc. 2019 IEEE/ACM 41st Int. Conf. Softw. Eng. (ICSE)},
+  pages        = {200--211},
+  year         = {2019},
+  note         = {doi: \href{https://doi.org/10.1109/ICSE.2019.00036}{\nolinkurl{10.1109/ICSE.2019.00036}}}
+}
+
+@article{lucassen2016qus,
+  author       = {Lucassen, Garm and Dalpiaz, Fabiano and van der Werf, Jan Martijn E. M. and Brinkkemper, Sjaak},
+  title        = {Improving agile requirements: The {Quality User Story} framework and tool},
+  journal      = {Requirements Eng.},
+  volume       = {21},
+  number       = {3},
+  pages        = {383--403},
+  year         = {2016},
+  note         = {doi: \href{https://doi.org/10.1007/s00766-016-0250-x}{\nolinkurl{10.1007/s00766-016-0250-x}}}
+}
+
+@inproceedings{lucassen2016use,
+  author       = {Lucassen, Garm and Dalpiaz, Fabiano and van der Werf, Jan Martijn E. M. and Brinkkemper, Sjaak},
+  title        = {The use and effectiveness of user stories in practice},
+  booktitle    = {Requirements Eng.: Found. Softw. Qual.},
+  series       = {Lecture Notes in Computer Science},
+  pages        = {205--222},
+  publisher    = {Springer},
+  year         = {2016},
+  note         = {doi: \href{https://doi.org/10.1007/978-3-319-30282-9_14}{\nolinkurl{10.1007/978-3-319-30282-9_14}}}
+}
+
+@article{vancan2025,
+  author       = {van Can, Ashley T. and Dalpiaz, Fabiano},
+  title        = {Locating requirements in backlog items: Content analysis and experiments with large language models},
+  journal      = {Inf. Softw. Technol.},
+  volume       = {179, Art.~no.~107644},
+  year         = {2025},
+  note         = {doi: \href{https://doi.org/10.1016/j.infsof.2024.107644}{\nolinkurl{10.1016/j.infsof.2024.107644}}}
+}
+
+@article{hujainah2018,
+  author       = {Hujainah, Fadhl and Bakar, Rohani Binti Abu and Abdulgabber, Mansoor Abdullateef and Zamli, Kamal Z.},
+  title        = {Software requirements prioritisation: A systematic literature review on significance, stakeholders, techniques and challenges},
+  journal      = {IEEE Access},
+  volume       = {6},
+  pages        = {71497--71523},
+  year         = {2018},
+  note         = {doi: \href{https://doi.org/10.1109/ACCESS.2018.2881755}{\nolinkurl{10.1109/ACCESS.2018.2881755}}}
+}
+
+@article{choetkiertikul2019,
+  author       = {Choetkiertikul, Morakot and Dam, Hoa Khanh and Tran, Truyen and Pham, Trang and Ghose, Aditya and Menzies, Tim},
+  title        = {A deep learning model for estimating story points},
+  journal      = {IEEE Trans. Softw. Eng.},
+  volume       = {45},
+  number       = {7},
+  pages        = {637--656},
+  year         = {2019},
+  note         = {doi: \href{https://doi.org/10.1109/TSE.2018.2792473}{\nolinkurl{10.1109/TSE.2018.2792473}}}
+}
+
+@article{johnson2019,
+  author       = {Johnson, Justin M. and Khoshgoftaar, Taghi M.},
+  title        = {Survey on deep learning with class imbalance},
+  journal      = {J. Big Data},
+  volume       = {6},
+  number       = {1, Art.~no.~27},
+  year         = {2019},
+  note         = {doi: \href{https://doi.org/10.1186/s40537-019-0192-5}{\nolinkurl{10.1186/s40537-019-0192-5}}}
+}
+
+@article{zhao2022nlp4re,
+  author       = {Zhao, Liping and Alhoshan, Waad and Ferrari, Alessio and Letsholo, Keletso J. and Ajagbe, Muideen A. and Chioasca, Erol-Valeriu and Batista-Navarro, Riza T.},
+  title        = {Natural language processing for requirements engineering: A systematic mapping study},
+  journal      = {ACM Comput. Surv.},
+  volume       = {54},
+  number       = {3},
+  pages        = {1--41},
+  year         = {2022},
+  note         = {doi: \href{https://doi.org/10.1145/3444689}{\nolinkurl{10.1145/3444689}}}
+}
+
+@article{binkhonain2019,
+  author       = {Binkhonain, Manal and Zhao, Liping},
+  title        = {A review of machine learning algorithms for identification and classification of non-functional requirements},
+  journal      = {Expert Syst. Appl.: X},
+  volume       = {1, Art.~no.~100001},
+  year         = {2019},
+  note         = {doi: \href{https://doi.org/10.1016/j.eswax.2019.100001}{\nolinkurl{10.1016/j.eswax.2019.100001}}}
+}
+
+@article{mejia2026loona,
+  author       = {Mej{\'i}a-Dom{\'i}nguez, Francisco Antonio and Palacio, Ram{\'o}n Ren{\'e} and Borrego, Gilberto and Gonz{\'a}lez-L{\'o}pez, Samuel and Del-Puerto-Flores, Jos{\'e} A.},
+  title        = {{LOONA}: An {LLM} assistant for {Spanish} language user story quality assurance in agile development},
+  journal      = {Mathematics},
+  volume       = {14},
+  number       = {19, Art.~no.~3637},
+  year         = {2026},
+  note         = {doi: \href{https://doi.org/10.3390/math14193637}{\nolinkurl{10.3390/math14193637}}}
+}
+

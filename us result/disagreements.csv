@@ -1,0 +1,130 @@
+id,story,l1,l2
+1,"As a Zooniverse admin, I want to know whether I should interrupt a volunteer with text, an image, or a video.",FQ,F
+2,"As a repository manager, I want to indicate if a license pertains to the component, apart from the object as a whole.",NFR,F
+3,"As a user, I want to ensure that dataset creation fails if the dataset cannot be enabled for explore.",F,NFR
+6,"As a site member, I want to subscribe to an RSS feed of news, so that I remain sufficiently and easily informed.",F,NFR
+8,"As an Application Administrator, I want to assign Users to an Advanced Data Entry and ensure that the appropriate permissions are enforced.",NFR,F
+9,"As a UI designer, I want to redesign the Resources page, so that it matches the new Broker design styles.",NFR,F
+10,"As an archivist, I want to apply a license or rights statement, so that I know what I can do with a file.",F,NFR
+11,"As a faculty member, I want to easily collect my publications -- both those within the repository and without -- into a single online access point, so that I can raise the profile of my work.",FQ,F
+12,"As a collection curator, I want to create deposit forms specific to the collection.",NFR,F
+15,"As a Zooniverse admin, I want to identify the number of whales heard in a single audio file.",F,FQ
+16,"As a Repository Manager , I want to create, update and delete any records in my repository.",F,NFR
+18,"As an employee, I want to get quick notifications, so that I can process cases the first time.",F,NFR
+20,"As an archivist, I want to know if a photo has already been scanned, so that I can license it to a researcher.",NFR,F
+21,"As a User, I want to be able to set my own username, So that my data is more easily discoverable.",F,FQ
+22,"As a moderator, I want to add an item to the list of items to be estimated, so that so that we can be flexible and accommodate situations where we think of a new story while playing.",F,NFR
+25,"As a collection curator, I want to have my collection be encrypted with a key maintained on that server, a checksum made and stored of the encrypted file, and the encrypted file replicated to our remote storage site.",NFR,F
+28,"As a Platform Administrator, I want to be able to delete any dataset published, So that I can deal with takedown requests, or clean up test datasets.",F,NFR
+30,"As a repository manager, I want to indicate names related to an object.",NFR,F
+31,"As a Publisher, I want to add useful metadata or add in new data columns to make the dataset more useful.",F,NFR
+33,"As a DAMS manager, I want to know when the event occurred.",FQ,F
+34,"As a camp administrator, I want to be able to delete parents from the database, so that I can keep my pages free of unneeded clutter.",FQ,F
+36,"As a Data Consuming User, I want to see textual descriptions that accompany embedded visualisations, So that I can more easily understand what I am viewing.",F,FQ
+40,"As a DigitalRecords Archivist, I want to have a method to add and remove individual people from deposit groups.",F,NFR
+41,"As a Customer, I want to Request Inspection, so that a County inspector is assigned to perform an inspection of my project.",F,NFR
+43,"As a team member, I want to see the first iteration of beta up on cloud.gov.",FQ,F
+45,"As a user, I want to have the application respond quickly to my actions, so that I don't get bored.",NFR,F
+46,"As a Data Publishing User, I want to know if my CSV file is valid, So that I can fix possible data issues before publishing it on Open Spending.",F,NFR
+49,"As an agency user, I want the FABS validation rules to accept zero and blank for non-loan records.",F,NFR
+52,"As a depositor, I want to easily find information about which data can be assigned a DOI, how to get one, and what metadata are required.",FQ,F
+53,"As a library staff member, I want to have customizable metadata fields, so that each project is described in the most accurate way possible.",NFR,F
+55,"As an Archivist, I want to associate an Instance with a Container.",FQ,F
+64,"As a publisher, I want to be able to check that every time I update my data it is still good, so that I can catch errors early and store reliable data.",F,FQ
+65,"As a depositor, I want to attach subject specific discoverability metadata to records, so that researchers in my discipline can find my data more easily.",F,FQ
+66,"As an API user, I want to be able to change the colors of the embedded visualisations in my own platform, So that I can customize the visualisations.",F,NFR
+67,"As a data manager, I want to know what the content of the data is, so that I can decide to which collection or repository the data fits.",NFR,F
+69,"As a administrator, I want to assign a room to a time slot and a location, so that I can populate the schedule .",FQ,F
+70,"As a Data Analyst, I want to compare different versions of some datapackage locally, so that that I can see schema changes clearly and adjust my analytics code to the desired schema version.",NFR,F
+73,"As a user, I want to have nice error pages when something goes wrong, so that I can trust the system and its developers.",NFR,FQ
+74,"As a CSM, I want to have my name listed in the registry without becoming a member of the site, so that employers or others can verify my certification.",NFR,FQ
+75,"As a Publisher, I want to unpublish a data package, so that it is no longer visible to anyone.",NFR,F
+80,"As an archivist, I want to automatically generate technical metadata, so that I know the file size.",NFR,F
+81,"As an Inspection Staff Supervisor, I want to Assign Inspections, so that I can make sure the appropriate Inspector receives the work.",NFR,F
+83,"As a user, I want to have access to the content files for an object.",F,FQ
+88,"As a user, I want to ensure that an update of explore never leads to silent loss of data or data available for explore.",NFR,F
+89,"As a repository owner, I want to be able to check the planned provenance of the data that will be submitted at the end of a project, so that I can calculate necessary submission fees and check whether it belongs to our target group.",F,NFR
+91,"As a repoadmin, I want to expose repository contents via OAI-PMH.",NFR,F
+92,"As an API User, I want to be able to use data to get results from multiple datasets, So that I can build user experiences based on more than one dataset more easily.",NFR,F
+94,"As an data user, I want to receive updates to FABS records.",NFR,F
+95,"As a User , I want to authenticate using LDAP.",F,NFR
+97,"As a ResearcherPublisher, I want to know that my data conforms to its Data Package profile, so that I can feel trust in the validity and usefulness of the data.",F,NFR
+99,"As a stakeholder, I want to see the results of user research, so that I can determine if the CMS is right for me.",F,NFR
+100,"As a user researcher, I want to continue scheduling interviews for hypothesis #1, so that I can be prepared to test our first prototype.",F,NFR
+102,"As a collection curator, I want to set a date after which data will expire and be deleted or hidden then deleted.",F,NFR
+104,"As a Developer, I want HDF5 integration, so that I can integrate data-packaged data with pipelines that use HDF5.",FQ,NFR
+105,"As a user, I want to search and discover music using content identification or fingerprinting.",F,NFR
+106,"As a moderator, I want to import stories from a spreadsheet, so that I don't have to copy and paste each individual story.",F,NFR
+107,"As an Archivist, I want to create and edit a Resource record.",NFR,FQ
+108,"As a dataset developer, I want to assign explicit versions to the code of a dataset type.",F,FQ
+113,"As an app developer, I want to include the code of a dataset type in my app artifact and create a dataset of that type when deploying the app.",NFR,FQ
+114,"As an Admin, I want to set key configuration parameters for my site deployment, so that that I can change key information like the site title.",NFR,F
+115,"As a Zooniverse admin, I want to know when Zoonibot should comment on a subject.",NFR,F
+116,"As a moderator, I want to export a transcript of a game as a HTML file, so that I can save the stories and estimates locally.",NFR,F
+118,"As an Applicant, I want to Submit Supporting Documentation, so that I can satisfy documentation requirements for my application.",NFR,F
+119,"As a anonymoususer, I want to see how many seats are left for the summit, so that I can make sure to register in-time to reserve my spot.",F,NFR
+120,"As a user, I want to assign bespoke information to a file dependent on its type.",NFR,F
+126,"As a camp administrator, I want to be able to create a registration form for both staff and kids, so that I can keep organized.",NFR,F
+127,"As a user, I want to configure time-to-live in a uniform way across all dataset types.",NFR,F
+132,"As a PI, I want to properly record all metadata, so that I can ensure proper running of the project in case of staff changes.",F,FQ
+134,"As a anonymoususer, I want to find out where the coding lounge is and what time it is open, so that I can code with my friends.",FQ,F
+137,"As a depositor, I want to specify a disposal policy for my data, so that I do not accidentally breach laws or collaboration agreements.",NFR,FQ
+138,"As a library staff member, I want to make digital items held in trusted external system searchable within our system, so that I can provide seamless access to disparate collections.",F,FQ
+140,"As a user, I want to upload tagged videos and have tags available for all further processing steps.",FQ,F
+141,"As a user researcher, I want to make sure the correct NSF people are invited to user interviews, so that they can observe the interviews and make recommendations accordingly.",F,NFR
+144,"As a Research Information manager, I want to include records for externally held data complete, so that the university's record of data holdings is complete.",F,FQ
+146,"As an Archivist, I want to see Dates and Extents displayed in both the read and edit views for Accessions and/or Resources before the list of Subjects.",NFR,FQ
+150,"As a camp administrator, I want to store campers' emergency information in a database, so that I can easily notify the necessary parties in case of an emergency.",FQ,F
+153,"As a developer, I want to have an easy way to read data from health sensors the user is wearing.",F,NFR
+154,"As a Developer, I want to get a Data Package into Node, so that I can start using the data for doing analysis and visualizations.",FQ,F
+156,"As a developer, I want to have a list of definitions for commonly used terms, so that everyone working on the project can understand each other more easily.",NFR,F
+157,"As an Authenticated User, I want to get access to links to contextual help.",NFR,F
+159,"As an OlderPerson, I want to receive specific tips how to reduce my health impairments without medication.",NFR,F
+161,"As a Developer I want to quickly access Broker application data, so that I can investigate issues.",NFR,F
+162,"As a user, I want to get feedback when I enter an invalid zip code.",NFR,F
+163,"As a user, I want to limit my search to a particular set of log books.",F,NFR
+164,"As a camp administrator, I want to be able to delete tasks/activities I scheduled, so that I can keep the schedule clean of unneeded activities.",F,NFR
+168,"As a Publisher, I want to publish a data package in the UI, so that that it is available and published.",F,NFR
+169,"As an app developer, I want to share a dataset type across multiple applications that include the dataset type's code in their artifacts.",F,NFR
+170,"As an admin, I want to view user error logs, so that I can fix or review any issues that are being faced by users of the system.",NFR,F
+174,"As a Publisher, I want to be warned that a tag exists when I try to overwrite it, so that that I don't accidentally overwrite stable tagged data which is relied on by consumers.",NFR,FQ
+175,"As a MedicalCaregiver, I want to be sure that the user can decide who has access to her data.",F,NFR
+176,"As a depositor, I want to manage and share live research data, so that whole project workflow is linked together.",NFR,F
+178,"As a collection curator, I want to be able require authentication to access objects unless the request is coming from a whitelisted IP address, list of addresses.",FQ,F
+179,"As a repository support team member, I want to export a set of records and associated files, manipulate this data set, and reload into the system, because I am aware of a uniform error in a collection.",F,FQ
+180,"As a site member, I want to describe myself on my own page in a semi-structured way, so that others can learn about me.",F,NFR
+181,"As a Plan Review Staff member, I want to Assign Plans for Review, so that I can ensure plans have been assigned to the appropriate Plan Reviewer.",F,NFR
+182,"As a Platform Administrator, I want to be able to Hide any dataset already added as Public, So that I can maintain Public/Hidden status for other users.",FQ,F
+183,"As a DAMS manager, I want to track all events scheduled for recording in the DAMS.",NFR,F
+186,"As a ResearcherPublisher, I want to add a DOI to a dataset, so that I can cite it in papers stored  with the data.",NFR,F
+187,"As an employee, I want to access the route planning system during work, so that I can be guided through the neighbourhood.",F,NFR
+188,"As a site administrator, I want to understand how other similar organizations are handling visual design, so that I can make informed decisions about what appears to work well and what doesn't.",F,NFR
+193,"As a Publisher, I would like a tool to check data availability persistence after publication.",NFR,FQ
+195,"As a user, I want to specify as part of dataset configuration whether it is explorable.",F,NFR
+197,"As a user, I want to be able to get the hours of each recycling facility, so that I can arrange drop-offs on my off days or during after-work hours.",NFR,FQ
+198,"As an app developer, I want to ensure that application creation fails if any of its datasets cannot be created.",NFR,F
+199,"As a PI, I want to plan what kind of data I want to store, so that I can ensure it will be possible to store it.",NFR,F
+200,"As a repository manager, I want to view available versions of an object and restore a version from the staff interface.",NFR,F
+201,"As a patron, I want to search for report/dataset with keywords or a partial or complete title to locate needed report/dataset.",F,NFR
+207,"As a superuser, I want to view users' stats, so that I can view in real-time how many users have visited my recycling center information and their recyclable waste.",NFR,FQ
+210,"As an Agency user, I want to accurately see who created a submission, so that I'm not confused about who last updated a submission.",F,FQ
+212,"As a system administrator, I want to run a script that installs the Neurohub node onto a virgin Ubuntu operating system.",NFR,F
+214,"As a moderator, I want to see all items we try to estimate this session, so that I can answer questions about the current story such as ""does this include ___"".",NFR,F
+216,"As a team member, I want to have an updated acquisitions roadmap, so that I can plan accordingly.",F,NFR
+217,"As a Developer, I want to do exploratory data analysis in R and operationalize that analysis in Python, so that I can use the best tool for the job.",NFR,F
+218,"As a release engineer, I want to configure nightly builds that automatically perform a Neurohub installation on a virgin operating system, execute tests and report back results, without requiring any manual input/interaction.",NFR,F
+219,"As a trainer, I want to edit my training node myself, so that the training coordinators don't have to and links to slides.",NFR,F
+220,"As a anonymoususer, I want to learn about sponsorship levels, so that I can determine the right level of sponsorship for my organization.",NFR,F
+223,"As an OlderPerson, I want to have an ALFRED device that responds to the changing demand of the users by offering new Apps in the ALFREDO platform.",F,NFR
+224,"As a Publisher, I want to know what do next after signing up, so that that I can get going quickly.",F,NFR
+225,"As a Staff member, I want to Apply a Hold, so that I can prevent progression through the workflow or other actions in the system until the issue is resolved.",F,FQ
+226,"As an Archivist, I want to create and edit Agent records.",FQ,NFR
+228,"As a user, I want to have the ability to move multiple files around and rearrange them using the Neurohub file browser while processing data.",NFR,F
+229,"As a team member, I want to understand how work moves between UX/content > visual design > front end dev for a sprint cycle.",NFR,FQ
+230,"As a user, I want to know about various facets of a collection, object, or object component, such as scope and content, various identifiers, conditions governing use/access, etc.",NFR,F
+232,"As a MedicalCaregiver, I want to have ALFRED to remind people to exercise regularly.",F,FQ
+234,"As a camp worker, I want to be able to see which campers I am in charge of and where, so that I can make sure I am doing my job properly.",F,NFR
+235,"As a user, I want to have the system to also forward important news items to an external mailing list.",NFR,F
+238,"As a content editor, I want to be able to easily find content, so that I can edit it.",NFR,F
+240,"As a Zooniverse admin, I want to remove background noise and distracting sounds from the audio files.",FQ,F
+241,"As a Data Publishing User, I want to be able to Hide a dataset that I have already added as Public, So that I can fix my mistakes or have a dataset primarily for my own use.",FQ,NFR

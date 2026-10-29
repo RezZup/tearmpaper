@@ -1,0 +1,6 @@
+model,macroF1,CI95
+svm,0.397,"[0.320, 0.479]"
+distilbert,0.456,"[0.400, 0.513]"
+roberta,0.492,"[0.445, 0.540]"
+distilbert minus svm,0.059,"[-0.012, 0.132]"
+roberta minus svm,0.096,"[0.024, 0.166]"

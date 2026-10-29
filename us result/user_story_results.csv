@@ -1,0 +1,4 @@
+model,macroF1_F_vs_NFR_only,quality_flag_P,quality_flag_R,quality_flag_F1,share_FQ_flagged
+svm,0.397,0.413,0.856,0.557,0.864
+distilbert,0.456,0.393,0.581,0.464,0.576
+roberta,0.492,0.403,0.474,0.434,0.455

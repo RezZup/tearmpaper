@@ -1,0 +1,887 @@
+[
+ {
+  "key": "devlin2019",
+  "doi": "10.18653/v1/N19-1423",
+  "url": null,
+  "resolves": true,
+  "issued_print": 2019,
+  "issued_online": null,
+  "src": "Crossref",
+  "reg_title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+  "reg_year": 2019,
+  "reg_authors": [
+   "Devlin",
+   "Chang",
+   "Lee",
+   "Toutanova"
+  ],
+  "reg_venue": "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)",
+  "title_sim": 1.0,
+  "authors_match": true,
+  "n_auth": [
+   4,
+   4
+  ],
+  "year_match": true,
+  "my_venue": "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)"
+ },
+ {
+  "key": "liu2019roberta",
+  "doi": "10.48550/arXiv.1907.11692",
+  "url": null,
+  "resolves": true,
+  "src": "DataCite",
+  "reg_title": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+  "reg_year": 2019,
+  "reg_authors": [
+   "Liu",
+   "Ott",
+   "Goyal",
+   "Du",
+   "Joshi",
+   "Chen",
+   "Levy",
+   "Lewis",
+   "Zettlemoyer",
+   "Stoyanov"
+  ],
+  "reg_venue": "arXiv",
+  "title_sim": 1.0,
+  "authors_match": true,
+  "n_auth": [
+   10,
+   10
+  ],
+  "year_match": true,
+  "my_venue": null
+ },
+ {
+  "key": "sanh2019distilbert",
+  "doi": "10.48550/arXiv.1910.01108",
+  "url": null,
+  "resolves": true,
+  "src": "DataCite",
+  "reg_title": "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter",
+  "reg_year": 2019,
+  "reg_authors": [
+   "Sanh",
+   "Debut",
+   "Chaumond",
+   "Wolf"
+  ],
+  "reg_venue": "arXiv",
+  "title_sim": 1.0,
+  "authors_match": true,
+  "n_auth": [
+   4,
+   4
+  ],
+  "year_match": true,
+  "my_venue": null
+ },
+ {
+  "key": "sun2019finetune",
+  "doi": "10.1007/978-3-030-32381-3_16",
+  "url": null,
+  "resolves": true,
+  "issued_print": 2019,
+  "issued_online": 2019,
+  "src": "Crossref",
+  "reg_title": "How to Fine-Tune BERT for Text Classification?",
+  "reg_year": 2019,
+  "reg_authors": [
+   "Sun",
+   "Qiu",
+   "Xu",
+   "Huang"
+  ],
+  "reg_venue": "Lecture Notes in Computer Science",
+  "title_sim": 1.0,
+  "authors_match": true,
+  "n_auth": [
+   4,
+   4
+  ],
+  "year_match": true,
+  "my_venue": "Chinese Computational Linguistics"
+ },
+ {
+  "key": "clelandhuang2007",
+  "doi": "10.1007/s00766-007-0045-1",
+  "url": null,
+  "resolves": true,
+  "issued_print": 2007,
+  "issued_online": 2007,
+  "src": "Crossref",
+  "reg_title": "Automated classification of non-functional requirements",
+  "reg_year": 2007,
+  "reg_authors": [
+   "Cleland-Huang",
+   "Settimi",
+   "Zou",
+   "Solc"
+  ],
+  "reg_venue": "Requirements Engineering",
+  "title_sim": 1.0,
+  "authors_match": true,
+  "n_auth": [
+   4,
+   4
+  ],
+  "year_match": true,
+  "my_venue": "Requirements Engineering"
+ },
+ {
+  "key": "promisenfr2007",
+  "doi": "10.5281/zenodo.268542",
+  "url": null,
+  "resolves": true,
+  "src": "DataCite",
+  "reg_title": "Nfr",
+  "reg_year": 2007,
+  "reg_authors": [
+   "Cleland-Huang",
+   "Mazrouee",
+   "Liguo",
+   "Port"
+  ],
+  "reg_venue": "Zenodo",
+  "title_sim": 1.0,
+  "authors_match": false,
+  "n_auth": [
+   4,
+   4
+  ],
+  "year_match": true,
+  "my_venue": "Zenodo"
+ },
+ {
+  "key": "lima2019",
+  "doi": "10.1145/3350768.3350776",
+  "url": null,
+  "resolves": true,
+  "issued_print": 2019,
+  "issued_online": 2019,
+  "src": "Crossref",
+  "reg_title": "Software Engineering Repositories",
+  "reg_year": 2019,
+  "reg_authors": [
+   "Lima",
+   "Valle",
+   "Costa",
+   "Lira",
+   "Gadelha"
+  ],
+  "reg_venue": "Proceedings of the XXXIII Brazilian Symposium on Software Engineering",
+  "title_sim": 0.43,
+  "authors_match": true,
+  "n_auth": [
+   5,
+   5
+  ],
+  "year_match": true,
+  "my_venue": "Proceedings of the XXXIII Brazilian Symposium on Software Engineering"
+ },
+ {
+  "key": "kurtanovic2017",
+  "doi": "10.1109/RE.2017.82",
+  "url": null,
+  "resolves": true,
+  "issued_print": 2017,
+  "issued_online": null,
+  "src": "Crossref",
+  "reg_title": "Automatically Classifying Functional and Non-functional Requirements Using Supervised Machine Learning",
+  "reg_year": 2017,
+  "reg_authors": [
+   "Kurtanovic",
+   "Maalej"
+  ],
+  "reg_venue": "2017 IEEE 25th International Requirements Engineering Conference (RE)",
+  "title_sim": 1.0,
+  "authors_match": true,
+  "n_auth": [
+   2,
+   2
+  ],
+  "year_match": true,
+  "my_venue": "2017 IEEE 25th International Requirements Engineering Conference (RE)"
+ },
+ {
+  "key": "dalpiaz2019",
+  "doi": "10.1109/RE.2019.00025",
+  "url": null,
+  "resolves": true,
+  "issued_print": 2019,
+  "issued_online": null,
+  "src": "Crossref",
+  "reg_title": "Requirements Classification with Interpretable Machine Learning and Dependency Parsing",
+  "reg_year": 2019,
+  "reg_authors": [
+   "Dalpiaz",
+   "Dell'Anna",
+   "Aydemir",
+   "Cevikol"
+  ],
+  "reg_venue": "2019 IEEE 27th International Requirements Engineering Conference (RE)",
+  "title_sim": 1.0,
+  "authors_match": true,
+  "n_auth": [
+   4,
+   4
+  ],
+  "year_match": true,
+  "my_venue": "2019 IEEE 27th International Requirements Engineering Conference (RE)"
+ },
+ {
+  "key": "navarro2017",
+  "doi": "10.1109/CONISOFT.2017.00021",
+  "url": null,
+  "resolves": true,
+  "issued_print": 2017,
+  "issued_online": null,
+  "src": "Crossref",
+  "reg_title": "Towards Supporting Software Engineering Using Deep Learning: A Case of Software Requirements Classification",
+  "reg_year": 2017,
+  "reg_authors": [
+   "Navarro-Almanza",
+   "Juarez-Ramirez",
+   "Licea"
+  ],
+  "reg_venue": "2017 5th International Conference in Software Engineering Research and Innovation (CONISOFT)",
+  "title_sim": 1.0,
+  "authors_match": true,
+  "n_auth": [
+   3,
+   3
+  ],
+  "year_match": true,
+  "my_venue": "2017 5th International Conference in Software Engineering Research and Innovation (CONISOFT)"
+ },
+ {
+  "key": "winkler2016",
+  "doi": "10.1109/REW.2016.021",
+  "url": null,
+  "resolves": true,
+  "issued_print": 2016,
+  "issued_online": null,
+  "src": "Crossref",
+  "reg_title": "Automatic Classification of Requirements Based on Convolutional Neural Networks",
+  "reg_year": 2016,
+  "reg_authors": [
+   "Winkler",
+   "Vogelsang"
+  ],
+  "reg_venue": "2016 IEEE 24th International Requirements Engineering Conference Workshops (REW)",
+  "title_sim": 1.0,
+  "authors_match": true,
+  "n_auth": [
+   2,
+   2
+  ],
+  "year_match": true,
+  "my_venue": "2016 IEEE 24th International Requirements Engineering Conference Workshops (REW)"
+ },
+ {
+  "key": "rahman2019",
+  "doi": "10.1145/3340482.3342745",
+  "url": null,
+  "resolves": true,
+  "issued_print": 2019,
+  "issued_online": 2019,
+  "src": "Crossref",
+  "reg_title": "Classifying non-functional requirements using RNN variants for quality software development",
+  "reg_year": 2019,
+  "reg_authors": [
+   "Rahman",
+   "Haque",
+   "Tawhid",
+   "Siddik"
+  ],
+  "reg_venue": "Proceedings of the 3rd ACM SIGSOFT International Workshop on Machine Learning Techniques for Software Quality Evaluation",
+  "title_sim": 1.0,
+  "authors_match": true,
+  "n_auth": [
+   4,
+   4
+  ],
+  "year_match": true,
+  "my_venue": "Proceedings of the 3rd ACM SIGSOFT International Workshop on Machine Learning Techniques for Software Quality Evaluation"
+ },
+ {
+  "key": "rahimi2021",
+  "doi": "10.3390/e23101264",
+  "url": null,
+  "resolves": true,
+  "issued_print": null,
+  "issued_online": 2021,
+  "src": "Crossref",
+  "reg_title": "One- and Two-Phase Software Requirement Classification Using Ensemble Deep Learning",
+  "reg_year": 2021,
+  "reg_authors": [
+   "Rahimi",
+   "Eassa",
+   "Elrefaei"
+  ],
+  "reg_venue": "Entropy",
+  "title_sim": 1.0,
+  "authors_match": true,
+  "n_auth": [
+   3,
+   3
+  ],
+  "year_match": true,
+  "my_venue": "Entropy"
+ },
+ {
+  "key": "hey2020norbert",
+  "doi": "10.1109/RE48521.2020.00028",
+  "url": null,
+  "resolves": true,
+  "issued_print": 2020,
+  "issued_online": null,
+  "src": "Crossref",
+  "reg_title": "NoRBERT: Transfer Learning for Requirements Classification",
+  "reg_year": 2020,
+  "reg_authors": [
+   "Hey",
+   "Keim",
+   "Koziolek",
+   "Tichy"
+  ],
+  "reg_venue": "2020 IEEE 28th International Requirements Engineering Conference (RE)",
+  "title_sim": 1.0,
+  "authors_match": true,
+  "n_auth": [
+   4,
+   4
+  ],
+  "year_match": true,
+  "my_venue": "2020 IEEE 28th International Requirements Engineering Conference (RE)"
+ },
+ {
+  "key": "hey2020supp",
+  "doi": "10.5281/zenodo.8347866",
+  "url": null,
+  "resolves": true,
+  "src": "DataCite",
+  "reg_title": "Supplementary Material of \"NoRBERT: Transfer Learning for Requirements Classification\"",
+  "reg_year": 2020,
+  "reg_authors": [
+   "Hey",
+   "Keim",
+   "Koziolek",
+   "Tichy"
+  ],
+  "reg_venue": "Zenodo",
+  "title_sim": 1.0,
+  "authors_match": true,
+  "n_auth": [
+   4,
+   4
+  ],
+  "year_match": true,
+  "my_venue": "Zenodo"
+ },
+ {
+  "key": "kici2021",
+  "doi": "10.21428/594757db.a4880a62",
+  "url": null,
+  "resolves": true,
+  "issued_print": null,
+  "issued_online": 2021,
+  "src": "Crossref",
+  "reg_title": "A BERT-based transfer learning approach to text classification on software requirements specifications",
+  "reg_year": 2021,
+  "reg_authors": [
+   "Kici",
+   "Malik",
+   "Cevik",
+   "Parikh",
+   "Başar"
+  ],
+  "reg_venue": "Proceedings of the Canadian Conference on Artificial Intelligence",
+  "title_sim": 1.0,
+  "authors_match": true,
+  "n_auth": [
+   5,
+   5
+  ],
+  "year_match": true,
+  "my_venue": "Proceedings of the Canadian Conference on Artificial Intelligence"
+ },
+ {
+  "key": "luo2022prcbert",
+  "doi": "10.1145/3551349.3560417",
+  "url": null,
+  "resolves": true,
+  "issued_print": 2022,
+  "issued_online": 2023,
+  "src": "Crossref",
+  "reg_title": "PRCBERT: Prompt Learning for Requirement Classification using BERT-based Pretrained Language Models",
+  "reg_year": 2022,
+  "reg_authors": [
+   "Luo",
+   "Xue",
+   "Xing",
+   "Sun"
+  ],
+  "reg_venue": "Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering",
+  "title_sim": 1.0,
+  "authors_match": true,
+  "n_auth": [
+   4,
+   4
+  ],
+  "year_match": true,
+  "my_venue": "Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering"
+ },
+ {
+  "key": "tikayatray2023",
+  "doi": "10.3390/aerospace10030279",
+  "url": null,
+  "resolves": true,
+  "issued_print": null,
+  "issued_online": 2023,
+  "src": "Crossref",
+  "reg_title": "aeroBERT-Classifier: Classification of Aerospace Requirements Using BERT",
+  "reg_year": 2023,
+  "reg_authors": [
+   "Tikayat Ray",
+   "Cole",
+   "Pinon Fischer",
+   "White",
+   "Mavris"
+  ],
+  "reg_venue": "Aerospace",
+  "title_sim": 1.0,
+  "authors_match": true,
+  "n_auth": [
+   5,
+   5
+  ],
+  "year_match": true,
+  "my_venue": "Aerospace"
+ },
+ {
+  "key": "yucalar2023",
+  "doi": "10.3390/app132011127",
+  "url": null,
+  "resolves": true,
+  "issued_print": null,
+  "issued_online": 2023,
+  "src": "Crossref",
+  "reg_title": "Developing an Advanced Software Requirements Classification Model Using BERT: An Empirical Evaluation Study on Newly Generated Turkish Data",
+  "reg_year": 2023,
+  "reg_authors": [
+   "Yucalar"
+  ],
+  "reg_venue": "Applied Sciences",
+  "title_sim": 1.0,
+  "authors_match": true,
+  "n_auth": [
+   1,
+   1
+  ],
+  "year_match": true,
+  "my_venue": "Applied Sciences"
+ },
+ {
+  "key": "alsanoosy2026",
+  "doi": "10.1007/s13369-026-11242-w",
+  "url": null,
+  "resolves": true,
+  "issued_print": 2026,
+  "issued_online": 2026,
+  "src": "Crossref",
+  "reg_title": "Requirement Classification using Transfer Learning Models",
+  "reg_year": 2026,
+  "reg_authors": [
+   "Alsanoosy"
+  ],
+  "reg_venue": "Arabian Journal for Science and Engineering",
+  "title_sim": 1.0,
+  "authors_match": true,
+  "n_auth": [
+   1,
+   1
+  ],
+  "year_match": true,
+  "my_venue": "Arabian Journal for Science and Engineering"
+ },
+ {
+  "key": "eltahier2025",
+  "doi": "10.3390/info16110981",
+  "url": null,
+  "resolves": true,
+  "issued_print": null,
+  "issued_online": 2025,
+  "src": "Crossref",
+  "reg_title": "BERT  Fine-Tuning for Software Requirement Classification: Impact of Model Components and Dataset Size",
+  "reg_year": 2025,
+  "reg_authors": [
+   "Eltahier",
+   "Dawood",
+   "Saeed"
+  ],
+  "reg_venue": "Information",
+  "title_sim": 1.0,
+  "authors_match": true,
+  "n_auth": [
+   3,
+   3
+  ],
+  "year_match": true,
+  "my_venue": "Information"
+ },
+ {
+  "key": "alhoshan2023",
+  "doi": "10.1016/j.infsof.2023.107202",
+  "url": null,
+  "resolves": true,
+  "issued_print": 2023,
+  "issued_online": null,
+  "src": "Crossref",
+  "reg_title": "Zero-shot learning for requirements classification: An exploratory study",
+  "reg_year": 2023,
+  "reg_authors": [
+   "Alhoshan",
+   "Ferrari",
+   "Zhao"
+  ],
+  "reg_venue": "Information and Software Technology",
+  "title_sim": 1.0,
+  "authors_match": true,
+  "n_auth": [
+   3,
+   3
+  ],
+  "year_match": true,
+  "my_venue": "Information and Software Technology"
+ },
+ {
+  "key": "tunstall2022setfit",
+  "doi": "10.48550/arXiv.2209.11055",
+  "url": null,
+  "resolves": true,
+  "src": "DataCite",
+  "reg_title": "Efficient Few-Shot Learning Without Prompts",
+  "reg_year": 2022,
+  "reg_authors": [
+   "Tunstall",
+   "Reimers",
+   "Jo",
+   "Bates",
+   "Korat",
+   "Wasserblat",
+   "Pereg"
+  ],
+  "reg_venue": "arXiv",
+  "title_sim": 1.0,
+  "authors_match": true,
+  "n_auth": [
+   7,
+   7
+  ],
+  "year_match": true,
+  "my_venue": null
+ },
+ {
+  "key": "hou2024llm4se",
+  "doi": "10.1145/3695988",
+  "url": null,
+  "resolves": true,
+  "issued_print": 2024,
+  "issued_online": 2024,
+  "src": "Crossref",
+  "reg_title": "Large Language Models for Software Engineering: A Systematic Literature Review",
+  "reg_year": 2024,
+  "reg_authors": [
+   "Hou",
+   "Zhao",
+   "Liu",
+   "Yang",
+   "Wang",
+   "Li",
+   "Luo",
+   "Lo",
+   "Grundy",
+   "Wang"
+  ],
+  "reg_venue": "ACM Transactions on Software Engineering and Methodology",
+  "title_sim": 1.0,
+  "authors_match": true,
+  "n_auth": [
+   10,
+   10
+  ],
+  "year_match": true,
+  "my_venue": "ACM Transactions on Software Engineering and Methodology"
+ },
+ {
+  "key": "scrumguide2020",
+  "doi": null,
+  "url": "https://scrumguides.org/scrum-guide.html",
+  "resolves": true,
+  "reg_title": "Scrum Guide | Scrum Guides",
+  "src": "URL"
+ },
+ {
+  "key": "sedano2019",
+  "doi": "10.1109/ICSE.2019.00036",
+  "url": null,
+  "resolves": true,
+  "issued_print": 2019,
+  "issued_online": null,
+  "src": "Crossref",
+  "reg_title": "The Product Backlog",
+  "reg_year": 2019,
+  "reg_authors": [
+   "Sedano",
+   "Ralph",
+   "Peraire"
+  ],
+  "reg_venue": "2019 IEEE/ACM 41st International Conference on Software Engineering (ICSE)",
+  "title_sim": 1.0,
+  "authors_match": true,
+  "n_auth": [
+   3,
+   3
+  ],
+  "year_match": true,
+  "my_venue": "2019 IEEE/ACM 41st International Conference on Software Engineering (ICSE)"
+ },
+ {
+  "key": "lucassen2016qus",
+  "doi": "10.1007/s00766-016-0250-x",
+  "url": null,
+  "resolves": true,
+  "issued_print": 2016,
+  "issued_online": 2016,
+  "src": "Crossref",
+  "reg_title": "Improving agile requirements: the Quality User Story framework and tool",
+  "reg_year": 2016,
+  "reg_authors": [
+   "Lucassen",
+   "Dalpiaz",
+   "van der Werf",
+   "Brinkkemper"
+  ],
+  "reg_venue": "Requirements Engineering",
+  "title_sim": 1.0,
+  "authors_match": true,
+  "n_auth": [
+   4,
+   4
+  ],
+  "year_match": true,
+  "my_venue": "Requirements Engineering"
+ },
+ {
+  "key": "lucassen2016use",
+  "doi": "10.1007/978-3-319-30282-9_14",
+  "url": null,
+  "resolves": true,
+  "issued_print": 2016,
+  "issued_online": 2016,
+  "src": "Crossref",
+  "reg_title": "The Use and Effectiveness of User Stories in Practice",
+  "reg_year": 2016,
+  "reg_authors": [
+   "Lucassen",
+   "Dalpiaz",
+   "Werf",
+   "Brinkkemper"
+  ],
+  "reg_venue": "Lecture Notes in Computer Science",
+  "title_sim": 1.0,
+  "authors_match": true,
+  "n_auth": [
+   4,
+   4
+  ],
+  "year_match": true,
+  "my_venue": "Requirements Engineering: Foundation for Software Quality"
+ },
+ {
+  "key": "vancan2025",
+  "doi": "10.1016/j.infsof.2024.107644",
+  "url": null,
+  "resolves": true,
+  "issued_print": 2025,
+  "issued_online": null,
+  "src": "Crossref",
+  "reg_title": "Locating requirements in backlog items: Content analysis and experiments with large language models",
+  "reg_year": 2025,
+  "reg_authors": [
+   "van Can",
+   "Dalpiaz"
+  ],
+  "reg_venue": "Information and Software Technology",
+  "title_sim": 1.0,
+  "authors_match": true,
+  "n_auth": [
+   2,
+   2
+  ],
+  "year_match": true,
+  "my_venue": "Information and Software Technology"
+ },
+ {
+  "key": "hujainah2018",
+  "doi": "10.1109/ACCESS.2018.2881755",
+  "url": null,
+  "resolves": true,
+  "issued_print": 2018,
+  "issued_online": null,
+  "src": "Crossref",
+  "reg_title": "Software Requirements Prioritisation: A Systematic Literature Review on Significance, Stakeholders, Techniques and Challenges",
+  "reg_year": 2018,
+  "reg_authors": [
+   "Hujainah",
+   "Bakar",
+   "Abdulgabber",
+   "Zamli"
+  ],
+  "reg_venue": "IEEE Access",
+  "title_sim": 1.0,
+  "authors_match": true,
+  "n_auth": [
+   4,
+   4
+  ],
+  "year_match": true,
+  "my_venue": "IEEE Access"
+ },
+ {
+  "key": "choetkiertikul2019",
+  "doi": "10.1109/TSE.2018.2792473",
+  "url": null,
+  "resolves": true,
+  "issued_print": 2019,
+  "issued_online": null,
+  "src": "Crossref",
+  "reg_title": "A Deep Learning Model for Estimating Story Points",
+  "reg_year": 2019,
+  "reg_authors": [
+   "Choetkiertikul",
+   "Dam",
+   "Tran",
+   "Pham",
+   "Ghose",
+   "Menzies"
+  ],
+  "reg_venue": "IEEE Transactions on Software Engineering",
+  "title_sim": 1.0,
+  "authors_match": true,
+  "n_auth": [
+   6,
+   6
+  ],
+  "year_match": true,
+  "my_venue": "IEEE Transactions on Software Engineering"
+ },
+ {
+  "key": "johnson2019",
+  "doi": "10.1186/s40537-019-0192-5",
+  "url": null,
+  "resolves": true,
+  "issued_print": 2019,
+  "issued_online": 2019,
+  "src": "Crossref",
+  "reg_title": "Survey on deep learning with class imbalance",
+  "reg_year": 2019,
+  "reg_authors": [
+   "Johnson",
+   "Khoshgoftaar"
+  ],
+  "reg_venue": "Journal of Big Data",
+  "title_sim": 1.0,
+  "authors_match": true,
+  "n_auth": [
+   2,
+   2
+  ],
+  "year_match": true,
+  "my_venue": "Journal of Big Data"
+ },
+ {
+  "key": "zhao2022nlp4re",
+  "doi": "10.1145/3444689",
+  "url": null,
+  "resolves": true,
+  "issued_print": 2022,
+  "issued_online": 2021,
+  "src": "Crossref",
+  "reg_title": "Natural Language Processing for Requirements Engineering",
+  "reg_year": 2022,
+  "reg_authors": [
+   "Zhao",
+   "Alhoshan",
+   "Ferrari",
+   "Letsholo",
+   "Ajagbe",
+   "Chioasca",
+   "Batista-Navarro"
+  ],
+  "reg_venue": "ACM Computing Surveys",
+  "title_sim": 0.6,
+  "authors_match": true,
+  "n_auth": [
+   7,
+   7
+  ],
+  "year_match": true,
+  "my_venue": "ACM Computing Surveys"
+ },
+ {
+  "key": "binkhonain2019",
+  "doi": "10.1016/j.eswax.2019.100001",
+  "url": null,
+  "resolves": true,
+  "issued_print": 2019,
+  "issued_online": null,
+  "src": "Crossref",
+  "reg_title": "A review of machine learning algorithms for identification and classification of non-functional requirements",
+  "reg_year": 2019,
+  "reg_authors": [
+   "Binkhonain",
+   "Zhao"
+  ],
+  "reg_venue": "Expert Systems with Applications: X",
+  "title_sim": 1.0,
+  "authors_match": true,
+  "n_auth": [
+   2,
+   2
+  ],
+  "year_match": true,
+  "my_venue": "Expert Systems with Applications: X"
+ },
+ {
+  "key": "mejia2026loona",
+  "doi": "10.3390/math14193637",
+  "url": null,
+  "resolves": true,
+  "issued_print": null,
+  "issued_online": 2026,
+  "src": "Crossref",
+  "reg_title": "LOONA: An LLM Assistant for Spanish Language User Story Quality Assurance in Agile Development",
+  "reg_year": 2026,
+  "reg_authors": [
+   "Mejía-Domínguez",
+   "Palacio",
+   "Borrego",
+   "González-López",
+   "Del-Puerto-Flores"
+  ],
+  "reg_venue": "Mathematics",
+  "title_sim": 1.0,
+  "authors_match": true,
+  "n_auth": [
+   5,
+   5
+  ],
+  "year_match": true,
+  "my_venue": "Mathematics"
+ }
+]

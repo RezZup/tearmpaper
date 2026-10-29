@@ -1,0 +1,82 @@
+token length: median 21.0 max 64 truncated 7
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+fold 0 epoch 0 loss 0.5590 t=51s
+fold 0 epoch 1 loss 0.2358 t=100s
+fold 0 epoch 2 loss 0.1218 t=154s
+fold 0 epoch 3 loss 0.0657 t=201s
+fold 0 epoch 4 loss 0.0375 t=248s
+fold 0 acc 0.857 secs 250
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+fold 1 epoch 0 loss 0.5473 t=48s
+fold 1 epoch 1 loss 0.2638 t=95s
+fold 1 epoch 2 loss 0.1204 t=142s
+fold 1 epoch 3 loss 0.0538 t=189s
+fold 1 epoch 4 loss 0.0342 t=236s
+fold 1 acc 0.905 secs 238
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+fold 2 epoch 0 loss 0.5663 t=47s
+fold 2 epoch 1 loss 0.2724 t=93s
+fold 2 epoch 2 loss 0.1165 t=163s
+fold 2 epoch 3 loss 0.0454 t=227s
+fold 2 epoch 4 loss 0.0429 t=281s
+fold 2 acc 0.889 secs 282
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+fold 3 epoch 0 loss 0.5498 t=44s
+fold 3 epoch 1 loss 0.2452 t=89s
+fold 3 epoch 2 loss 0.1186 t=133s
+fold 3 epoch 3 loss 0.0682 t=179s
+fold 3 epoch 4 loss 0.0371 t=223s
+fold 3 acc 0.937 secs 225
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+fold 4 epoch 0 loss 0.5143 t=45s
+fold 4 epoch 1 loss 0.2466 t=90s
+fold 4 epoch 2 loss 0.1325 t=135s
+fold 4 epoch 3 loss 0.0792 t=180s
+fold 4 epoch 4 loss 0.0411 t=224s
+fold 4 acc 0.857 secs 225
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+fold 5 epoch 0 loss 0.5053 t=47s
+fold 5 epoch 1 loss 0.2406 t=93s
+fold 5 epoch 2 loss 0.1022 t=142s
+fold 5 epoch 3 loss 0.0437 t=190s
+fold 5 epoch 4 loss 0.0266 t=236s
+fold 5 acc 0.935 secs 237
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+fold 6 epoch 0 loss 0.5499 t=47s
+fold 6 epoch 1 loss 0.2132 t=91s
+fold 6 epoch 2 loss 0.0930 t=139s
+fold 6 epoch 3 loss 0.0467 t=184s
+fold 6 epoch 4 loss 0.0310 t=228s
+fold 6 acc 0.871 secs 230
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+fold 7 epoch 0 loss 0.5619 t=43s
+fold 7 epoch 1 loss 0.2635 t=88s
+fold 7 epoch 2 loss 0.1121 t=133s
+fold 7 epoch 3 loss 0.0685 t=176s
+fold 7 epoch 4 loss 0.0287 t=219s
+fold 7 acc 0.968 secs 221
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+fold 8 epoch 0 loss 0.5776 t=44s
+fold 8 epoch 1 loss 0.2672 t=88s
+fold 8 epoch 2 loss 0.1612 t=132s
+fold 8 epoch 3 loss 0.0688 t=178s
+fold 8 epoch 4 loss 0.0473 t=221s
+fold 8 acc 0.887 secs 222
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+fold 9 epoch 0 loss 0.5577 t=46s
+fold 9 epoch 1 loss 0.2609 t=90s
+fold 9 epoch 2 loss 0.1386 t=135s
+fold 9 epoch 3 loss 0.0700 t=181s
+fold 9 epoch 4 loss 0.0298 t=225s
+fold 9 acc 0.952 secs 226
+ALL_DONE

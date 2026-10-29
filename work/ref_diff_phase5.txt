@@ -1,0 +1,137 @@
+== devlin2019
+- J. Devlin, M.-W. Chang, K. Lee, and K. Toutanova, “BERT: Pre-training of deep bidirectional transformers for language understanding,” in Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers), Association for Computational Linguistics, 2019, pp. 4171–4186. DOI: 10.18653/v1/N19-1423.
++ J. Devlin, M.-W. Chang, K. Lee, and K. Toutanova, “BERT: Pre-training of deep bidirectional transformers for language understanding,” in Proc. 2019 Conf. North Amer. Chapter Assoc. Comput. Linguistics: Human Lang. Technol., vol. 1, 2019, pp. 4171–4186. doi: 10.18653/v1/N19-1423.
+
+== liu2019roberta
+- Y. Liu et al., RoBERTa: A robustly optimized BERT pretraining approach, 2019. DOI: 10.48550/arXiv.1907.11692. arXiv: 1907.11692.
++ Y. Liu et al., RoBERTa: A robustly optimized BERT pretraining approach, 2019. doi: 10.48550/arXiv.1907.11692. arXiv: 1907.11692.
+
+== sanh2019distilbert
+- V. Sanh, L. Debut, J. Chaumond, and T. Wolf, DistilBERT, a distilled version of BERT: Smaller, faster, cheaper and lighter, 2019. DOI: 10.48550/arXiv.1910.01108. arXiv: 1910.01108.
++ V. Sanh, L. Debut, J. Chaumond, and T. Wolf, DistilBERT, a distilled version of BERT: Smaller, faster, cheaper and lighter, 2019. doi: 10.48550/arXiv.1910.01108. arXiv: 1910.01108.
+
+== sun2019finetune
+- C. Sun, X. Qiu, Y. Xu, and X. Huang, “How to fine-tune BERT for text classification?” In Chinese Computational Linguistics, ser. Lecture Notes in Computer Science, Springer, 2019, pp. 194–206. DOI: 10.1007/978-3-030-32381-3_16.
++ C. Sun, X. Qiu, Y. Xu, and X. Huang, “How to fine-tune BERT for text classification?” In Chinese Comput. Linguistics, ser. Lecture Notes in Computer Science, Springer, 2019, pp. 194–206. doi: 10.1007/978-3-030-32381-3_16.
+
+== clelandhuang2007
+- J. Cleland-Huang, R. Settimi, X. Zou, and P. Solc, “Automated classification of non-functional requirements,” Requirements Engineering, vol. 12, no. 2, pp. 103–120, 2007. DOI: 10.1007/s00766-007-0045-1.
++ J. Cleland-Huang, R. Settimi, X. Zou, and P. Solc, “Automated classification of non-functional requirements,” Requirements Eng., vol. 12, no. 2, pp. 103–120, 2007. doi: 10.1007/s00766-007-0045-1.
+
+== promisenfr2007
+- J. Cleland-Huang, S. Mazrouee, L. Huang, and D. Port, nfr, PROMISE NFR data set, Zenodo, 2007. DOI: 10.5281/zenodo.268542.
++ J. Cleland-Huang, S. Mazrouee, L. Huang, and D. Port, Mar. 17, 2007, “nfr” (PROMISE NFR data set), Zenodo. doi: 10.5281/zenodo.268542.
+
+== lima2019
+- M. Lima, V. Valle, E. Costa, F. Lira, and B. Gadelha, “Software engineering repositories: Expanding the PROMISE database,” in Proceedings of the XXXIII Brazilian Symposium on Software Engineering, ACM, 2019, pp. 427–436. DOI: 10.1145/3350768.3350776.
++ M. Lima, V. Valle, E. Costa, F. Lira, and B. Gadelha, “Software engineering repositories: Expanding the PROMISE database,” in Proc. 33rd Brazilian Symp. Softw. Eng., ACM, 2019, pp. 427–436. doi: 10.1145/3350768.3350776.
+
+== kurtanovic2017
+- Z. Kurtanović and W. Maalej, “Automatically classifying functional and non-functional requirements using supervised machine learning,” in 2017 IEEE 25th International Requirements Engineering Conference (RE), IEEE, 2017, pp. 490–495. DOI: 10.1109/RE.2017.82.
++ Z. Kurtanović and W. Maalej, “Automatically classifying functional and non-functional requirements using supervised machine learning,” in Proc. 2017 IEEE 25th Int. Requirements Eng. Conf. (RE), 2017, pp. 490–495. doi: 10.1109/RE.2017.82.
+
+== dalpiaz2019
+- F. Dalpiaz, D. Dell’Anna, F. B. Aydemir, and S. Çevikol, “Requirements classification with interpretable machine learning and dependency parsing,” in 2019 IEEE 27th International Requirements Engineering Conference (RE), IEEE, 2019, pp. 142–152. DOI: 10.1109/RE.2019.00025.
++ F. Dalpiaz, D. Dell’Anna, F. B. Aydemir, and S. Çevikol, “Requirements classification with interpretable machine learning and dependency parsing,” in Proc. 2019 IEEE 27th Int. Requirements Eng. Conf. (RE), 2019, pp. 142–152. doi: 10.1109/RE.2019.00025.
+
+== rahman2019
+- M. A. Rahman, M. A. Haque, M. N. A. Tawhid, and M. S. Siddik, “Classifying non-functional requirements using RNN variants for quality software development,” in Proceedings of the 3rd ACM SIGSOFT International Workshop on Machine Learning Techniques for Software Quality Evaluation, ACM, 2019, pp. 25–30. DOI: 10.1145/3340482.3342745.
++ M. A. Rahman, M. A. Haque, M. N. A. Tawhid, and M. S. Siddik, “Classifying non-functional requirements using RNN variants for quality software development,” in Proc. 3rd ACM SIGSOFT Int. Workshop Mach. Learn. Techn. Softw. Qual. Eval., 2019, pp. 25–30. doi: 10.1145/3340482.3342745.
+
+== rahimi2021
+- N. Rahimi, F. Eassa, and L. Elrefaei, “One- and two-phase software requirement classification using ensemble deep learning,” Entropy, vol. 23, no. 10, 1264, 2021. DOI: 10.3390/e23101264.
++ N. Rahimi, F. Eassa, and L. Elrefaei, “One- and two-phase software requirement classification using ensemble deep learning,” Entropy, vol. 23, no. 10, 1264, 2021. doi: 10.3390/e23101264.
+
+== hey2020norbert
+- T. Hey, J. Keim, A. Koziolek, and W. F. Tichy, “NoRBERT: Transfer learning for requirements classification,” in 2020 IEEE 28th International Requirements Engineering Conference (RE), IEEE, 2020, pp. 169–179. DOI: 10.1109/RE48521.2020.00028.
++ T. Hey, J. Keim, A. Koziolek, and W. F. Tichy, “NoRBERT: Transfer learning for requirements classification,” in Proc. 2020 IEEE 28th Int. Requirements Eng. Conf. (RE), 2020, pp. 169–179. doi: 10.1109/RE48521.2020.00028.
+
+== diascanedo2020
+- E. Dias Canedo and B. Cordeiro Mendes, “Software requirements classification using machine learning algorithms,” Entropy, vol. 22, no. 9, 1057, 2020. DOI: 10.3390/e22091057.
++ E. Dias Canedo and B. Cordeiro Mendes, “Software requirements classification using machine learning algorithms,” Entropy, vol. 22, no. 9, 1057, 2020. doi: 10.3390/e22091057.
+
+== petrillo2025
+- L. Petrillo, F. Martinelli, A. Santone, and F. Mercaldo, “Explainable security requirements classification through transformer models,” Future Internet, vol. 17, no. 1, 15, 2025. DOI: 10.3390/fi17010015.
++ L. Petrillo, F. Martinelli, A. Santone, and F. Mercaldo, “Explainable security requirements classification through transformer models,” Future Internet, vol. 17, no. 1, 15, 2025. doi: 10.3390/fi17010015.
+
+== hey2022corrected
+- T. Hey, J. Keim, A. Koziolek, and W. F. Tichy, “NoRBERT: Transfer learning for requirements classification,” Karlsruhe Institute of Technology (KIT), Tech. Rep., 2022, corrected version. DOI: 10.5445/IR/1000150464.
++ T. Hey, J. Keim, A. Koziolek, and W. F. Tichy, “NoRBERT: Transfer learning for requirements classification,” Karlsruhe Institute of Technology (KIT), Tech. Rep., 2022, corrected version. doi: 10.5445/IR/1000150464.
+
+== kici2021
+- D. Kici, G. Malik, M. Cevik, D. Parikh, and A. Başar, “A BERT-based transfer learning approach to text classification on software requirements specifications,” in Proceedings of the Canadian Conference on Artificial Intelligence, Canadian Artificial Intelligence Association, 2021. DOI: 10.21428/594757db.a4880a62.
++ D. Kici, G. Malik, M. Cevik, D. Parikh, and A. Başar, “A BERT-based transfer learning approach to text classification on software requirements specifications,” in Proc. Can. Conf. Artif. Intell., Canadian Artificial Intelligence Association, 2021. doi: 10.21428/594757db.a4880a62.
+
+== luo2022prcbert
+- X. Luo, Y. Xue, Z. Xing, and J. Sun, “PRCBERT: Prompt learning for requirement classification using BERT-based pretrained language models,” in Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering, ACM, 2022, pp. 1–13. DOI: 10.1145/3551349.3560417.
++ X. Luo, Y. Xue, Z. Xing, and J. Sun, “PRCBERT: Prompt learning for requirement classification using BERT-based pretrained language models,” in Proc. 37th IEEE/ACM Int. Conf. Automated Softw. Eng., 2022, pp. 1–13. doi: 10.1145/3551349.3560417.
+
+== tikayatray2023
+- A. Tikayat Ray, B. F. Cole, O. J. Pinon Fischer, R. T. White, and D. N. Mavris, “aeroBERT-Classifier: Classification of aerospace requirements using BERT,” Aerospace, vol. 10, no. 3, 279, 2023. DOI: 10.3390/aerospace10030279.
++ A. Tikayat Ray, B. F. Cole, O. J. Pinon Fischer, R. T. White, and D. N. Mavris, “aeroBERT-Classifier: Classification of aerospace requirements using BERT,” Aerospace, vol. 10, no. 3, 279, 2023. doi: 10.3390/aerospace10030279.
+
+== yucalar2023
+- F. Yucalar, “Developing an advanced software requirements classification model using BERT: An empirical evaluation study on newly generated Turkish data,” Applied Sciences, vol. 13, no. 20, 11127, 2023. DOI: 10.3390/app132011127.
++ F. Yucalar, “Developing an advanced software requirements classification model using BERT: An empirical evaluation study on newly generated Turkish data,” Appl. Sci., vol. 13, no. 20, 11127, 2023. doi: 10.3390/app132011127.
+
+== alsanoosy2026
+- T. Alsanoosy, “Requirement classification using transfer learning models,” Arabian Journal for Science and Engineering, vol. 51, no. 15, pp. 18 047–18 064, 2026. DOI: 10.1007/s13369-026-11242-w.
++ T. Alsanoosy, “Requirement classification using transfer learning models,” Arabian J. Sci. Eng., vol. 51, no. 15, pp. 18 047–18 064, 2026. doi: 10.1007/s13369-026-11242-w.
+
+== eltahier2025
+- S. Eltahier, O. Dawood, and I. Saeed, “BERT fine-tuning for software requirement classification: Impact of model components and dataset size,” Information, vol. 16, no. 11, 981, 2025. DOI: 10.3390/info16110981.
++ S. Eltahier, O. Dawood, and I. Saeed, “BERT fine-tuning for software requirement classification: Impact of model components and dataset size,” Information, vol. 16, no. 11, 981, 2025. doi: 10.3390/info16110981.
+
+== alhoshan2023
+- W. Alhoshan, A. Ferrari, and L. Zhao, “Zero-shot learning for requirements classification: An exploratory study,” Information and Software Technology, vol. 159, 107202, 2023. DOI: 10.1016/j.infsof.2023.107202.
++ W. Alhoshan, A. Ferrari, and L. Zhao, “Zero-shot learning for requirements classification: An exploratory study,” Inf. Softw. Technol., vol. 159, 107202, 2023. doi: 10.1016/j.infsof.2023.107202.
+
+== tunstall2022setfit
+- L. Tunstall et al., Efficient few-shot learning without prompts, 2022. DOI: 10.48550/arXiv.2209.11055. arXiv: 2209.11055.
++ L. Tunstall et al., Efficient few-shot learning without prompts, 2022. doi: 10.48550/arXiv.2209.11055. arXiv: 2209.11055.
+
+== hou2024llm4se
+- X. Hou et al., “Large language models for software engineering: A systematic literature review,” ACM Transactions on Software Engineering and Methodology, vol. 33, no. 8, pp. 1–79, 2024. DOI: 10.1145/3695988.
++ X. Hou et al., “Large language models for software engineering: A systematic literature review,” ACM Trans. Softw. Eng. Methodol., vol. 33, no. 8, pp. 1–79, 2024. doi: 10.1145/3695988.
+
+== sedano2019
+- T. Sedano, P. Ralph, and C. Péraire, “The product backlog,” in 2019 IEEE/ACM 41st International Conference on Software Engineering (ICSE), IEEE, 2019, pp. 200–211. DOI: 10.1109/ICSE.2019.00036.
++ T. Sedano, P. Ralph, and C. Péraire, “The product backlog,” in Proc. 2019 IEEE/ACM 41st Int. Conf. Softw. Eng. (ICSE), 2019, pp. 200–211. doi: 10.1109/ICSE.2019.00036.
+
+== lucassen2016qus
+- G. Lucassen, F. Dalpiaz, J. M. E. M. van der Werf, and S. Brinkkemper, “Improving agile requirements: The Quality User Story framework and tool,” Requirements Engineering, vol. 21, no. 3, pp. 383–403, 2016. DOI: 10.1007/s00766-016-0250-x.
++ G. Lucassen, F. Dalpiaz, J. M. E. M. van der Werf, and S. Brinkkemper, “Improving agile requirements: The Quality User Story framework and tool,” Requirements Eng., vol. 21, no. 3, pp. 383–403, 2016. doi: 10.1007/s00766-016-0250-x.
+
+== lucassen2016use
+- G. Lucassen, F. Dalpiaz, J. M. E. M. van der Werf, and S. Brinkkemper, “The use and effectiveness of user stories in practice,” in Requirements Engineering: Foundation for Software Quality, ser. Lecture Notes in Computer Science, Springer, 2016, pp. 205–222. DOI: 10.1007/978-3-319-30282-9_14.
++ G. Lucassen, F. Dalpiaz, J. M. E. M. van der Werf, and S. Brinkkemper, “The use and effectiveness of user stories in practice,” in Requirements Eng.: Found. Softw. Qual., ser. Lecture Notes in Computer Science, Springer, 2016, pp. 205–222. doi: 10.1007/978-3-319-30282-9_14.
+
+== vancan2025
+- A. T. van Can and F. Dalpiaz, “Locating requirements in backlog items: Content analysis and experiments with large language models,” Information and Software Technology, vol. 179, 107644, 2025. DOI: 10.1016/j.infsof.2024.107644.
++ A. T. van Can and F. Dalpiaz, “Locating requirements in backlog items: Content analysis and experiments with large language models,” Inf. Softw. Technol., vol. 179, 107644, 2025. doi: 10.1016/j.infsof.2024.107644.
+
+== hujainah2018
+- F. Hujainah, R. B. A. Bakar, M. A. Abdulgabber, and K. Z. Zamli, “Software requirements prioritisation: A systematic literature review on significance, stakeholders, techniques and challenges,” IEEE Access, vol. 6, pp. 71 497–71 523, 2018. DOI: 10.1109/ACCESS.2018.2881755.
++ F. Hujainah, R. B. A. Bakar, M. A. Abdulgabber, and K. Z. Zamli, “Software requirements prioritisation: A systematic literature review on significance, stakeholders, techniques and challenges,” IEEE Access, vol. 6, pp. 71 497–71 523, 2018. doi: 10.1109/ACCESS.2018.2881755.
+
+== choetkiertikul2019
+- M. Choetkiertikul, H. K. Dam, T. Tran, T. Pham, A. Ghose, and T. Menzies, “A deep learning model for estimating story points,” IEEE Transactions on Software Engineering, vol. 45, no. 7, pp. 637–656, 2019. DOI: 10.1109/TSE.2018.2792473.
++ M. Choetkiertikul, H. K. Dam, T. Tran, T. Pham, A. Ghose, and T. Menzies, “A deep learning model for estimating story points,” IEEE Trans. Softw. Eng., vol. 45, no. 7, pp. 637–656, 2019. doi: 10.1109/TSE.2018.2792473.
+
+== johnson2019
+- J. M. Johnson and T. M. Khoshgoftaar, “Survey on deep learning with class imbalance,” Journal of Big Data, vol. 6, no. 1, 27, 2019. DOI: 10.1186/s40537-019-0192-5.
++ J. M. Johnson and T. M. Khoshgoftaar, “Survey on deep learning with class imbalance,” J. Big Data, vol. 6, no. 1, 27, 2019. doi: 10.1186/s40537-019-0192-5.
+
+== zhao2022nlp4re
+- L. Zhao et al., “Natural language processing for requirements engineering: A systematic mapping study,” ACM Computing Surveys, vol. 54, no. 3, pp. 1–41, 2022. DOI: 10.1145/3444689.
++ L. Zhao et al., “Natural language processing for requirements engineering: A systematic mapping study,” ACM Comput. Surv., vol. 54, no. 3, pp. 1–41, 2022. doi: 10.1145/3444689.
+
+== binkhonain2019
+- M. Binkhonain and L. Zhao, “A review of machine learning algorithms for identification and classification of non-functional requirements,” Expert Systems with Applications: X, vol. 1, 100001, 2019. DOI: 10.1016/j.eswax.2019.100001.
++ M. Binkhonain and L. Zhao, “A review of machine learning algorithms for identification and classification of non-functional requirements,” Expert Syst. Appl.: X, vol. 1, 100001, 2019. doi: 10.1016/j.eswax.2019.100001.
+
+== mejia2026loona
+- F. A. Mejía-Domínguez, R. R. Palacio, G. Borrego, S. González-López, and J. A. Del-Puerto-Flores, “LOONA: An LLM assistant for Spanish language user story quality assurance in agile development,” Mathematics, vol. 14, no. 19, 3637, 2026. DOI: 10.3390/math14193637.
++ F. A. Mejía-Domínguez, R. R. Palacio, G. Borrego, S. González-López, and J. A. Del-Puerto-Flores, “LOONA: An LLM assistant for Spanish language user story quality assurance in agile development,” Mathematics, vol. 14, no. 19, 3637, 2026. doi: 10.3390/math14193637.
+
+changed 34 of 35

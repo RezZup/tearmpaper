@@ -1,0 +1,21 @@
+digraph G {
+  graph [rankdir=LR, fontname="Times-Roman", fontsize=11, nodesep=0.35, ranksep=0.32, pad=0.06, dpi=300, newrank=true];
+  node  [shape=box, style="rounded,filled", fontname="Times-Roman", fontsize=11, fillcolor="#EEF3FA", color="#3A5A80", margin="0.07,0.04", width=1.6];
+  edge  [color="#3A5A80", arrowsize=0.6, penwidth=0.9, fontname="Times-Roman", fontsize=10];
+  new   [label="1. New item\nenters backlog"];
+  cl    [label="2. Classifier suggests\nlabel + confidence", fillcolor="#D6E4F5"];
+  ref   [label="3. Refinement: PO and\ndevelopers confirm\nor correct"];
+  act   [label="4. Label-driven actions\nFR: split, estimate\nNFR: criteria, DoD,\nspecialist review"];
+  sp    [label="5. Sprint planning:\ncapacity for\nquality work"];
+  rev   [label="6. Review / retro:\nlabel audit"];
+  rt    [label="7. Re-train at\nrelease boundary", shape=cylinder, fillcolor="#F2F2F2", color="#555555"];
+  {rank=same; new; rt;}
+  {rank=same; cl; rev;}
+  {rank=same; ref; sp;}
+  new -> cl -> ref -> act;
+  act -> sp [constraint=false];
+  sp -> rev [dir=back, style=invis];
+  rev -> sp [dir=back];
+  rt -> rev [dir=back, style=dashed];
+  rt -> cl [style=dashed, label="updated\nmodel"];
+}

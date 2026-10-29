@@ -1,0 +1,1664 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{scrumguide2020}{misc}{}{}
+      \name{author}{2}{}{%
+        {{hash=ee6f08fcba839e09471a0bc69152b6a5}{%
+           family={Schwaber},
+           familyi={S\bibinitperiod},
+           given={Ken},
+           giveni={K\bibinitperiod}}}%
+        {{hash=6e3f26f6f816a26c6ab36bc7a899bcde}{%
+           family={Sutherland},
+           familyi={S\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{303ea1dc92fd8c772eac56316b2074ef}
+      \strng{fullhash}{303ea1dc92fd8c772eac56316b2074ef}
+      \strng{fullhashraw}{303ea1dc92fd8c772eac56316b2074ef}
+      \strng{bibnamehash}{303ea1dc92fd8c772eac56316b2074ef}
+      \strng{authorbibnamehash}{303ea1dc92fd8c772eac56316b2074ef}
+      \strng{authornamehash}{303ea1dc92fd8c772eac56316b2074ef}
+      \strng{authorfullhash}{303ea1dc92fd8c772eac56316b2074ef}
+      \strng{authorfullhashraw}{303ea1dc92fd8c772eac56316b2074ef}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The {Scrum} guide}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://scrumguides.org/scrum-guide.html
+      \endverb
+      \verb{url}
+      \verb https://scrumguides.org/scrum-guide.html
+      \endverb
+    \endentry
+    \entry{sedano2019}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=47ff7a8088ea2aab7468840a21e2b05b}{%
+           family={Sedano},
+           familyi={S\bibinitperiod},
+           given={Todd},
+           giveni={T\bibinitperiod}}}%
+        {{hash=588bc53e4cf35bc3750229a48a45e9f7}{%
+           family={Ralph},
+           familyi={R\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+        {{hash=fbfd81ab4f06d0fa591f1bf7cd58e5b0}{%
+           family={Péraire},
+           familyi={P\bibinitperiod},
+           given={Cécile},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{6af5c9b8b98c9f767ff355e498f04c46}
+      \strng{fullhash}{137c10d40ddf46cb9ef36f4b2715bc7e}
+      \strng{fullhashraw}{137c10d40ddf46cb9ef36f4b2715bc7e}
+      \strng{bibnamehash}{137c10d40ddf46cb9ef36f4b2715bc7e}
+      \strng{authorbibnamehash}{137c10d40ddf46cb9ef36f4b2715bc7e}
+      \strng{authornamehash}{6af5c9b8b98c9f767ff355e498f04c46}
+      \strng{authorfullhash}{137c10d40ddf46cb9ef36f4b2715bc7e}
+      \strng{authorfullhashraw}{137c10d40ddf46cb9ef36f4b2715bc7e}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proc. 2019 IEEE/ACM 41st Int. Conf. Softw. Eng. (ICSE)}
+      \field{title}{The product backlog}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{pages}{200\bibrangedash 211}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1109/ICSE.2019.00036
+      \endverb
+    \endentry
+    \entry{lucassen2016use}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=3a7606258db5b03d306902d18891e656}{%
+           family={Lucassen},
+           familyi={L\bibinitperiod},
+           given={Garm},
+           giveni={G\bibinitperiod}}}%
+        {{hash=3f54cb979b2acef159b6dc547fe7aa2f}{%
+           family={Dalpiaz},
+           familyi={D\bibinitperiod},
+           given={Fabiano},
+           giveni={F\bibinitperiod}}}%
+        {{hash=f90ab20935813768dab76f6714af92a5}{%
+           family={Werf},
+           familyi={W\bibinitperiod},
+           given={Jan\bibnamedelimb Martijn\bibnamedelimb E.\bibnamedelimi M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim M\bibinitperiod},
+           prefix={van\bibnamedelima der},
+           prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+        {{hash=36f3e1603b7079434f398edd9a173762}{%
+           family={Brinkkemper},
+           familyi={B\bibinitperiod},
+           given={Sjaak},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{5895af78dc081ac008956bf93fba104a}
+      \strng{fullhash}{251eae7e9ff15db4bfa9463bc785f64b}
+      \strng{fullhashraw}{251eae7e9ff15db4bfa9463bc785f64b}
+      \strng{bibnamehash}{251eae7e9ff15db4bfa9463bc785f64b}
+      \strng{authorbibnamehash}{251eae7e9ff15db4bfa9463bc785f64b}
+      \strng{authornamehash}{5895af78dc081ac008956bf93fba104a}
+      \strng{authorfullhash}{251eae7e9ff15db4bfa9463bc785f64b}
+      \strng{authorfullhashraw}{251eae7e9ff15db4bfa9463bc785f64b}
+      \field{extraname}{1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Requirements Eng.: Found. Softw. Qual.}
+      \field{series}{Lecture Notes in Computer Science}
+      \field{title}{The use and effectiveness of user stories in practice}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{pages}{205\bibrangedash 222}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1007/978-3-319-30282-9_14
+      \endverb
+    \endentry
+    \entry{dalpiaz2019}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=3f54cb979b2acef159b6dc547fe7aa2f}{%
+           family={Dalpiaz},
+           familyi={D\bibinitperiod},
+           given={Fabiano},
+           giveni={F\bibinitperiod}}}%
+        {{hash=e283817e4aedef36068d77e9afcc1504}{%
+           family={Dell'Anna},
+           familyi={D\bibinitperiod},
+           given={Davide},
+           giveni={D\bibinitperiod}}}%
+        {{hash=c560db98227f009fdca0cbaab22773b4}{%
+           family={Aydemir},
+           familyi={A\bibinitperiod},
+           given={Fatma\bibnamedelima Başak},
+           giveni={F\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=96d73c0480c9ee0da7d5d0ebf158cedd}{%
+           family={Çevikol},
+           familyi={Ç\bibinitperiod},
+           given={Sercan},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{ca1fbd9c5362656f850d503d154bce43}
+      \strng{fullhash}{80904b4ce58152a6915a8a6e527237a5}
+      \strng{fullhashraw}{80904b4ce58152a6915a8a6e527237a5}
+      \strng{bibnamehash}{80904b4ce58152a6915a8a6e527237a5}
+      \strng{authorbibnamehash}{80904b4ce58152a6915a8a6e527237a5}
+      \strng{authornamehash}{ca1fbd9c5362656f850d503d154bce43}
+      \strng{authorfullhash}{80904b4ce58152a6915a8a6e527237a5}
+      \strng{authorfullhashraw}{80904b4ce58152a6915a8a6e527237a5}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proc. 2019 IEEE 27th Int. Requirements Eng. Conf. (RE)}
+      \field{title}{Requirements classification with interpretable machine learning and dependency parsing}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{pages}{142\bibrangedash 152}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1109/RE.2019.00025
+      \endverb
+    \endentry
+    \entry{vancan2025}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=78007214204b7a1355a0830bca9cc7d1}{%
+           family={Can},
+           familyi={C\bibinitperiod},
+           given={Ashley\bibnamedelima T.},
+           giveni={A\bibinitperiod\bibinitdelim T\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+        {{hash=3f54cb979b2acef159b6dc547fe7aa2f}{%
+           family={Dalpiaz},
+           familyi={D\bibinitperiod},
+           given={Fabiano},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{28789cd127dd6423182d858ab7b947d0}
+      \strng{fullhash}{28789cd127dd6423182d858ab7b947d0}
+      \strng{fullhashraw}{28789cd127dd6423182d858ab7b947d0}
+      \strng{bibnamehash}{28789cd127dd6423182d858ab7b947d0}
+      \strng{authorbibnamehash}{28789cd127dd6423182d858ab7b947d0}
+      \strng{authornamehash}{28789cd127dd6423182d858ab7b947d0}
+      \strng{authorfullhash}{28789cd127dd6423182d858ab7b947d0}
+      \strng{authorfullhashraw}{28789cd127dd6423182d858ab7b947d0}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eid}{107644}
+      \field{journaltitle}{Inf. Softw. Technol.}
+      \field{title}{Locating requirements in backlog items: Content analysis and experiments with large language models}
+      \field{volume}{179}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.1016/j.infsof.2024.107644
+      \endverb
+    \endentry
+    \entry{clelandhuang2007}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=7f39f12f6ce6642514b823ceb237a7bc}{%
+           family={Cleland-Huang},
+           familyi={C\bibinithyphendelim H\bibinitperiod},
+           given={Jane},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c3e6ad42d659fb89fdeaa2dcaf81ee59}{%
+           family={Settimi},
+           familyi={S\bibinitperiod},
+           given={Raffaella},
+           giveni={R\bibinitperiod}}}%
+        {{hash=47c8ea6c775db6ec550be25f728e8a04}{%
+           family={Zou},
+           familyi={Z\bibinitperiod},
+           given={Xuchang},
+           giveni={X\bibinitperiod}}}%
+        {{hash=49aeb053f1577bb3e8f25db7a7e0674a}{%
+           family={Solc},
+           familyi={S\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{281eba6e9919f1a8add2b76df582b5b7}
+      \strng{fullhash}{641a9cc0d09c108523a0aeea182cb65d}
+      \strng{fullhashraw}{641a9cc0d09c108523a0aeea182cb65d}
+      \strng{bibnamehash}{641a9cc0d09c108523a0aeea182cb65d}
+      \strng{authorbibnamehash}{641a9cc0d09c108523a0aeea182cb65d}
+      \strng{authornamehash}{281eba6e9919f1a8add2b76df582b5b7}
+      \strng{authorfullhash}{641a9cc0d09c108523a0aeea182cb65d}
+      \strng{authorfullhashraw}{641a9cc0d09c108523a0aeea182cb65d}
+      \field{extraname}{1}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Requirements Eng.}
+      \field{number}{2}
+      \field{title}{Automated classification of non-functional requirements}
+      \field{volume}{12}
+      \field{year}{2007}
+      \field{dateera}{ce}
+      \field{pages}{103\bibrangedash 120}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1007/s00766-007-0045-1
+      \endverb
+    \endentry
+    \entry{kurtanovic2017}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=909347835fcaf12006d6323df8603399}{%
+           family={Kurtanović},
+           familyi={K\bibinitperiod},
+           given={Zijad},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=882ca857ba8ca6c5d0a0cda0911dd67a}{%
+           family={Maalej},
+           familyi={M\bibinitperiod},
+           given={Walid},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{10de1c75c800b8eac3d82a6c079fa071}
+      \strng{fullhash}{10de1c75c800b8eac3d82a6c079fa071}
+      \strng{fullhashraw}{10de1c75c800b8eac3d82a6c079fa071}
+      \strng{bibnamehash}{10de1c75c800b8eac3d82a6c079fa071}
+      \strng{authorbibnamehash}{10de1c75c800b8eac3d82a6c079fa071}
+      \strng{authornamehash}{10de1c75c800b8eac3d82a6c079fa071}
+      \strng{authorfullhash}{10de1c75c800b8eac3d82a6c079fa071}
+      \strng{authorfullhashraw}{10de1c75c800b8eac3d82a6c079fa071}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proc. 2017 IEEE 25th Int. Requirements Eng. Conf. (RE)}
+      \field{title}{Automatically classifying functional and non-functional requirements using supervised machine learning}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{pages}{490\bibrangedash 495}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/RE.2017.82
+      \endverb
+    \endentry
+    \entry{diascanedo2020}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=dad88f2c2f602c536aea8ca91c701a2d}{%
+           family={{Dias Canedo}},
+           familyi={D\bibinitperiod},
+           given={Edna},
+           giveni={E\bibinitperiod}}}%
+        {{hash=6194ea50992e922c6ecff6b9732a61b3}{%
+           family={{Cordeiro Mendes}},
+           familyi={C\bibinitperiod},
+           given={Bruno},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{6fac47e4c7d6da7fe6d81648f3e78cbb}
+      \strng{fullhash}{6fac47e4c7d6da7fe6d81648f3e78cbb}
+      \strng{fullhashraw}{6fac47e4c7d6da7fe6d81648f3e78cbb}
+      \strng{bibnamehash}{6fac47e4c7d6da7fe6d81648f3e78cbb}
+      \strng{authorbibnamehash}{6fac47e4c7d6da7fe6d81648f3e78cbb}
+      \strng{authornamehash}{6fac47e4c7d6da7fe6d81648f3e78cbb}
+      \strng{authorfullhash}{6fac47e4c7d6da7fe6d81648f3e78cbb}
+      \strng{authorfullhashraw}{6fac47e4c7d6da7fe6d81648f3e78cbb}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eid}{1057}
+      \field{journaltitle}{Entropy}
+      \field{number}{9}
+      \field{title}{Software requirements classification using machine learning algorithms}
+      \field{volume}{22}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.3390/e22091057
+      \endverb
+    \endentry
+    \entry{rahman2019}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=f0e3fbffbdae409dceee7cc449535939}{%
+           family={Rahman},
+           familyi={R\bibinitperiod},
+           given={Md.\bibnamedelimi Abdur},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=5fd23f2aebdb001a8b168599acf80692}{%
+           family={Haque},
+           familyi={H\bibinitperiod},
+           given={Md.\bibnamedelimi Ariful},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=39e819aeccc0f64f6e67c66b14c0bf16}{%
+           family={Tawhid},
+           familyi={T\bibinitperiod},
+           given={Md.\bibnamedelimi Nurul\bibnamedelima Ahad},
+           giveni={M\bibinitperiod\bibinitdelim N\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=4b8da2d585facf6146b7bee57b1eb2c5}{%
+           family={Siddik},
+           familyi={S\bibinitperiod},
+           given={Md.\bibnamedelimi Saeed},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{8d454fc32f418df79c420e933b89fa1c}
+      \strng{fullhash}{9d57510c42087cf09247b1b4ea903cf9}
+      \strng{fullhashraw}{9d57510c42087cf09247b1b4ea903cf9}
+      \strng{bibnamehash}{9d57510c42087cf09247b1b4ea903cf9}
+      \strng{authorbibnamehash}{9d57510c42087cf09247b1b4ea903cf9}
+      \strng{authornamehash}{8d454fc32f418df79c420e933b89fa1c}
+      \strng{authorfullhash}{9d57510c42087cf09247b1b4ea903cf9}
+      \strng{authorfullhashraw}{9d57510c42087cf09247b1b4ea903cf9}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proc. 3rd ACM SIGSOFT Int. Workshop Mach. Learn. Techn. Softw. Qual. Eval.}
+      \field{title}{Classifying non-functional requirements using {RNN} variants for quality software development}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{pages}{25\bibrangedash 30}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1145/3340482.3342745
+      \endverb
+    \endentry
+    \entry{rahimi2021}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=c47a755d7a67b5bb47e4afdfce3742b3}{%
+           family={Rahimi},
+           familyi={R\bibinitperiod},
+           given={Nouf},
+           giveni={N\bibinitperiod}}}%
+        {{hash=a89fbe37657645aebf5c98fa56bbec31}{%
+           family={Eassa},
+           familyi={E\bibinitperiod},
+           given={Fathy},
+           giveni={F\bibinitperiod}}}%
+        {{hash=282e8622da1b4a3fbcf1c2b1424b235e}{%
+           family={Elrefaei},
+           familyi={E\bibinitperiod},
+           given={Lamiaa},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{36f258bc26324b76b256f377191592f7}
+      \strng{fullhash}{1096cb73a36764c2527b75133e2da2ce}
+      \strng{fullhashraw}{1096cb73a36764c2527b75133e2da2ce}
+      \strng{bibnamehash}{1096cb73a36764c2527b75133e2da2ce}
+      \strng{authorbibnamehash}{1096cb73a36764c2527b75133e2da2ce}
+      \strng{authornamehash}{36f258bc26324b76b256f377191592f7}
+      \strng{authorfullhash}{1096cb73a36764c2527b75133e2da2ce}
+      \strng{authorfullhashraw}{1096cb73a36764c2527b75133e2da2ce}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eid}{1264}
+      \field{journaltitle}{Entropy}
+      \field{number}{10}
+      \field{title}{One- and two-phase software requirement classification using ensemble deep learning}
+      \field{volume}{23}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.3390/e23101264
+      \endverb
+    \endentry
+    \entry{devlin2019}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=13202969e372bc82318f9629cbdd199b}{%
+           family={Devlin},
+           familyi={D\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a45784fe7163b45f11d166564f5d24b6}{%
+           family={Chang},
+           familyi={C\bibinitperiod},
+           given={Ming-Wei},
+           giveni={M\bibinithyphendelim W\bibinitperiod}}}%
+        {{hash=8dde73b4194f5bc4230c4808f3fc1534}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Kenton},
+           giveni={K\bibinitperiod}}}%
+        {{hash=b92aa283415413bb8d2a1548716d0c7d}{%
+           family={Toutanova},
+           familyi={T\bibinitperiod},
+           given={Kristina},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{ad8e2e2a80d28ade21e86852b804fc9b}
+      \strng{fullhash}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \strng{fullhashraw}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \strng{bibnamehash}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \strng{authorbibnamehash}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \strng{authornamehash}{ad8e2e2a80d28ade21e86852b804fc9b}
+      \strng{authorfullhash}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \strng{authorfullhashraw}{e8bccd48302a14eeba57d9dce2f49ef4}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proc. 2019 Conf. North Amer. Chapter Assoc. Comput. Linguistics: Human Lang. Technol.}
+      \field{title}{{BERT}: Pre-training of deep bidirectional transformers for language understanding}
+      \field{volume}{1}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{pages}{4171\bibrangedash 4186}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.18653/v1/N19-1423
+      \endverb
+    \endentry
+    \entry{hey2020norbert}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=0217e9c3f7711d4da40df59425fa0974}{%
+           family={Hey},
+           familyi={H\bibinitperiod},
+           given={Tobias},
+           giveni={T\bibinitperiod}}}%
+        {{hash=f81ce31878ba0920fe2cb2af60e58e80}{%
+           family={Keim},
+           familyi={K\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c3aaf4ee46b2c36357c970d426e834d2}{%
+           family={Koziolek},
+           familyi={K\bibinitperiod},
+           given={Anne},
+           giveni={A\bibinitperiod}}}%
+        {{hash=75f814d38e49366fd7e1cdbdb8553281}{%
+           family={Tichy},
+           familyi={T\bibinitperiod},
+           given={Walter\bibnamedelima F.},
+           giveni={W\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{2bc19d91f97e6dd29d488178898f4a72}
+      \strng{fullhash}{b562c24d2568d3f5a9c61eda3d8f488a}
+      \strng{fullhashraw}{b562c24d2568d3f5a9c61eda3d8f488a}
+      \strng{bibnamehash}{b562c24d2568d3f5a9c61eda3d8f488a}
+      \strng{authorbibnamehash}{b562c24d2568d3f5a9c61eda3d8f488a}
+      \strng{authornamehash}{2bc19d91f97e6dd29d488178898f4a72}
+      \strng{authorfullhash}{b562c24d2568d3f5a9c61eda3d8f488a}
+      \strng{authorfullhashraw}{b562c24d2568d3f5a9c61eda3d8f488a}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proc. 2020 IEEE 28th Int. Requirements Eng. Conf. (RE)}
+      \field{title}{{NoRBERT}: Transfer learning for requirements classification}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{pages}{169\bibrangedash 179}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1109/RE48521.2020.00028
+      \endverb
+    \endentry
+    \entry{hey2022corrected}{report}{}{}
+      \name{author}{4}{}{%
+        {{hash=0217e9c3f7711d4da40df59425fa0974}{%
+           family={Hey},
+           familyi={H\bibinitperiod},
+           given={Tobias},
+           giveni={T\bibinitperiod}}}%
+        {{hash=f81ce31878ba0920fe2cb2af60e58e80}{%
+           family={Keim},
+           familyi={K\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c3aaf4ee46b2c36357c970d426e834d2}{%
+           family={Koziolek},
+           familyi={K\bibinitperiod},
+           given={Anne},
+           giveni={A\bibinitperiod}}}%
+        {{hash=75f814d38e49366fd7e1cdbdb8553281}{%
+           family={Tichy},
+           familyi={T\bibinitperiod},
+           given={Walter\bibnamedelima F.},
+           giveni={W\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Karlsruhe Institute of Technology (KIT)}%
+      }
+      \strng{namehash}{2bc19d91f97e6dd29d488178898f4a72}
+      \strng{fullhash}{b562c24d2568d3f5a9c61eda3d8f488a}
+      \strng{fullhashraw}{b562c24d2568d3f5a9c61eda3d8f488a}
+      \strng{bibnamehash}{b562c24d2568d3f5a9c61eda3d8f488a}
+      \strng{authorbibnamehash}{b562c24d2568d3f5a9c61eda3d8f488a}
+      \strng{authornamehash}{2bc19d91f97e6dd29d488178898f4a72}
+      \strng{authorfullhash}{b562c24d2568d3f5a9c61eda3d8f488a}
+      \strng{authorfullhashraw}{b562c24d2568d3f5a9c61eda3d8f488a}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{corrected version}
+      \field{title}{{NoRBERT}: Transfer learning for requirements classification}
+      \field{type}{Tech. Rep.\isdot}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.5445/IR/1000150464
+      \endverb
+    \endentry
+    \entry{promisenfr2007}{dataset}{}{}
+      \name{author}{4}{}{%
+        {{hash=7f39f12f6ce6642514b823ceb237a7bc}{%
+           family={Cleland-Huang},
+           familyi={C\bibinithyphendelim H\bibinitperiod},
+           given={Jane},
+           giveni={J\bibinitperiod}}}%
+        {{hash=0e0a38181461500a6176986f95928389}{%
+           family={Mazrouee},
+           familyi={M\bibinitperiod},
+           given={Sepideh},
+           giveni={S\bibinitperiod}}}%
+        {{hash=0a740a4f9e450d72687ad6d965c1c1da}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Liguo},
+           giveni={L\bibinitperiod}}}%
+        {{hash=520a67dbba7b6a8f928603a264aed3dd}{%
+           family={Port},
+           familyi={P\bibinitperiod},
+           given={Dan},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Zenodo}%
+      }
+      \strng{namehash}{281eba6e9919f1a8add2b76df582b5b7}
+      \strng{fullhash}{03be1a4dfc6efd565f588c25321f2f64}
+      \strng{fullhashraw}{03be1a4dfc6efd565f588c25321f2f64}
+      \strng{bibnamehash}{03be1a4dfc6efd565f588c25321f2f64}
+      \strng{authorbibnamehash}{03be1a4dfc6efd565f588c25321f2f64}
+      \strng{authornamehash}{281eba6e9919f1a8add2b76df582b5b7}
+      \strng{authorfullhash}{03be1a4dfc6efd565f588c25321f2f64}
+      \strng{authorfullhashraw}{03be1a4dfc6efd565f588c25321f2f64}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{17}
+      \field{month}{3}
+      \field{title}{{nfr}}
+      \field{titleaddon}{PROMISE NFR data set}
+      \field{year}{2007}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.5281/zenodo.268542
+      \endverb
+    \endentry
+    \entry{lima2019}{inproceedings}{}{}
+      \name{author}{5}{}{%
+        {{hash=c2a7ff5d4104ef8538a9bcd8230d7e26}{%
+           family={Lima},
+           familyi={L\bibinitperiod},
+           given={Márcia},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e8bfb3e3b6e9eb55f045d2fd30f95ab4}{%
+           family={Valle},
+           familyi={V\bibinitperiod},
+           given={Victor},
+           giveni={V\bibinitperiod}}}%
+        {{hash=23a2483c1d582add0b9dd3ead54cf055}{%
+           family={Costa},
+           familyi={C\bibinitperiod},
+           given={Estevão},
+           giveni={E\bibinitperiod}}}%
+        {{hash=a07158dab3ae5631f184a802c816a205}{%
+           family={Lira},
+           familyi={L\bibinitperiod},
+           given={Fylype},
+           giveni={F\bibinitperiod}}}%
+        {{hash=c761c5e9ce7d1168df0b6c6c3055dfda}{%
+           family={Gadelha},
+           familyi={G\bibinitperiod},
+           given={Bruno},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{6b10d8dd79d45e432b24d2462ce079b7}
+      \strng{fullhash}{d8a1af18d0d6a89ea773d2533f949037}
+      \strng{fullhashraw}{d8a1af18d0d6a89ea773d2533f949037}
+      \strng{bibnamehash}{d8a1af18d0d6a89ea773d2533f949037}
+      \strng{authorbibnamehash}{d8a1af18d0d6a89ea773d2533f949037}
+      \strng{authornamehash}{6b10d8dd79d45e432b24d2462ce079b7}
+      \strng{authorfullhash}{d8a1af18d0d6a89ea773d2533f949037}
+      \strng{authorfullhashraw}{d8a1af18d0d6a89ea773d2533f949037}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proc. 33rd Brazilian Symp. Softw. Eng.}
+      \field{title}{Software engineering repositories: Expanding the {PROMISE} database}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{pages}{427\bibrangedash 436}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1145/3350768.3350776
+      \endverb
+    \endentry
+    \entry{binkhonain2019}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=4fa9bfb136ab5298ae64746d53478e7e}{%
+           family={Binkhonain},
+           familyi={B\bibinitperiod},
+           given={Manal},
+           giveni={M\bibinitperiod}}}%
+        {{hash=608c4944a242e7c9103f6e1c1b02cc2e}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Liping},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{654b648bd2b4326b0b9f9d928a73d147}
+      \strng{fullhash}{654b648bd2b4326b0b9f9d928a73d147}
+      \strng{fullhashraw}{654b648bd2b4326b0b9f9d928a73d147}
+      \strng{bibnamehash}{654b648bd2b4326b0b9f9d928a73d147}
+      \strng{authorbibnamehash}{654b648bd2b4326b0b9f9d928a73d147}
+      \strng{authornamehash}{654b648bd2b4326b0b9f9d928a73d147}
+      \strng{authorfullhash}{654b648bd2b4326b0b9f9d928a73d147}
+      \strng{authorfullhashraw}{654b648bd2b4326b0b9f9d928a73d147}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eid}{100001}
+      \field{journaltitle}{Expert Syst. Appl.: X}
+      \field{title}{A review of machine learning algorithms for identification and classification of non-functional requirements}
+      \field{volume}{1}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.1016/j.eswax.2019.100001
+      \endverb
+    \endentry
+    \entry{zhao2022nlp4re}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=608c4944a242e7c9103f6e1c1b02cc2e}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Liping},
+           giveni={L\bibinitperiod}}}%
+        {{hash=f3484dc70625cf52dee3487b402a0263}{%
+           family={Alhoshan},
+           familyi={A\bibinitperiod},
+           given={Waad},
+           giveni={W\bibinitperiod}}}%
+        {{hash=415c88b4d6f3086e9c7b53db0f05b429}{%
+           family={Ferrari},
+           familyi={F\bibinitperiod},
+           given={Alessio},
+           giveni={A\bibinitperiod}}}%
+        {{hash=1eacbfef6d3e3ae96b8e57e948202a8a}{%
+           family={Letsholo},
+           familyi={L\bibinitperiod},
+           given={Keletso\bibnamedelima J.},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=84e1e4f93699fa1ae8adf0ce8a398642}{%
+           family={Ajagbe},
+           familyi={A\bibinitperiod},
+           given={Muideen\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=e36040ded42c58500da8fc84b77592b2}{%
+           family={Chioasca},
+           familyi={C\bibinitperiod},
+           given={Erol-Valeriu},
+           giveni={E\bibinithyphendelim V\bibinitperiod}}}%
+        {{hash=f6b636240ea84b16e68cbc48fd633ff1}{%
+           family={Batista-Navarro},
+           familyi={B\bibinithyphendelim N\bibinitperiod},
+           given={Riza\bibnamedelima T.},
+           giveni={R\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{f993075927e8bb0fe418ab59ad4fd6c9}
+      \strng{fullhash}{87e07d1caa5d4fb32ec753ef68f43b53}
+      \strng{fullhashraw}{87e07d1caa5d4fb32ec753ef68f43b53}
+      \strng{bibnamehash}{f993075927e8bb0fe418ab59ad4fd6c9}
+      \strng{authorbibnamehash}{f993075927e8bb0fe418ab59ad4fd6c9}
+      \strng{authornamehash}{f993075927e8bb0fe418ab59ad4fd6c9}
+      \strng{authorfullhash}{87e07d1caa5d4fb32ec753ef68f43b53}
+      \strng{authorfullhashraw}{87e07d1caa5d4fb32ec753ef68f43b53}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ACM Comput. Surv.}
+      \field{number}{3}
+      \field{title}{Natural language processing for requirements engineering: A systematic mapping study}
+      \field{volume}{54}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 41}
+      \range{pages}{41}
+      \verb{doi}
+      \verb 10.1145/3444689
+      \endverb
+    \endentry
+    \entry{eltahier2025}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=2b169ca7e055d1b334ff62abccd2d478}{%
+           family={Eltahier},
+           familyi={E\bibinitperiod},
+           given={Safaa},
+           giveni={S\bibinitperiod}}}%
+        {{hash=c0b2acb5e8cab40d1a7c67ef23395f37}{%
+           family={Dawood},
+           familyi={D\bibinitperiod},
+           given={Omer},
+           giveni={O\bibinitperiod}}}%
+        {{hash=28015979d5151eecbe8a72ec7de586d4}{%
+           family={Saeed},
+           familyi={S\bibinitperiod},
+           given={Imtithal},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{70c276d1d844fcff5e3e17f6c4149947}
+      \strng{fullhash}{7949bdc10e3ab7510fb4c32a8cc73a75}
+      \strng{fullhashraw}{7949bdc10e3ab7510fb4c32a8cc73a75}
+      \strng{bibnamehash}{7949bdc10e3ab7510fb4c32a8cc73a75}
+      \strng{authorbibnamehash}{7949bdc10e3ab7510fb4c32a8cc73a75}
+      \strng{authornamehash}{70c276d1d844fcff5e3e17f6c4149947}
+      \strng{authorfullhash}{7949bdc10e3ab7510fb4c32a8cc73a75}
+      \strng{authorfullhashraw}{7949bdc10e3ab7510fb4c32a8cc73a75}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eid}{981}
+      \field{journaltitle}{Information}
+      \field{number}{11}
+      \field{title}{{BERT} fine-tuning for software requirement classification: Impact of model components and dataset size}
+      \field{volume}{16}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.3390/info16110981
+      \endverb
+    \endentry
+    \entry{liu2019roberta}{misc}{}{}
+      \name{author}{10}{}{%
+        {{hash=94530daf7a9db4abe89cfb22935373eb}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Yinhan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=b13aa2bad5258fa5ef7a733f2d305a49}{%
+           family={Ott},
+           familyi={O\bibinitperiod},
+           given={Myle},
+           giveni={M\bibinitperiod}}}%
+        {{hash=78a420900f50a8470ad085fb05231bf6}{%
+           family={Goyal},
+           familyi={G\bibinitperiod},
+           given={Naman},
+           giveni={N\bibinitperiod}}}%
+        {{hash=e483b52ce2cd3ba2fd08e7bf4fef4ff0}{%
+           family={Du},
+           familyi={D\bibinitperiod},
+           given={Jingfei},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e5bfa941bcdbfecb5f3e42bb6ac9eb5f}{%
+           family={Joshi},
+           familyi={J\bibinitperiod},
+           given={Mandar},
+           giveni={M\bibinitperiod}}}%
+        {{hash=aed188db3fc6855ac5666aa14e04a3bb}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Danqi},
+           giveni={D\bibinitperiod}}}%
+        {{hash=038965e189161e03f6255a4278c280a1}{%
+           family={Levy},
+           familyi={L\bibinitperiod},
+           given={Omer},
+           giveni={O\bibinitperiod}}}%
+        {{hash=c97f53fdeeb04c28de19e3324cb4bc0a}{%
+           family={Lewis},
+           familyi={L\bibinitperiod},
+           given={Mike},
+           giveni={M\bibinitperiod}}}%
+        {{hash=1dbd3a5b42828fb2cebd7786488ba425}{%
+           family={Zettlemoyer},
+           familyi={Z\bibinitperiod},
+           given={Luke},
+           giveni={L\bibinitperiod}}}%
+        {{hash=9b97236dd2d1a104fc5cf9660dd5582e}{%
+           family={Stoyanov},
+           familyi={S\bibinitperiod},
+           given={Veselin},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{bbac34a28b7aba5cd543f7c72e0d987d}
+      \strng{fullhash}{7579c765ce38b2c34c8f9768ec3bc342}
+      \strng{fullhashraw}{7579c765ce38b2c34c8f9768ec3bc342}
+      \strng{bibnamehash}{bbac34a28b7aba5cd543f7c72e0d987d}
+      \strng{authorbibnamehash}{bbac34a28b7aba5cd543f7c72e0d987d}
+      \strng{authornamehash}{bbac34a28b7aba5cd543f7c72e0d987d}
+      \strng{authorfullhash}{7579c765ce38b2c34c8f9768ec3bc342}
+      \strng{authorfullhashraw}{7579c765ce38b2c34c8f9768ec3bc342}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arxiv}
+      \field{title}{{RoBERTa}: A robustly optimized {BERT} pretraining approach}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.1907.11692
+      \endverb
+      \verb{eprint}
+      \verb 1907.11692
+      \endverb
+    \endentry
+    \entry{sanh2019distilbert}{misc}{}{}
+      \name{author}{4}{}{%
+        {{hash=b17a6e4a2e8a51a0d77017d50c2ef700}{%
+           family={Sanh},
+           familyi={S\bibinitperiod},
+           given={Victor},
+           giveni={V\bibinitperiod}}}%
+        {{hash=4996c576ebaf91c8655cee3341764e3b}{%
+           family={Debut},
+           familyi={D\bibinitperiod},
+           given={Lysandre},
+           giveni={L\bibinitperiod}}}%
+        {{hash=79bf176bccb31f7489fcf1895b225764}{%
+           family={Chaumond},
+           familyi={C\bibinitperiod},
+           given={Julien},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c34c67badfd5b3624027e9c8c77a69f6}{%
+           family={Wolf},
+           familyi={W\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c45110f1218dd76df03ef800db8a970}
+      \strng{fullhash}{dc0afc633047d6fca100f460cf89f831}
+      \strng{fullhashraw}{dc0afc633047d6fca100f460cf89f831}
+      \strng{bibnamehash}{dc0afc633047d6fca100f460cf89f831}
+      \strng{authorbibnamehash}{dc0afc633047d6fca100f460cf89f831}
+      \strng{authornamehash}{9c45110f1218dd76df03ef800db8a970}
+      \strng{authorfullhash}{dc0afc633047d6fca100f460cf89f831}
+      \strng{authorfullhashraw}{dc0afc633047d6fca100f460cf89f831}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arxiv}
+      \field{title}{{DistilBERT}, a distilled version of {BERT}: Smaller, faster, cheaper and lighter}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.1910.01108
+      \endverb
+      \verb{eprint}
+      \verb 1910.01108
+      \endverb
+    \endentry
+    \entry{sun2019finetune}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=8a30a3c4499126236179c335b002f6cd}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Chi},
+           giveni={C\bibinitperiod}}}%
+        {{hash=9057ec1bc6c2faaf12dfb4b37a8d37d0}{%
+           family={Qiu},
+           familyi={Q\bibinitperiod},
+           given={Xipeng},
+           giveni={X\bibinitperiod}}}%
+        {{hash=027a117eec591f3326d71ab32c3a948b}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Yige},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=ed0f3403ef6238bb67876d4c6ad27464}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Xuanjing},
+           giveni={X\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{a85a8e94888cc492ecf7207d4c923681}
+      \strng{fullhash}{6441f7f44818601069b19950bbcd13a2}
+      \strng{fullhashraw}{6441f7f44818601069b19950bbcd13a2}
+      \strng{bibnamehash}{6441f7f44818601069b19950bbcd13a2}
+      \strng{authorbibnamehash}{6441f7f44818601069b19950bbcd13a2}
+      \strng{authornamehash}{a85a8e94888cc492ecf7207d4c923681}
+      \strng{authorfullhash}{6441f7f44818601069b19950bbcd13a2}
+      \strng{authorfullhashraw}{6441f7f44818601069b19950bbcd13a2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Chinese Comput. Linguistics}
+      \field{series}{Lecture Notes in Computer Science}
+      \field{title}{How to fine-tune {BERT} for text classification?}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{pages}{194\bibrangedash 206}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1007/978-3-030-32381-3_16
+      \endverb
+    \endentry
+    \entry{kici2021}{inproceedings}{}{}
+      \name{author}{5}{}{%
+        {{hash=8679962c33bbe0b14530516d9d03827f}{%
+           family={Kici},
+           familyi={K\bibinitperiod},
+           given={Derya},
+           giveni={D\bibinitperiod}}}%
+        {{hash=19544caba2884bf16cd7b76dba4565fe}{%
+           family={Malik},
+           familyi={M\bibinitperiod},
+           given={Garima},
+           giveni={G\bibinitperiod}}}%
+        {{hash=f9f7f4aada3f8448a9338860b2d6d9bd}{%
+           family={Cevik},
+           familyi={C\bibinitperiod},
+           given={Mucahit},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f5e2d529548c47db6b75d351efabc422}{%
+           family={Parikh},
+           familyi={P\bibinitperiod},
+           given={Devang},
+           giveni={D\bibinitperiod}}}%
+        {{hash=2b37bf0704586cec060ebf96a2dbf3c4}{%
+           family={Başar},
+           familyi={B\bibinitperiod},
+           given={Ayşe},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Canadian Artificial Intelligence Association}%
+      }
+      \strng{namehash}{ecdde56f78f46797775534d8dd1f518a}
+      \strng{fullhash}{e6b234c1b838ae66923d0cb2921ee74a}
+      \strng{fullhashraw}{e6b234c1b838ae66923d0cb2921ee74a}
+      \strng{bibnamehash}{e6b234c1b838ae66923d0cb2921ee74a}
+      \strng{authorbibnamehash}{e6b234c1b838ae66923d0cb2921ee74a}
+      \strng{authornamehash}{ecdde56f78f46797775534d8dd1f518a}
+      \strng{authorfullhash}{e6b234c1b838ae66923d0cb2921ee74a}
+      \strng{authorfullhashraw}{e6b234c1b838ae66923d0cb2921ee74a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proc. Can. Conf. Artif. Intell.}
+      \field{title}{A {BERT}-based transfer learning approach to text classification on software requirements specifications}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.21428/594757db.a4880a62
+      \endverb
+    \endentry
+    \entry{luo2022prcbert}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=04bd38665f9b491a58eeb8f577ee822d}{%
+           family={Luo},
+           familyi={L\bibinitperiod},
+           given={Xianchang},
+           giveni={X\bibinitperiod}}}%
+        {{hash=14ffc37793505ac8cee311398c314250}{%
+           family={Xue},
+           familyi={X\bibinitperiod},
+           given={Yinxing},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=4ae2acd2b75c048ed13c08ebfc75e822}{%
+           family={Xing},
+           familyi={X\bibinitperiod},
+           given={Zhenchang},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=10c512529745c9ab9f1992a793bfdd20}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Jiamou},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{b2d8ced96ed1737774fa62e6052cce71}
+      \strng{fullhash}{587220035b5b2ae5c8053430194e200a}
+      \strng{fullhashraw}{587220035b5b2ae5c8053430194e200a}
+      \strng{bibnamehash}{587220035b5b2ae5c8053430194e200a}
+      \strng{authorbibnamehash}{587220035b5b2ae5c8053430194e200a}
+      \strng{authornamehash}{b2d8ced96ed1737774fa62e6052cce71}
+      \strng{authorfullhash}{587220035b5b2ae5c8053430194e200a}
+      \strng{authorfullhashraw}{587220035b5b2ae5c8053430194e200a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proc. 37th IEEE/ACM Int. Conf. Automated Softw. Eng.}
+      \field{title}{{PRCBERT}: Prompt learning for requirement classification using {BERT}-based pretrained language models}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 13}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1145/3551349.3560417
+      \endverb
+    \endentry
+    \entry{tikayatray2023}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=56734c7146eb4fe5be62013067f103fa}{%
+           family={{Tikayat Ray}},
+           familyi={T\bibinitperiod},
+           given={Archana},
+           giveni={A\bibinitperiod}}}%
+        {{hash=7c0792aface241ddfcc8f83212471307}{%
+           family={Cole},
+           familyi={C\bibinitperiod},
+           given={Bjorn\bibnamedelima F.},
+           giveni={B\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=bae66cec26db461d465615a10e71989d}{%
+           family={{Pinon Fischer}},
+           familyi={P\bibinitperiod},
+           given={Olivia\bibnamedelima J.},
+           giveni={O\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=8bc499e7a7fdf3aa04c4ef4fe7d15fe1}{%
+           family={White},
+           familyi={W\bibinitperiod},
+           given={Ryan\bibnamedelima T.},
+           giveni={R\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=90386a8d3cf493a92714020da5adcb45}{%
+           family={Mavris},
+           familyi={M\bibinitperiod},
+           given={Dimitri\bibnamedelima N.},
+           giveni={D\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \strng{namehash}{a4e8277f14a242be3bdac559df13eb19}
+      \strng{fullhash}{5b7dc59a63f8dd719876eb1d5e43e044}
+      \strng{fullhashraw}{5b7dc59a63f8dd719876eb1d5e43e044}
+      \strng{bibnamehash}{5b7dc59a63f8dd719876eb1d5e43e044}
+      \strng{authorbibnamehash}{5b7dc59a63f8dd719876eb1d5e43e044}
+      \strng{authornamehash}{a4e8277f14a242be3bdac559df13eb19}
+      \strng{authorfullhash}{5b7dc59a63f8dd719876eb1d5e43e044}
+      \strng{authorfullhashraw}{5b7dc59a63f8dd719876eb1d5e43e044}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eid}{279}
+      \field{journaltitle}{Aerospace}
+      \field{number}{3}
+      \field{title}{{aeroBERT-Classifier}: Classification of aerospace requirements using {BERT}}
+      \field{volume}{10}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.3390/aerospace10030279
+      \endverb
+    \endentry
+    \entry{yucalar2023}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=2e9c9c505e9c8debc183dec98f6bb4d8}{%
+           family={Yucalar},
+           familyi={Y\bibinitperiod},
+           given={Fatih},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{2e9c9c505e9c8debc183dec98f6bb4d8}
+      \strng{fullhash}{2e9c9c505e9c8debc183dec98f6bb4d8}
+      \strng{fullhashraw}{2e9c9c505e9c8debc183dec98f6bb4d8}
+      \strng{bibnamehash}{2e9c9c505e9c8debc183dec98f6bb4d8}
+      \strng{authorbibnamehash}{2e9c9c505e9c8debc183dec98f6bb4d8}
+      \strng{authornamehash}{2e9c9c505e9c8debc183dec98f6bb4d8}
+      \strng{authorfullhash}{2e9c9c505e9c8debc183dec98f6bb4d8}
+      \strng{authorfullhashraw}{2e9c9c505e9c8debc183dec98f6bb4d8}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eid}{11127}
+      \field{journaltitle}{Appl. Sci.}
+      \field{number}{20}
+      \field{title}{Developing an advanced software requirements classification model using {BERT}: An empirical evaluation study on newly generated {Turkish} data}
+      \field{volume}{13}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.3390/app132011127
+      \endverb
+    \endentry
+    \entry{alsanoosy2026}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=2d5cfce90acdfce1fdd34c9acff6993a}{%
+           family={Alsanoosy},
+           familyi={A\bibinitperiod},
+           given={Tawfeeq},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{2d5cfce90acdfce1fdd34c9acff6993a}
+      \strng{fullhash}{2d5cfce90acdfce1fdd34c9acff6993a}
+      \strng{fullhashraw}{2d5cfce90acdfce1fdd34c9acff6993a}
+      \strng{bibnamehash}{2d5cfce90acdfce1fdd34c9acff6993a}
+      \strng{authorbibnamehash}{2d5cfce90acdfce1fdd34c9acff6993a}
+      \strng{authornamehash}{2d5cfce90acdfce1fdd34c9acff6993a}
+      \strng{authorfullhash}{2d5cfce90acdfce1fdd34c9acff6993a}
+      \strng{authorfullhashraw}{2d5cfce90acdfce1fdd34c9acff6993a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Arabian J. Sci. Eng.}
+      \field{number}{15}
+      \field{title}{Requirement classification using transfer learning models}
+      \field{volume}{51}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \field{pages}{18047\bibrangedash 18064}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1007/s13369-026-11242-w
+      \endverb
+    \endentry
+    \entry{alhoshan2023}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=f3484dc70625cf52dee3487b402a0263}{%
+           family={Alhoshan},
+           familyi={A\bibinitperiod},
+           given={Waad},
+           giveni={W\bibinitperiod}}}%
+        {{hash=415c88b4d6f3086e9c7b53db0f05b429}{%
+           family={Ferrari},
+           familyi={F\bibinitperiod},
+           given={Alessio},
+           giveni={A\bibinitperiod}}}%
+        {{hash=608c4944a242e7c9103f6e1c1b02cc2e}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Liping},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{ddab3948023b8b70bbc5f0c3b8c0078d}
+      \strng{fullhash}{9d329587ed9fc5afb3ce16c3dd1febcc}
+      \strng{fullhashraw}{9d329587ed9fc5afb3ce16c3dd1febcc}
+      \strng{bibnamehash}{9d329587ed9fc5afb3ce16c3dd1febcc}
+      \strng{authorbibnamehash}{9d329587ed9fc5afb3ce16c3dd1febcc}
+      \strng{authornamehash}{ddab3948023b8b70bbc5f0c3b8c0078d}
+      \strng{authorfullhash}{9d329587ed9fc5afb3ce16c3dd1febcc}
+      \strng{authorfullhashraw}{9d329587ed9fc5afb3ce16c3dd1febcc}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eid}{107202}
+      \field{journaltitle}{Inf. Softw. Technol.}
+      \field{title}{Zero-shot learning for requirements classification: An exploratory study}
+      \field{volume}{159}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.1016/j.infsof.2023.107202
+      \endverb
+    \endentry
+    \entry{tunstall2022setfit}{misc}{}{}
+      \name{author}{7}{}{%
+        {{hash=c501d80117f163f338c3006a620cdc8c}{%
+           family={Tunstall},
+           familyi={T\bibinitperiod},
+           given={Lewis},
+           giveni={L\bibinitperiod}}}%
+        {{hash=da9947b27b0d1c4c912e2b391426d443}{%
+           family={Reimers},
+           familyi={R\bibinitperiod},
+           given={Nils},
+           giveni={N\bibinitperiod}}}%
+        {{hash=9b009ae33d64014f8574074f19bd0b1b}{%
+           family={Jo},
+           familyi={J\bibinitperiod},
+           given={Unso\bibnamedelimb Eun\bibnamedelima Seo},
+           giveni={U\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=bde945724f17a97b3bc04b8f34a869ca}{%
+           family={Bates},
+           familyi={B\bibinitperiod},
+           given={Luke},
+           giveni={L\bibinitperiod}}}%
+        {{hash=2165aa09f4cf884f0a099164f8a090dc}{%
+           family={Korat},
+           familyi={K\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=920d087f16a94bf2f6db9e8338fda7fe}{%
+           family={Wasserblat},
+           familyi={W\bibinitperiod},
+           given={Moshe},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e43811a87644c2bce4af8242fada799b}{%
+           family={Pereg},
+           familyi={P\bibinitperiod},
+           given={Oren},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{fd12487b7253e1746aa62cc306a0a71e}
+      \strng{fullhash}{b1518cfd46d09f66a30e7fd240f974ca}
+      \strng{fullhashraw}{b1518cfd46d09f66a30e7fd240f974ca}
+      \strng{bibnamehash}{fd12487b7253e1746aa62cc306a0a71e}
+      \strng{authorbibnamehash}{fd12487b7253e1746aa62cc306a0a71e}
+      \strng{authornamehash}{fd12487b7253e1746aa62cc306a0a71e}
+      \strng{authorfullhash}{b1518cfd46d09f66a30e7fd240f974ca}
+      \strng{authorfullhashraw}{b1518cfd46d09f66a30e7fd240f974ca}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arxiv}
+      \field{title}{Efficient few-shot learning without prompts}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2209.11055
+      \endverb
+      \verb{eprint}
+      \verb 2209.11055
+      \endverb
+    \endentry
+    \entry{petrillo2025}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=9bbb4a25c19e201f75fa390f6e4ecfd9}{%
+           family={Petrillo},
+           familyi={P\bibinitperiod},
+           given={Luca},
+           giveni={L\bibinitperiod}}}%
+        {{hash=88dd87552427dca0e6263e2960769fc9}{%
+           family={Martinelli},
+           familyi={M\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=268675c91edb171f52fe245ad394ca35}{%
+           family={Santone},
+           familyi={S\bibinitperiod},
+           given={Antonella},
+           giveni={A\bibinitperiod}}}%
+        {{hash=1cef5cf3ebd2d86d5659ee97da10193a}{%
+           family={Mercaldo},
+           familyi={M\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{967d132dfa6c5c96cb8e1c00e380aacd}
+      \strng{fullhash}{11e7f78f73b9fd904d2d179064b73b68}
+      \strng{fullhashraw}{11e7f78f73b9fd904d2d179064b73b68}
+      \strng{bibnamehash}{11e7f78f73b9fd904d2d179064b73b68}
+      \strng{authorbibnamehash}{11e7f78f73b9fd904d2d179064b73b68}
+      \strng{authornamehash}{967d132dfa6c5c96cb8e1c00e380aacd}
+      \strng{authorfullhash}{11e7f78f73b9fd904d2d179064b73b68}
+      \strng{authorfullhashraw}{11e7f78f73b9fd904d2d179064b73b68}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eid}{15}
+      \field{journaltitle}{Future Internet}
+      \field{number}{1}
+      \field{title}{Explainable security requirements classification through transformer models}
+      \field{volume}{17}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.3390/fi17010015
+      \endverb
+    \endentry
+    \entry{hou2024llm4se}{article}{}{}
+      \name{author}{10}{}{%
+        {{hash=bbe203ccb474a175f598679a28e5081b}{%
+           family={Hou},
+           familyi={H\bibinitperiod},
+           given={Xinyi},
+           giveni={X\bibinitperiod}}}%
+        {{hash=14e6e67151fcd0f9de7104ca4abbe2dc}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Yanjie},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=4ea6157adaa214ea9a0734bb53dd8492}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Yue},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=9ff4b29547ca71e4559aa812d21fe1f0}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Zhou},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=074419ff4edf5e9aaad244a32f534697}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Kailong},
+           giveni={K\bibinitperiod}}}%
+        {{hash=502de95c3193f5c283f4ef712520a97e}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Li},
+           giveni={L\bibinitperiod}}}%
+        {{hash=7d405dc8c3ba97bdd21d7ea41fcd9b3b}{%
+           family={Luo},
+           familyi={L\bibinitperiod},
+           given={Xiapu},
+           giveni={X\bibinitperiod}}}%
+        {{hash=cac8ebdbf2f8a8f2b7f49f6e737c2649}{%
+           family={Lo},
+           familyi={L\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=0e8d3c2397e6ae67ffff6fc7eac28615}{%
+           family={Grundy},
+           familyi={G\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=44ddd1947297940fae36faf60cfdc356}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Haoyu},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{97c844757bc1ced6ee04f333c8270232}
+      \strng{fullhash}{649f1fd0f05fbf441e02369b14fda315}
+      \strng{fullhashraw}{649f1fd0f05fbf441e02369b14fda315}
+      \strng{bibnamehash}{97c844757bc1ced6ee04f333c8270232}
+      \strng{authorbibnamehash}{97c844757bc1ced6ee04f333c8270232}
+      \strng{authornamehash}{97c844757bc1ced6ee04f333c8270232}
+      \strng{authorfullhash}{649f1fd0f05fbf441e02369b14fda315}
+      \strng{authorfullhashraw}{649f1fd0f05fbf441e02369b14fda315}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ACM Trans. Softw. Eng. Methodol.}
+      \field{number}{8}
+      \field{title}{Large language models for software engineering: A systematic literature review}
+      \field{volume}{33}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 79}
+      \range{pages}{79}
+      \verb{doi}
+      \verb 10.1145/3695988
+      \endverb
+    \endentry
+    \entry{lucassen2016qus}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=3a7606258db5b03d306902d18891e656}{%
+           family={Lucassen},
+           familyi={L\bibinitperiod},
+           given={Garm},
+           giveni={G\bibinitperiod}}}%
+        {{hash=3f54cb979b2acef159b6dc547fe7aa2f}{%
+           family={Dalpiaz},
+           familyi={D\bibinitperiod},
+           given={Fabiano},
+           giveni={F\bibinitperiod}}}%
+        {{hash=f90ab20935813768dab76f6714af92a5}{%
+           family={Werf},
+           familyi={W\bibinitperiod},
+           given={Jan\bibnamedelimb Martijn\bibnamedelimb E.\bibnamedelimi M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim M\bibinitperiod},
+           prefix={van\bibnamedelima der},
+           prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+        {{hash=36f3e1603b7079434f398edd9a173762}{%
+           family={Brinkkemper},
+           familyi={B\bibinitperiod},
+           given={Sjaak},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{5895af78dc081ac008956bf93fba104a}
+      \strng{fullhash}{251eae7e9ff15db4bfa9463bc785f64b}
+      \strng{fullhashraw}{251eae7e9ff15db4bfa9463bc785f64b}
+      \strng{bibnamehash}{251eae7e9ff15db4bfa9463bc785f64b}
+      \strng{authorbibnamehash}{251eae7e9ff15db4bfa9463bc785f64b}
+      \strng{authornamehash}{5895af78dc081ac008956bf93fba104a}
+      \strng{authorfullhash}{251eae7e9ff15db4bfa9463bc785f64b}
+      \strng{authorfullhashraw}{251eae7e9ff15db4bfa9463bc785f64b}
+      \field{extraname}{2}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Requirements Eng.}
+      \field{number}{3}
+      \field{title}{Improving agile requirements: The {Quality User Story} framework and tool}
+      \field{volume}{21}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{pages}{383\bibrangedash 403}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1007/s00766-016-0250-x
+      \endverb
+    \endentry
+    \entry{choetkiertikul2019}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=fd8dc6c6c1d314f915b0e01210264f87}{%
+           family={Choetkiertikul},
+           familyi={C\bibinitperiod},
+           given={Morakot},
+           giveni={M\bibinitperiod}}}%
+        {{hash=72b8a308387b4ac51d6ea6839b6bb994}{%
+           family={Dam},
+           familyi={D\bibinitperiod},
+           given={Hoa\bibnamedelima Khanh},
+           giveni={H\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=712118382b634adc549261cad3f73a82}{%
+           family={Tran},
+           familyi={T\bibinitperiod},
+           given={Truyen},
+           giveni={T\bibinitperiod}}}%
+        {{hash=778ff3a248cd45ae6a7be80b1dfa4173}{%
+           family={Pham},
+           familyi={P\bibinitperiod},
+           given={Trang},
+           giveni={T\bibinitperiod}}}%
+        {{hash=030a240f2834c65a840a3050b7bc4454}{%
+           family={Ghose},
+           familyi={G\bibinitperiod},
+           given={Aditya},
+           giveni={A\bibinitperiod}}}%
+        {{hash=38d461d8783f751f969201332e830507}{%
+           family={Menzies},
+           familyi={M\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{4cbe5cdc41aeb6ea53f8387d99456727}
+      \strng{fullhash}{c2d529fd866294dce47f7eff2556f2e0}
+      \strng{fullhashraw}{c2d529fd866294dce47f7eff2556f2e0}
+      \strng{bibnamehash}{c2d529fd866294dce47f7eff2556f2e0}
+      \strng{authorbibnamehash}{c2d529fd866294dce47f7eff2556f2e0}
+      \strng{authornamehash}{4cbe5cdc41aeb6ea53f8387d99456727}
+      \strng{authorfullhash}{c2d529fd866294dce47f7eff2556f2e0}
+      \strng{authorfullhashraw}{c2d529fd866294dce47f7eff2556f2e0}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Trans. Softw. Eng.}
+      \field{number}{7}
+      \field{title}{A deep learning model for estimating story points}
+      \field{volume}{45}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{pages}{637\bibrangedash 656}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1109/TSE.2018.2792473
+      \endverb
+    \endentry
+    \entry{mejia2026loona}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=4d67d1d4a11c514940dab760e6abc65f}{%
+           family={Mejía-Domínguez},
+           familyi={M\bibinithyphendelim D\bibinitperiod},
+           given={Francisco\bibnamedelima Antonio},
+           giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=7b7e0ff303b2f83267a0f625ce144361}{%
+           family={Palacio},
+           familyi={P\bibinitperiod},
+           given={Ramón\bibnamedelima René},
+           giveni={R\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=79599c8c4050a6075870caa65789737b}{%
+           family={Borrego},
+           familyi={B\bibinitperiod},
+           given={Gilberto},
+           giveni={G\bibinitperiod}}}%
+        {{hash=43e58c1cf8c67bdfe6b1a7089591d53f}{%
+           family={González-López},
+           familyi={G\bibinithyphendelim L\bibinitperiod},
+           given={Samuel},
+           giveni={S\bibinitperiod}}}%
+        {{hash=689387c7a675ac72d72361d437d3815c}{%
+           family={Del-Puerto-Flores},
+           familyi={D\bibinithyphendelim P\bibinithyphendelim F\bibinitperiod},
+           given={José\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{ac0166c2a06271adb32e12644b7c1804}
+      \strng{fullhash}{2e0468792f7187d7a8f6b35a6ef245cf}
+      \strng{fullhashraw}{2e0468792f7187d7a8f6b35a6ef245cf}
+      \strng{bibnamehash}{2e0468792f7187d7a8f6b35a6ef245cf}
+      \strng{authorbibnamehash}{2e0468792f7187d7a8f6b35a6ef245cf}
+      \strng{authornamehash}{ac0166c2a06271adb32e12644b7c1804}
+      \strng{authorfullhash}{2e0468792f7187d7a8f6b35a6ef245cf}
+      \strng{authorfullhashraw}{2e0468792f7187d7a8f6b35a6ef245cf}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eid}{3637}
+      \field{journaltitle}{Mathematics}
+      \field{number}{19}
+      \field{title}{{LOONA}: An {LLM} assistant for {Spanish} language user story quality assurance in agile development}
+      \field{volume}{14}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.3390/math14193637
+      \endverb
+    \endentry
+    \entry{hujainah2018}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=5b4cd387f8831b06260e8cc6445bf099}{%
+           family={Hujainah},
+           familyi={H\bibinitperiod},
+           given={Fadhl},
+           giveni={F\bibinitperiod}}}%
+        {{hash=a1566714c0abc0c2c85a4481dfa3a00a}{%
+           family={Bakar},
+           familyi={B\bibinitperiod},
+           given={Rohani\bibnamedelimb Binti\bibnamedelima Abu},
+           giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=0ca4788b32948d2695947c510955616b}{%
+           family={Abdulgabber},
+           familyi={A\bibinitperiod},
+           given={Mansoor\bibnamedelima Abdullateef},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=1bd439f118ecfaa140483eb101c7a702}{%
+           family={Zamli},
+           familyi={Z\bibinitperiod},
+           given={Kamal\bibnamedelima Z.},
+           giveni={K\bibinitperiod\bibinitdelim Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{5b2b966827f46964b23201eee9e0ed04}
+      \strng{fullhash}{f025b1a44ea7dff553d80e9795cfe96a}
+      \strng{fullhashraw}{f025b1a44ea7dff553d80e9795cfe96a}
+      \strng{bibnamehash}{f025b1a44ea7dff553d80e9795cfe96a}
+      \strng{authorbibnamehash}{f025b1a44ea7dff553d80e9795cfe96a}
+      \strng{authornamehash}{5b2b966827f46964b23201eee9e0ed04}
+      \strng{authorfullhash}{f025b1a44ea7dff553d80e9795cfe96a}
+      \strng{authorfullhashraw}{f025b1a44ea7dff553d80e9795cfe96a}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Access}
+      \field{title}{Software requirements prioritisation: A systematic literature review on significance, stakeholders, techniques and challenges}
+      \field{volume}{6}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{pages}{71497\bibrangedash 71523}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1109/ACCESS.2018.2881755
+      \endverb
+    \endentry
+    \entry{johnson2019}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=2520c89c1aa92b263980411ec09645ea}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={Justin\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=c7e0de384e7d1be2ca29a338e7f5c047}{%
+           family={Khoshgoftaar},
+           familyi={K\bibinitperiod},
+           given={Taghi\bibnamedelima M.},
+           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{845dc0ae09c05744ee4fd1d5a19bd458}
+      \strng{fullhash}{845dc0ae09c05744ee4fd1d5a19bd458}
+      \strng{fullhashraw}{845dc0ae09c05744ee4fd1d5a19bd458}
+      \strng{bibnamehash}{845dc0ae09c05744ee4fd1d5a19bd458}
+      \strng{authorbibnamehash}{845dc0ae09c05744ee4fd1d5a19bd458}
+      \strng{authornamehash}{845dc0ae09c05744ee4fd1d5a19bd458}
+      \strng{authorfullhash}{845dc0ae09c05744ee4fd1d5a19bd458}
+      \strng{authorfullhashraw}{845dc0ae09c05744ee4fd1d5a19bd458}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eid}{27}
+      \field{journaltitle}{J. Big Data}
+      \field{number}{1}
+      \field{title}{Survey on deep learning with class imbalance}
+      \field{volume}{6}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.1186/s40537-019-0192-5
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

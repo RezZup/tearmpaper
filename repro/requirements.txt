@@ -1,0 +1,10 @@
+# Exact versions used for the paper (Python 3.13.16, Linux, CPU only: 2 cores, ~2 GB RAM).
+# Install CPU-only PyTorch first if you have no GPU:
+#   pip install torch==2.14.1 --index-url https://download.pytorch.org/whl/cpu
+torch==2.14.1
+transformers==4.46.3
+scikit-learn==1.6.1
+pandas==2.2.3
+numpy==2.3.5
+scipy==1.17.1
+matplotlib==3.10.9
