@@ -1,0 +1,49 @@
+{
+ "promise": 625,
+ "promise_classes": {
+  "F": 255,
+  "US": 67,
+  "SE": 66,
+  "O": 62,
+  "PE": 54,
+  "LF": 38,
+  "A": 21,
+  "SC": 21,
+  "MN": 17,
+  "L": 13,
+  "FT": 10,
+  "PO": 1
+ },
+ "reclass_counts": {
+  "F0Q0": 13,
+  "F0Q1": 302,
+  "F1Q0": 230,
+  "F1Q1": 80
+ },
+ "external_raw": 331,
+ "external_used": 327,
+ "external_dropped_neither": 4,
+ "external_by_kind": {
+  "dronology": {
+   "FQ": 26,
+   "onlyF": 68,
+   "onlyQ": 2
+  },
+  "leeds": {
+   "FQ": 21,
+   "onlyF": 23,
+   "onlyQ": 40
+  },
+  "reqview": {
+   "FQ": 21,
+   "onlyF": 54,
+   "onlyQ": 11
+  },
+  "wasp": {
+   "FQ": 13,
+   "onlyF": 42,
+   "onlyQ": 6
+  }
+ },
+ "text_overlap_with_promise": 0
+}

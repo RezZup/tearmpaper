@@ -1,0 +1,30 @@
+{
+ "python": "3.13.16",
+ "torch": "2.11.0+cu130",
+ "transformers": "5.20.2",
+ "gpu": "NVIDIA A100-SXM4-40GB",
+ "quick_test": false,
+ "models": {
+  "distilbert": [
+   "distilbert-base-uncased",
+   5e-05
+  ],
+  "bert": [
+   "bert-base-uncased",
+   3e-05
+  ],
+  "roberta": [
+   "roberta-base",
+   3e-05
+  ]
+ },
+ "seeds": [
+  42,
+  43,
+  44
+ ],
+ "epochs": 5,
+ "batch": 16,
+ "max_len": 64,
+ "llm": "Qwen/Qwen2.5-1.5B-Instruct"
+}
