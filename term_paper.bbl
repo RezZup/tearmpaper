@@ -145,13 +145,6 @@ V.~Sanh, L.~Debut, J.~Chaumond, and T.~Wolf, ``{DistilBERT}, a distilled
   arXiv:1910.01108, doi:
   \href{https://doi.org/10.48550/arXiv.1910.01108}{\nolinkurl{10.48550/arXiv.1910.01108}}.
 
-\bibitem{sun2019finetune}
-C.~Sun, X.~Qiu, Y.~Xu, and X.~Huang, ``How to fine-tune {BERT} for text
-  classification?'' in \emph{Chinese Comput. Linguistics}, ser. Lecture Notes
-  in Computer Science.\hskip 1em plus 0.5em minus 0.4em\relax Springer, 2019,
-  pp. 194--206, doi:
-  \href{https://doi.org/10.1007/978-3-030-32381-3_16}{\nolinkurl{10.1007/978-3-030-32381-3_16}}.
-
 \bibitem{kici2021}
 D.~Kici, G.~Malik, M.~Cevik, D.~Parikh, and A.~Ba{\c{s}}ar, ``A {BERT}-based
   transfer learning approach to text classification on software requirements
@@ -172,12 +165,6 @@ A.~{Tikayat Ray}, B.~F. Cole, O.~J. {Pinon Fischer}, R.~T. White, and D.~N.
   Mavris, ``{aeroBERT-Classifier}: Classification of aerospace requirements
   using {BERT},'' \emph{Aerospace}, vol.~10, no. 3, Art.~no.~279, 2023, doi:
   \href{https://doi.org/10.3390/aerospace10030279}{\nolinkurl{10.3390/aerospace10030279}}.
-
-\bibitem{yucalar2023}
-F.~Yucalar, ``Developing an advanced software requirements classification model
-  using {BERT}: An empirical evaluation study on newly generated {Turkish}
-  data,'' \emph{Appl. Sci.}, vol.~13, no. 20, Art.~no.~11127, 2023, doi:
-  \href{https://doi.org/10.3390/app132011127}{\nolinkurl{10.3390/app132011127}}.
 
 \bibitem{alsanoosy2026}
 T.~Alsanoosy, ``Requirement classification using transfer learning models,''
@@ -214,12 +201,6 @@ G.~Lucassen, F.~Dalpiaz, J.~M. E.~M. van~der Werf, and S.~Brinkkemper,
   tool,'' \emph{Requirements Eng.}, vol.~21, no.~3, pp. 383--403, 2016, doi:
   \href{https://doi.org/10.1007/s00766-016-0250-x}{\nolinkurl{10.1007/s00766-016-0250-x}}.
 
-\bibitem{choetkiertikul2019}
-M.~Choetkiertikul, H.~K. Dam, T.~Tran, T.~Pham, A.~Ghose, and T.~Menzies, ``A
-  deep learning model for estimating story points,'' \emph{IEEE Trans. Softw.
-  Eng.}, vol.~45, no.~7, pp. 637--656, 2019, doi:
-  \href{https://doi.org/10.1109/TSE.2018.2792473}{\nolinkurl{10.1109/TSE.2018.2792473}}.
-
 \bibitem{mejia2026loona}
 F.~A. Mej{\'i}a-Dom{\'i}nguez, R.~R. Palacio, G.~Borrego,
   S.~Gonz{\'a}lez-L{\'o}pez, and J.~A. Del-Puerto-Flores, ``{LOONA}: An {LLM}
@@ -238,5 +219,23 @@ F.~Hujainah, R.~B.~A. Bakar, M.~A. Abdulgabber, and K.~Z. Zamli, ``Software
 J.~M. Johnson and T.~M. Khoshgoftaar, ``Survey on deep learning with class
   imbalance,'' \emph{J. Big Data}, vol.~6, no. 1, Art.~no.~27, 2019, doi:
   \href{https://doi.org/10.1186/s40537-019-0192-5}{\nolinkurl{10.1186/s40537-019-0192-5}}.
+
+\bibitem{guo2017calibration}
+\BIBentryALTinterwordspacing
+C.~Guo, G.~Pleiss, Y.~Sun, and K.~Q. Weinberger, ``On calibration of modern
+  neural networks,'' in \emph{Proc. 34th Int. Conf. Mach. Learn.}, ser. Proc.
+  Mach. Learn. Res., vol.~70, 2017, pp. 1321--1330. [Online]. Available:
+  \url{https://proceedings.mlr.press/v70/guo17a.html}
+\BIBentrySTDinterwordspacing
+
+\bibitem{dalpiaz2019data}
+F.~Dalpiaz, D.~Dell'Anna, F.~B. Aydemir, and S.~{\c{C}}evikol,
+  ``{explainable-re/{RE}-2019-Materials v0},'' Zenodo, Jul.~10, 2019, doi:
+  \href{https://doi.org/10.5281/zenodo.3309669}{\nolinkurl{10.5281/zenodo.3309669}}.
+
+\bibitem{qwen2024}
+A.~Yang \emph{et~al.}, ``{Qwen2.5} technical report,'' 2024, arXiv:2412.15115,
+  doi:
+  \href{https://doi.org/10.48550/arXiv.2412.15115}{\nolinkurl{10.48550/arXiv.2412.15115}}.
 
 \end{thebibliography}
