@@ -1,10 +1,8 @@
-# Exact versions used for the paper (Python 3.13.16, Linux, CPU only: 2 cores, ~2 GB RAM).
-# Install CPU-only PyTorch first if you have no GPU:
-#   pip install torch==2.14.1 --index-url https://download.pytorch.org/whl/cpu
-torch==2.14.1
-transformers==4.46.3
-scikit-learn==1.6.1
-pandas==2.2.3
+# Versions used to run analyze.py (Python 3.13.16, Linux, CPU). No GPU or deep-learning library is needed for the analysis.
+# The training notebooks ran on Google Colab GPU runtimes with Colab's preinstalled packages;
+# the external-test notebook recorded torch 2.11.0+cu130 and transformers 5.20.2 (see results/paper_v2_results/environment.json).
 numpy==2.3.5
+pandas==2.2.3
 scipy==1.17.1
+scikit-learn==1.6.1
 matplotlib==3.10.9
