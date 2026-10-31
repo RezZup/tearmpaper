@@ -1,0 +1,13 @@
+task,protocol,model,ECE_raw,ECE_calibrated
+A,project,bert,0.166,0.043
+A,project,distilbert,0.193,0.044
+A,project,roberta,0.161,0.052
+A,random,bert,0.068,0.039
+A,random,distilbert,0.073,0.042
+A,random,roberta,0.075,0.038
+B,project,bert,0.268,0.064
+B,project,distilbert,0.112,0.042
+B,project,roberta,0.096,0.049
+B,random,bert,0.296,0.056
+B,random,distilbert,0.098,0.036
+B,random,roberta,0.089,0.037
