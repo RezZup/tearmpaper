@@ -38,3 +38,26 @@ desktop.ini
 
 # Local scratch and review clones
 gh_review/
+
+# Local working directory, draft scripts, and build scrapers
+work/
+
+# Private internal reviews, defense preparation, and planning documents
+github_repo_review.md
+publish_readiness_plan.md
+viva_prep.md
+checklist.md
+reference_audit.md
+calibrated_gate_from_your_runs.csv
+
+# Private user story annotation trial data & evaluation
+us result/
+rezz_user_story_eval.ipynb
+
+# Raw experimental prediction data & archives (kept locally only)
+bert_paper_results/
+paper_v2_result/
+repro/results/
+repro/data/
+repro/outputs/predictions/
+repro/logs/

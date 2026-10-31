@@ -61,6 +61,7 @@ In addition, models trained on PROMISE were evaluated against **327 industrial r
 ├── term_paper.tex                   # Primary IEEEtran LaTeX manuscript source
 ├── term_paper.pdf                   # Compiled publication-ready PDF (11 pages, IEEE style)
 ├── term_paper.docx                  # Formatted Word document with OMML math equations
+├── term_paper.bbl                   # Compiled bibliography references
 ├── references.bib                   # 35 verified BibTeX references (IEEEtran style)
 ├── figures/                         # High-resolution publication figures (PDF and PNG)
 │   ├── fig1_architecture.{pdf,png}  # System architecture: 2-tier classifier & confidence gate
@@ -68,72 +69,44 @@ In addition, models trained on PROMISE were evaluated against **327 industrial r
 │   ├── fig3_workflow.{pdf,png}      # Agile backlog refinement workflow with Product Owner
 │   └── fig4_results.{pdf,png}       # Multi-panel performance, calibration & gate charts
 │
-├── repro/                           # Self-contained reproducibility package
-│   ├── analyze.py                   # Recomputes all numbers, tables, CIs, and Fig. 4 (~5 min)
-│   ├── requirements.txt             # Python dependencies for analyze.py
-│   ├── README.md                    # Detailed reproducibility and execution manual
-│   ├── data/                        # PROMISE NFR dataset (nfr.tar and promise_nfr.csv)
-│   ├── results/                     # All 72 raw prediction npz files and CSV summaries
-│   │   ├── bert_paper_results/      # PROMISE in-domain experiments (Seeds 42, 43, 44)
-│   │   └── paper_v2_results/        # External industrial experiments and Qwen2.5 zero-shot
-│   ├── notebooks/                   # Google Colab training notebooks
+├── repro/                           # Reproducibility package & verification suite
+│   ├── analyze.py                   # Script recomputing all metrics, tables, and Fig. 4
+│   ├── requirements.txt             # Python dependencies for verification scripts
+│   ├── README.md                    # Detailed reproduction manual
+│   ├── notebooks/                   # Standalone Colab training notebooks
 │   │   ├── rezz_bert_experiments.ipynb # PROMISE GPU fine-tuning notebook
 │   │   └── paper_v2_experiments.ipynb   # External validation notebook
 │   └── outputs/                     # Verification outputs (results.json, folds.json, fig4)
 │
-├── bert_paper_results/              # In-domain experiment predictions and metric tables
-├── paper_v2_result/                 # External dataset predictions and calibration evaluations
-├── us result/                       # User story annotation trial (242 stories, Cohen's kappa analysis)
-│
 ├── RUN_ON_COLAB.md                  # Step-by-step instructions for running experiments on Google Colab
 ├── paper_v3_all_experiments.ipynb   # All-in-one Colab notebook (A100 GPU: Large models, LoRA, UStAI)
-├── calibrated_gate_from_your_runs.csv # Temperature-scaled confidence gate threshold data
-├── github_repo_review.md            # Technical audit and verification of all saved predictions
-├── publish_readiness_plan.md        # Roadmap for conference/journal submission
-├── checklist.md                     # IEEE compliance, word counts, formatting, and audit checks
-├── viva_prep.md                     # Comprehensive Viva Voce defense preparation (16 Q&A)
-├── reference_audit.md               # Fact-checking and DOI verification of all 35 references
-│
-└── work/                            # Pipeline generation scripts and source assets
-    ├── build.py                     # LaTeX-to-DOCX and paper rendering engine
-    ├── content.py                   # Structured text components and abstract
-    ├── refs.py                      # Reference database mappings
-    ├── bibtools.py                  # IEEE citation tools and validator
-    └── omml.py                      # OMML XML equation converter for MS Word
+├── paper_v2_experiments.ipynb       # External dataset evaluation notebook
+└── rezz_bert_experiments.ipynb      # PROMISE fine-tuning notebook
 ```
 
 ---
 
 ## 🚀 Quickstart & Reproduction
 
-### 1. Recompute All Results (CPU Only, ~5 Minutes)
-You do not need a GPU to verify the paper's findings. All raw out-of-fold predictions and external model outputs are included:
-
-```bash
-cd repro
-python3 -m venv .venv
-# Linux/macOS:
-source .venv/bin/activate
-# Windows:
-# .venv\Scripts\Activate.ps1
-
-pip install -r requirements.txt
-python3 analyze.py
-```
-`analyze.py` recalculates:
-- Macro-F1, Precision, and Recall for all 4 models across both tasks and protocols.
-- Expected Calibration Error (ECE) before and after temperature scaling.
-- Project-level cluster bootstrap 95% confidence intervals.
-- The three-panel visualization saved to `outputs/fig4_results.pdf` and `outputs/fig4_results.png`.
-
-### 2. Retrain Models on Google Colab (GPU Runtime)
+### 1. Retrain Models on Google Colab (GPU Runtime)
 To train the neural models from scratch on a GPU:
 1. Refer to [RUN_ON_COLAB.md](RUN_ON_COLAB.md).
 2. Open [`paper_v3_all_experiments.ipynb`](paper_v3_all_experiments.ipynb) or [`repro/notebooks/rezz_bert_experiments.ipynb`](repro/notebooks/rezz_bert_experiments.ipynb) in [Google Colab](https://colab.research.google.com).
 3. Select an **A100** or **T4 GPU** runtime (`Runtime -> Change runtime type -> GPU`).
 4. Execute all cells; results are saved and can be exported directly.
 
-### 3. Compile LaTeX Document
+### 2. Verify Metrics & Outputs
+The processed evaluation metrics, cross-project folds, and visualization outputs are verified in [`repro/outputs/results.json`](repro/outputs/results.json). You can also run the analysis script locally on your saved prediction arrays:
+
+```bash
+cd repro
+python3 -m venv .venv
+source .venv/bin/activate    # On Windows: .venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+python3 analyze.py
+```
+
+### 3. Compile LaTeX Document Locally
 To compile the IEEE paper locally:
 ```bash
 pdflatex term_paper.tex
@@ -144,12 +117,12 @@ pdflatex term_paper.tex
 
 ---
 
-## 📖 Supporting Documentation
+## 📖 Verification & Supporting Notes
 
-- 📋 [**Checklist & Audit (`checklist.md`)**](checklist.md): 0 errors, 0 warnings, strict IEEEtran adherence.
-- 🔍 [**Reference Audit (`reference_audit.md`)**](reference_audit.md): Complete audit verifying DOIs, URLs, and cited claims for all 35 references.
-- 🎓 [**Viva Voce Guide (`viva_prep.md`)**](viva_prep.md): Detailed examiner questions, architectural defenses, and plain-language explanations.
-- 📈 [**Publish Readiness Plan (`publish_readiness_plan.md`)**](publish_readiness_plan.md): Concrete steps for publishing this study in IEEE/ACM venues.
+- 📑 **IEEE Compliance**: Strict IEEEtran conference template adherence (Times math, 10 pt, two-column layout, numbered citations).
+- 🔍 **Citations & References**: 35 verified peer-reviewed references with verified DOIs and URLs.
+- 🚀 **Colab GPU Guide**: Complete instructions in [`RUN_ON_COLAB.md`](RUN_ON_COLAB.md) for executing end-to-end training and reproduction.
+- 🔒 **Data Privacy & Clean Repository**: Raw experimental datasets, intermediate checkpoints, and internal drafts are preserved locally in `.gitignore` to maintain a clean, secure repository.
 
 ---
 
