@@ -89,6 +89,7 @@ def bibtex_entry(r):
         if r.get('note'): notes.append(tex(r['note']))
     if r.get('doi'): notes.append(doi_tex(r['doi']))
     if notes: f['note'] = ', '.join(notes)
+    if r.get('url') and t != 'online': f['url'] = r['url']
     order = ['author', 'title', 'journal', 'booktitle', 'howpublished', 'series', 'volume', 'number', 'pages',
              'publisher', 'institution', 'month', 'year', 'note', 'url']
     def val(k):

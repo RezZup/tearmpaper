@@ -1,232 +1,246 @@
 # -*- coding: utf-8 -*-
-"""Fill experiment placeholders in content.py from repro/outputs/results.json (our own runs only).
-Random protocol: stratified 10-fold; baselines seeds 42-44, DistilBERT seed 42 only.
-Grouped protocol: project-held-out 5-fold (StratifiedGroupKFold by project), seeds 42-44 for all models."""
-import json, numpy as np, pandas as pd
+"""Fill the experiment placeholders in content.py from repro/outputs/results.json.
+results.json is produced by repro/analyze.py from the saved GPU predictions (our own runs only):
+  PROMISE NFR out-of-fold predictions (rezz_bert_experiments.ipynb) and the external test (paper_v2_experiments.ipynb).
+Every sentence whose wording depends on a pattern in the data has an assert in front of it."""
+import json, numpy as np
 RES = json.load(open('/home/user/repro/outputs/results.json'))
-PRED = '/home/user/repro/outputs/predictions'
-S, RUN, MC = RES['summary'], RES['runs'], RES['mcnemar']
-SEEDS = [42, 43, 44]
-NB, LR, SVM, DB = 'MNB', 'LogReg', 'LinearSVM', 'DistilBERT'
-BASE = [NB, LR, SVM]
+BPR = '/home/user/repro/results/bert_paper_results'
+S, BOOT, CAL = RES['promise_summary'], RES['promise_bootstrap_vs_svm'], RES['promise_calibration']
+ES, EB, EC, ER, LLM = RES['external_summary'], RES['external_bootstrap'], RES['external_calibration'], RES['external_runs'], RES['llm_zeroshot']
+SEEDS, TR, ALL = [42, 43, 44], ['distilbert', 'bert', 'roberta'], ['svm', 'distilbert', 'bert', 'roberta']
+NAME = {'svm': 'the SVM', 'distilbert': 'DistilBERT', 'bert': 'BERT', 'roberta': 'RoBERTa'}
 f3 = lambda v: f'{v:.3f}'
 f2 = lambda v: f'{v:.2f}'
-def pfmt(p): return 'p < 0.001' if p < 0.001 else f'p = {p:.2f}'
-def sm(t, pr, m): return S.get(f'{t}|{pr}|{m}')
-def mf(t, pr, m): return sm(t, pr, m)['macro_F1_mean']
-def run(t, pr, s, m): return RUN[f'{t}|{pr}|{s}|{m}']
-def mc(t, pr, s, m): return MC[f'{t}|{pr}|{s}|DistilBERT_vs_{m}']
-COMPLETE = sm('A', 'grouped', DB) is not None and sm('B', 'grouped', DB) is not None \
-    and sm('A', 'grouped', DB)['n_seeds'] == 3 and sm('B', 'grouped', DB)['n_seeds'] == 3
-PEND = 'PEND'
+pct = lambda v: f'{v * 100:.0f}%'
+rng3 = lambda v: f3(min(v)) if f3(min(v)) == f3(max(v)) else f'{f3(min(v))}\u2013{f3(max(v))}'
+rng2 = lambda v: f2(min(v)) if f2(min(v)) == f2(max(v)) else f'{f2(min(v))}\u2013{f2(max(v))}'
+neg = lambda s: s.replace('-', '\u2212')
+mf = lambda t, p, m: S[f'{t}|{p}|{m}']['macro_F1']['mean']
+sd = lambda t, p, m: S[f'{t}|{p}|{m}']['macro_F1']['sd']
+ms = lambda t, p, m: f'{f3(mf(t, p, m))} \u00b1 {f3(sd(t, p, m))}'
+rec = lambda t, p, m, c: S[f'{t}|{p}|{m}']['recall'][c]['mean']
+excl = lambda b: b['lo'] > 0 or b['hi'] < 0
+nex = lambda t, p, m: sum(excl(BOOT[f'{t}|{p}|{m}|{s}']) for s in SEEDS)
+F = {}
 
-# ---------------------------------------------------------------- random protocol (seed 42 = DistilBERT split)
-A_db, A_svm, B_db, B_svm = run('A', 'random', 42, DB), run('A', 'random', 42, SVM), run('B', 'random', 42, DB), run('B', 'random', 42, SVM)
-mA, mB = mc('A', 'random', 42, SVM), mc('B', 'random', 42, SVM)
-assert max(mc('B', 'random', 42, m)['p'] for m in BASE) * 3 < 0.05     # Bonferroni claim
-assert all(mc('A', 'random', 42, m)['p'] > 0.05 for m in BASE)
-fa = B_db['fold_acc']; cmA = A_db['cm']
-assert all(abs(run(t, 'random', 42, m)['macro_F1'] - mf(t, 'random', m)) < 0.01 for t in 'AB' for m in BASE)
-assert max(run('A', 'random', 42, m)['macro_F1'] for m in BASE + [DB]) - min(run('A', 'random', 42, m)['macro_F1'] for m in BASE + [DB]) < 0.015
-
-F = {'COMPLETE': COMPLETE}
-F['A_BERT'] = f3(A_db['macro_F1']); F['B_BERT'] = f3(B_db['macro_F1']); F['A_SVM'] = f3(A_svm['macro_F1'])
-F['A_SVM_MEAN'] = f3(mf('A', 'random', SVM))
-F['A_SECS'] = f"{A_db['secs_per_fold']:.0f}"; F['B_SECS'] = f"{B_db['secs_per_fold']:.0f}"
-
-F['RESULTS_PARA_1'] = (
-    f"*Random folds.* All random-fold numbers in this paragraph come from seed 42, the only seed on which DistilBERT was "
-    f"trained under this protocol; [[tab:res]] gives the baseline means over three seeds. On Task A the four "
-    f"models finish within 1.5 points of each other. The linear SVM has the highest macro-F1 ({f3(A_svm['macro_F1'])}) "
-    f"and DistilBERT the lowest ({f3(A_db['macro_F1'])}). DistilBERT recognises non-functional requirements well (recall "
-    f"{f3(A_db['per_class']['NFR']['R'])}) but misses more functional ones (recall {f3(A_db['per_class']['F']['R'])}; "
-    f"{cmA[0][1]} of {sum(cmA[0])} were labelled NFR). An exact McNemar test on the pooled predictions finds no significant "
-    f"difference between DistilBERT and the SVM ({mA['bert_only']} items only DistilBERT got right, {mA['base_only']} only "
-    f"the SVM; {pfmt(mA['p'])}). Task B tells a different story. DistilBERT reaches a macro-F1 of {f3(B_db['macro_F1'])}, "
-    f"against seed-42 values of {f3(B_svm['macro_F1'])} for the SVM, {f3(run('B', 'random', 42, LR)['macro_F1'])} for "
-    f"logistic regression and {f3(run('B', 'random', 42, NB)['macro_F1'])} for Naive Bayes (three-seed means in [[tab:res]]: "
-    f"{f3(mf('B', 'random', SVM))}, {f3(mf('B', 'random', LR))} and {f3(mf('B', 'random', NB))}), and its F1 is at least "
-    f"{min(c['F1'] for c in B_db['per_class'].values()):.2f} for every class. Here the McNemar tests are significant against "
-    f"all three baselines ({mB['bert_only']} versus {mB['base_only']} discordant items against the SVM; p < 0.001 in each "
-    f"case), and the differences remain significant after a Bonferroni correction for three comparisons. Over seeds 42\u201344 "
-    f"the baseline means in [[tab:res]] are within 0.01 of these seed-42 values.")
-
-# ---------------------------------------------------------------- grouped protocol
-def frec(t, m, cls):   # mean recall of one class over seeds, grouped protocol
-    v = [run(t, 'grouped', s, m)['per_class'][cls]['R'] for s in SEEDS if f'{t}|grouped|{s}|{m}' in RUN]
-    return float(np.mean(v)) if v else None
-foldn = []; trn = {}
-for s in SEEDS:
-    df = pd.read_csv(f'{PRED}/A_grouped_seed{s}.csv'); foldn += list(df.groupby('fold').size())
-for t, n in [('A', 625), ('B', 249)]:
-    for pr in ['random', 'grouped']:
-        trn[(t, pr)] = [n - k for s in SEEDS for k in pd.read_csv(f'{PRED}/{t}_{pr}_seed{s}.csv').groupby('fold').size()]
-shr = lambda t, pr: float(np.mean(trn[(t, pr)])) / (625 if t == 'A' else 249)
-assert all(abs(shr(t, 'random') - 0.9) < 0.005 and abs(shr(t, 'grouped') - 0.8) < 0.005 for t in 'AB')
-gb = lambda t, m: mf(t, 'grouped', m)
-base_rng = lambda t: f"{f3(min(gb(t, m) for m in BASE))}\u2013{f3(max(gb(t, m) for m in BASE))}"
-dropA_base = min(mf('A', 'random', m) - gb('A', m) for m in BASE)
-dropB_base = [mf('B', 'random', m) - gb('B', m) for m in BASE]
-if COMPLETE:
-    dA, dB = sm('A', 'grouped', DB), sm('B', 'grouped', DB)
-    dbA = f"{f3(dA['macro_F1_mean'])} \u00b1 {f3(dA['macro_F1_sd'])}"; dbB = f"{f3(dB['macro_F1_mean'])} \u00b1 {f3(dB['macro_F1_sd'])}"
-    def mcn_all(t):   # lead against every baseline in every seed; largest p per baseline
-        assert all(mc(t, 'grouped', s, m)['bert_only'] > mc(t, 'grouped', s, m)['base_only'] and mc(t, 'grouped', s, m)['p'] < 0.05
-                   for s in SEEDS for m in BASE)
-        mx = {m: max(mc(t, 'grouped', s, m)['p'] for s in SEEDS) for m in BASE}
-        fp = lambda p: '< 0.001' if p < 0.001 else f'{p:.3f}'
-        return (f"DistilBERT is significantly better than each of the three baselines in every seed (exact McNemar; "
-                f"largest p: {fp(mx[NB])} against Naive Bayes, {fp(mx[LR])} against logistic regression, "
-                f"{fp(mx[SVM])} against the SVM)")
-    MCN_ROWS = []
-    for t in 'AB':
-        for s_ in SEEDS:
-            for m, lab in [(NB, 'TF-IDF+NB'), (LR, 'TF-IDF+LogReg'), (SVM, 'TF-IDF+SVM')]:
-                p_ = mc(t, 'grouped', s_, m)['p']; pc = min(1.0, 3 * p_)
-                fmt = lambda v: '< 0.001' if v < 0.001 else f'{v:.3f}'
-                MCN_ROWS.append([t, str(s_), lab, fmt(p_), fmt(pc)])
-    F['MCN_ROWS'] = MCN_ROWS
-    bonf_fail = [(t, s, m, mc(t, 'grouped', s, m)['p']) for t in 'AB' for s in SEEDS for m in BASE if 3 * mc(t, 'grouped', s, m)['p'] >= 0.05]
-    assert len(bonf_fail) == 1 and bonf_fail[0][:3] == ('B', 43, LR)
-    BONF_S = (f" With a Bonferroni correction for the three baselines, one of these 18 comparisons would no longer pass "
-              f"(Task B, seed 43, against logistic regression: p = {bonf_fail[0][3]:.3f}, corrected {3 * bonf_fail[0][3]:.3f}), "
-              f"and the p-values assume independent items ([[sec:threats]]).")
-    def mcn_sentence(t):
-        rows = [mc(t, 'grouped', s, SVM) for s in SEEDS]
-        win = sum(r['bert_only'] > r['base_only'] and r['p'] < 0.05 for r in rows)
-        lose = sum(r['bert_only'] < r['base_only'] and r['p'] < 0.05 for r in rows)
-        ps = ', '.join('<0.001' if r['p'] < 0.001 else f"{r['p']:.3f}" for r in rows)
-        if win == 3: verdict = 'DistilBERT is significantly better than the SVM in all three seeds'
-        elif lose == 3: verdict = 'the SVM is significantly better than DistilBERT in all three seeds'
-        elif win == 0 and lose == 0: verdict = 'DistilBERT and the SVM do not differ significantly in any seed'
-        else: verdict = f'DistilBERT is significantly better than the SVM in {win} and significantly worse in {lose} of three seeds'
-        return f"{verdict} (exact McNemar p per seed: {ps})"
-    mcA, mcB = mcn_all('A'), mcn_all('B')
-    db_fr = f2(frec('A', DB, 'F')); assert frec('A', DB, 'F') < 0.6
-    F['DB_FREC_PCT'] = f"{frec('A', DB, 'F') * 100:.0f}"
-else:
-    dbA = dbB = mcA = mcB = db_fr = BONF_S = PEND
-def gate(t, tau):
-    g = [RES['gate'].get(f'{t}|grouped|{s}', {}).get(str(tau)) for s in SEEDS]
-    g = [x for x in g if x]
-    return (float(np.mean([x['coverage'] for x in g])), float(np.mean([x['precision_auto'] for x in g]))) if len(g) == 3 else None
-if COMPLETE and gate('A', 0.95):
-    cA, pA = gate('A', 0.95); cB, pB = gate('B', 0.95)
-    assert pA < 0.9 and pB >= 0.95 and cB < 0.5     # wording below depends on this pattern
-    GATE_S = (f" DistilBERT's confidence scores behaved differently on the two tasks. Averaged over seeds, a threshold of "
-              f"0.95 would have auto-labelled {cA * 100:.0f}% of Task A items with a precision of only {f2(pA)}, well "
-              f"short of the 0.95 target used as an example in [[sec:gate]]; on unseen projects the Task A scores were "
-              f"over-confident. On Task B the same threshold met the target (precision {f2(pB)}) but auto-labelled only "
-              f"{cB * 100:.0f}% of the items and sent the rest to review.")
-else:
-    GATE_S = ' ' + PEND + '.'
-F['RESULTS_PARA_G'] = (
-    f"*Project-held-out folds.* Holding out whole projects lowers every score (right-hand columns of [[tab:res]], and "
-    f"[[fig:res]]). On Task A each baseline loses at least {dropA_base * 100:.0f} points of macro-F1 and ends at "
-    f"{base_rng('A')}; DistilBERT reaches {dbA}. Most of the loss is in the functional class. Averaged over the three "
-    f"seeds, functional recall falls to {f2(frec('A', SVM, 'F'))} for the SVM, {f2(frec('A', NB, 'F'))} for Naive Bayes "
-    f"and {db_fr} for DistilBERT, so even the best model finds only about half of the functional requirements of an "
-    f"unseen project, while non-functional recall stays at "
-    f"{f2(min(frec('A', m, 'NFR') for m in BASE))} or above for the baselines. On an unseen project the models therefore label "
-    f"many functional requirements as non-functional. A plausible reason, which we did not test, is that functional "
-    f"requirements are written in each project's domain vocabulary, whereas quality requirements reuse phrases such as "
-    f"\u201cshall be available\u201d or \u201cwithin 2 seconds\u201d across projects. Task B loses less: "
-    f"the baselines drop by {min(dropB_base) * 100:.0f}\u2013{max(dropB_base) * 100:.0f} points to {base_rng('B')}, and "
-    f"DistilBERT reaches {dbB}. Exact McNemar tests ([[tab:mcn]]) favour DistilBERT over every baseline in every seed "
-    f"on both tasks (p \u2264 {max(mc(t, 'grouped', s, m)['p'] for t in 'AB' for s in SEEDS for m in BASE):.3f} before "
-    f"correction); after a Bonferroni correction, {['no', 'one', 'two', 'three'][len(bonf_fail)]} of the 18 comparisons {'is' if len(bonf_fail) == 1 else 'are'} no longer significant, and the "
-    f"tests assume independent items ([[sec:threats]]). The drop should not be read as the effect of "
-    f"project leakage alone, because the two protocols differ in other ways. Five project-held-out folds train on about "
-    f"80% of the items on average, against 90% for ten random folds (on Task A, {min(trn[('A', 'grouped')])}\u2013"
-    f"{max(trn[('A', 'grouped')])} training items per fold instead of about {round(np.mean(trn[('A', 'random')]))}). The folds are also uneven because PROMISE projects differ in size "
-    f"and content: Task A test folds hold between {min(foldn)} and {max(foldn)} items, and projects 11\u201315 contain no "
-    f"functional requirements at all.{GATE_S}")
-
-F['RESULTS_PARA_2'] = (
-    "We read the random-fold contrast between the tasks as follows, although we did not test this explanation. In PROMISE "
-    "the FR/NFR split is carried largely by surface cues, such as verbs of action versus adjectives of quality, and a bag "
-    "of n-grams captures these well. Telling usability from operability or security is harder: words such as "
-    "\u201cuser\u201d, \u201csystem\u201d and \u201cshall\u201d appear in every class, and each class has only 54\u201367 "
-    "examples. This is the situation in which pre-trained representations are expected to help most. The errors also "
-    "support the F+Q view of {{t:dalpiaz2019}}. Several Task A \u201cerrors\u201d are debatable. One item requires that all "
-    "changes to a dispute case be \u201crecorded in the case history\u201d; PROMISE labels it NFR, the model predicted F, "
-    "and it reads like our audit-log example in [[tab:data]]. In Task B, a requirement to conform to the Americans with "
-    "Disabilities Act is labelled usability but was predicted security, and arguably it is a legal requirement as well. "
-    f"Fold-level accuracy varied widely (DistilBERT on random Task B folds: {min(fa):.2f} to {max(fa):.2f} over test folds "
-    "of about 25 items), which is why we report pooled scores.")
-
-# ---------------------------------------------------------------- summary sentences
-if COMPLETE:
-    gA = [gb('A', m) for m in BASE]; gB = [gb('B', m) for m in BASE]
-    leadA = all(mc('A', 'grouped', s, m)['bert_only'] > mc('A', 'grouped', s, m)['base_only'] and mc('A', 'grouped', s, m)['p'] < 0.05 for s in SEEDS for m in BASE)
-    F['LEAD_A'] = leadA
-    rng = lambda v: f"{f3(min(v))}\u2013{f3(max(v))}"
-    mxp = max(mc(t, 'grouped', s, m)['p'] for t in 'AB' for s in SEEDS for m in BASE)
-    F['ABSTRACT_RESULT'] = (
-        f"On the seed-42 random split, DistilBERT matched a linear SVM on functional versus non-functional classification "
-        f"(macro-F1 {f3(A_db['macro_F1'])} vs. {f3(A_svm['macro_F1'])}, not significant) and beat it on four frequent "
-        f"quality classes ({f3(B_db['macro_F1'])} vs. {f3(B_svm['macro_F1'])}). On unseen projects every score "
-        f"fell{'; DistilBERT led clearly' if leadA else ''}: {f3(gb('A', DB))} versus {rng(gA)} for the baselines on the "
-        f"first task and {f3(gb('B', DB))} versus {rng(gB)} on the second, significantly in every seed (McNemar p \u2264 "
-        f"{mxp:.3f}) before multiple-comparison correction, yet it found only {F['DB_FREC_PCT']}% of the functional "
-        f"requirements in unseen projects.")
-    F['CONCL_RESULT'] = (
-        f"on the seed-42 random split a CPU-trained DistilBERT was no better than a linear SVM at separating functional from "
-        f"non-functional requirements (macro-F1 {f3(A_db['macro_F1'])} vs. {f3(A_svm['macro_F1'])}) but clearly better at "
-        f"telling the four most frequent quality classes apart ({f3(B_db['macro_F1'])} vs. {f3(B_svm['macro_F1'])}). When "
-        f"whole projects were held out, every model lost ground"
-        + (f", and the first task changed from a statistical tie to a clear DistilBERT lead: {f3(gb('A', DB))} against "
-           f"{rng(gA)} for the baselines" if leadA else f": DistilBERT reached {f3(gb('A', DB))} against {rng(gA)} for the baselines")
-        + f", and {f3(gb('B', DB))} against {rng(gB)} on the second task. Even so, DistilBERT found only "
-          f"{F['DB_FREC_PCT']}% of the functional requirements in unseen projects, and its confidence scores were "
-          f"over-confident on unseen projects for the first task, so a confidence gate needs calibration on the team's "
-          f"own items before it can be trusted.")
-else:
-    F['ABSTRACT_RESULT'] = F['CONCL_RESULT'] = PEND + '.'
-
-def disc():
-    head = ("Under random folds, a linear TF-IDF model was as good as DistilBERT for the coarse FR/NFR decision, whereas the "
-            "transformer was clearly better at separating quality classes. ")
-    if not COMPLETE: return head + PEND + '.'
-    def rel(t):
-        d = gb(t, DB) - gb(t, SVM); r = [mc(t, 'grouped', s, SVM) for s in SEEDS]
-        sig = sum(x['p'] < 0.05 for x in r)
-        if abs(d) < 0.01 or sig == 0: return f"level with the SVM ({f3(gb(t, DB))} vs. {f3(gb(t, SVM))})"
-        return f"{'ahead of' if d > 0 else 'behind'} the SVM ({f3(gb(t, DB))} vs. {f3(gb(t, SVM))})"
-    drA = [mf('A', 'random', m) - gb('A', m) for m in BASE + [DB]]; drB = [mf('B', 'random', m) - gb('B', m) for m in BASE + [DB]]
-    both = rel('A').startswith('ahead') and rel('B').startswith('ahead')
-    where = (f"ahead of the SVM on both tasks ({f3(gb('A', DB))} vs. {f3(gb('A', SVM))} and {f3(gb('B', DB))} vs. {f3(gb('B', SVM))})"
-             if both else f"{rel('A')} on Task A and {rel('B')} on Task B")
-    return head + (f"Moving to project-held-out folds lowered every model's score by {min(drA) * 100:.0f}\u2013{max(drA) * 100:.0f} points of "
-            f"macro-F1 on Task A and {min(drB) * 100:.0f}\u2013{max(drB) * 100:.0f} points on Task B; DistilBERT ended "
-            f"{where}; part of the drop may come from smaller training sets and uneven test folds rather than from unseen projects alone. "
-            + ("The transformer's advantage is therefore largest where it matters for adoption, on projects it has not "
-               "seen, which agrees with the unseen-project results of NoRBERT {{hey2020norbert;hey2022corrected}}. For a "
-               "team, one hypothesis follows that we did not test: a cheap linear model may be a reasonable Level 1 "
-               "classifier only if it is trained on the team's own items. What our results do show is that any model "
-               "should be checked on those items before its labels are trusted, because random-fold scores overstate how "
-               "well it will do on a new project."
-               if gb('A', DB) - gb('A', SVM) > 0.05 else
-               "For a team, this suggests that a transformer pays off mainly at Level 2 of the framework, and that any "
-               "model should be checked on the team's own items before its labels are trusted, because random-fold scores "
-               "overstate how well it will do on a new project."))
-F['DISC_RESULT'] = disc()
-
-# ---------------------------------------------------------------- Table III
-order = [(NB, 'TF-IDF+NB'), (LR, 'TF-IDF+LogReg'), (SVM, 'TF-IDF+SVM'), (DB, 'DistilBERT')]
-cols = [('A', 'random'), ('A', 'grouped'), ('B', 'random'), ('B', 'grouped')]
-def cell(t, pr, m):
-    s = sm(t, pr, m)
-    if s is None or (pr == 'grouped' and m == DB and not COMPLETE): return None, PEND
-    if s['macro_F1_sd'] is None: return round(s['macro_F1_mean'], 3), f"{s['macro_F1_mean']:.3f}\u2020"
-    return round(s['macro_F1_mean'], 3), f"{s['macro_F1_mean']:.3f} \u00b1 {s['macro_F1_sd']:.3f}"
-best = {c: max(v for v, _ in (cell(*c, m) for m, _ in order) if v is not None) for c in cols}
+# ---------------------------------------------------------------- Table III (wide): macro-F1 mean ± SD over seeds
+cols = [('A', 'random'), ('A', 'project'), ('B', 'random'), ('B', 'project'), ('ext', 'orig'), ('ext', 'reclass')]
+def val(c, m):
+    if c[0] == 'ext': e = ES[f'{c[1]}|{m}']['macroF1']; return e['mean'], f"{f3(e['mean'])} \u00b1 {f3(e['sd'])}"
+    return mf(*c, m), ms(*c, m)
+best = {c: max(val(c, m)[0] for m in ALL) for c in cols}
+LAB = {'svm': 'TF-IDF+SVM', 'distilbert': 'DistilBERT', 'bert': 'BERT-base', 'roberta': 'RoBERTa-base'}
 rows = []
-for m, lab in order:
-    row = [lab]
+for m in ALL:
+    row = [LAB[m]]
     for c in cols:
-        v, txt = cell(*c, m); row.append(f'**{txt}**' if v is not None and v == best[c] else txt)
+        v, txt = val(c, m); row.append(f'**{txt}**' if round(v, 3) == round(best[c], 3) else txt)
     rows.append(row)
+rows.append(['Qwen2.5-1.5B, zero-shot\u2021', '\u2013', f3(LLM['A_macroF1']), '\u2013', f3(LLM['B_macroF1']), f3(LLM['E_macroF1']), '\u2013'])
+assert all(LLM[k] < best[c] for k, c in [('A_macroF1', ('A', 'project')), ('B_macroF1', ('B', 'project')), ('E_macroF1', ('ext', 'orig'))])
 F['RES_ROWS'] = rows
+
+# ---------------------------------------------------------------- random folds
+aR = [mf('A', 'random', m) for m in ALL]
+assert max(aR) - min(aR) < 0.01 and all(nex('A', 'random', m) == 0 for m in TR)
+F['A_RND_RANGE'] = rng3(aR)
+bR = {m: mf('B', 'random', m) for m in ALL}
+assert bR['roberta'] > bR['distilbert'] > bR['bert'] > bR['svm']
+assert (nex('B', 'random', 'roberta'), nex('B', 'random', 'distilbert'), nex('B', 'random', 'bert')) == (3, 2, 0)
+F['RESULTS_PARA_RANDOM'] = (
+    f"*Random folds.* On Task A the four models are statistically tied: their mean macro-F1 ranges from {f3(min(aR))} to {f3(max(aR))}, "
+    f"and none of the nine project-bootstrap intervals for a transformer minus the SVM excludes zero. On Task B the "
+    f"transformers pull ahead. RoBERTa reaches {ms('B', 'random', 'roberta')} and DistilBERT {ms('B', 'random', 'distilbert')}, "
+    f"against {ms('B', 'random', 'svm')} for the SVM; their intervals exclude zero in three and two of three seeds respectively. "
+    f"BERT ({ms('B', 'random', 'bert')}) is ahead of the SVM on average, but none of its intervals excludes zero.")
+
+# ---------------------------------------------------------------- project-held-out folds
+drop = lambda t, m: mf(t, 'random', m) - mf(t, 'project', m)
+dA = {m: drop('A', m) for m in ALL}; dB = {m: drop('B', m) for m in ALL}
+assert dA['svm'] > max(dA[m] for m in TR)
+exA = {m: nex('A', 'project', m) for m in TR}; assert sum(exA.values()) == 8 and exA['distilbert'] == 2
+miss = [s for s in SEEDS if not excl(BOOT[f'A|project|distilbert|{s}'])]; assert miss == [42]
+bm = BOOT['A|project|distilbert|42']
+frA = {m: rec('A', 'project', m, 'FR') for m in ALL}; nfrA = [rec('A', 'project', m, 'NFR') for m in ALL]
+assert frA['svm'] < 0.3 and max(frA[m] for m in TR) < 0.7 and min(nfrA) > 0.9
+exB = {m: nex('B', 'project', m) for m in TR}; assert exB == {'distilbert': 3, 'bert': 0, 'roberta': 3}
+bP = {m: mf('B', 'project', m) for m in ALL}; assert bP['distilbert'] > bP['roberta'] > bP['bert'] > bP['svm']
+# fold sizes and training-set sizes, from the saved fold ids
+sizes = {}
+for t, n in [('A', 625), ('B', 249)]:
+    for p in ['random', 'project']:
+        fs = [np.bincount(np.load(f'{BPR}/{t}_{p}_svm_{s}.npz')['fold']) for s in SEEDS]
+        sizes[(t, p)] = (min(min(f) for f in fs), max(max(f) for f in fs), float(np.mean([n - k for f in fs for k in f])) / n,
+                         min(n - max(f) for f in fs), max(n - min(f) for f in fs), round(float(np.mean([n - k for f in fs for k in f]))))
+assert abs(sizes[('A', 'random')][2] - 0.9) < 0.005 and abs(sizes[('A', 'project')][2] - 0.8) < 0.005
+z = np.load(f'{BPR}/A_project_svm_42.npz'); noF = sorted(set(z['project']) - set(z['project'][z['y'] == 0]))
+assert noF == [11, 12, 13, 14, 15]
+aP = sizes[('A', 'project')]
+F['RESULTS_PARA_PROJECT'] = (
+    f"*Project-held-out folds.* Holding out whole projects lowers every score (right-hand columns of [[tab:res]] and "
+    f"[[fig:res]]), but not equally. On Task A the SVM loses {dA['svm'] * 100:.0f} points of macro-F1 and ends at "
+    f"{ms('A', 'project', 'svm')}, whereas the transformers lose {min(dA[m] for m in TR) * 100:.0f}\u2013"
+    f"{max(dA[m] for m in TR) * 100:.0f} points: DistilBERT reaches {ms('A', 'project', 'distilbert')}, BERT "
+    f"{ms('A', 'project', 'bert')} and RoBERTa {ms('A', 'project', 'roberta')}. Eight of the nine project-bootstrap intervals "
+    f"exclude zero; the exception is DistilBERT with seed 42 (difference {f3(bm['diff'])}, 95% interval {neg(f3(bm['lo']))} to "
+    f"{f3(bm['hi'])}). Most of the loss is in the functional class. Averaged over seeds, functional recall falls to "
+    f"{f2(frA['svm'])} for the SVM, {f2(frA['distilbert'])} for DistilBERT, {f2(frA['bert'])} for BERT and "
+    f"{f2(frA['roberta'])} for RoBERTa, while non-functional recall stays at {f2(min(nfrA))} or above for every model. On an "
+    f"unseen project the models therefore label many functional requirements as non-functional; even the best model "
+    f"finds only about two thirds of them. A likely but untested reason is that functional requirements are written in each "
+    f"project's domain vocabulary, whereas quality requirements reuse phrases such as \u201cshall be available\u201d or "
+    f"\u201cwithin 2 seconds\u201d across projects. Task B loses less: the SVM drops to {ms('B', 'project', 'svm')}, "
+    f"DistilBERT reaches {ms('B', 'project', 'distilbert')} and RoBERTa {ms('B', 'project', 'roberta')}, and both are "
+    f"ahead of the SVM in every seed. BERT ({ms('B', 'project', 'bert')}) is again ahead on average without any interval "
+    f"excluding zero. The drop should not be read as the effect of unseen projects alone, because the protocols differ in "
+    f"other ways. Five project-held-out folds train on about 80% of the items, against 90% for ten random folds (on Task A, "
+    f"{aP[3]}\u2013{aP[4]} training items per fold instead of about {sizes[('A', 'random')][5]}). The folds are also uneven, "
+    f"because PROMISE projects differ in size and content: Task A test folds hold between {aP[0]} and {aP[1]} items, and "
+    f"projects 11\u201315 contain no functional requirements at all.")
+
+# ---------------------------------------------------------------- calibration and gate (PROMISE)
+def cm(t, p, m, key, field):
+    v = [CAL[f'{t}|{p}|{m}|{s}']['gate'][key][field] for s in SEEDS]; v = [x for x in v if x is not None]
+    return (float(np.mean(v)), len(v)) if v else (None, 0)
+eceA = [np.mean([CAL[f'A|project|{m}|{s}'][k] for s in SEEDS]) for m in TR for k in ['ECE_raw']]
+eceAc = [np.mean([CAL[f'A|project|{m}|{s}']['ECE_cal'] for s in SEEDS]) for m in TR]
+eceBb = [np.mean([CAL[f'B|{p}|bert|{s}']['ECE_raw'] for s in SEEDS]) for p in ['random', 'project']]
+eceBo = [np.mean([CAL[f'B|{p}|{m}|{s}']['ECE_raw'] for s in SEEDS]) for p in ['random', 'project'] for m in ['distilbert', 'roberta']]
+assert min(eceBb) > 0.25 and max(eceBo) < 0.12
+rawA = [cm('A', 'project', m, 'raw0.95', f)[0] for m in TR for f in ['cov']]; rawAp = [cm('A', 'project', m, 'raw0.95', 'prec')[0] for m in TR]
+assert min(rawA) > 0.8 and max(rawAp) < 0.86
+assert all(cm('A', 'project', m, '0.95', 'cov')[0] == 0 for m in TR)
+selA = {m: (cm('A', 'project', m, 'sel', 'cov')[0], cm('A', 'project', m, 'sel', 'prec')[0]) for m in TR}
+assert max(v[0] for v in selA.values()) == selA['roberta'][0] and selA['roberta'][1] < 0.9 and selA['roberta'][0] < 0.25
+selB = {m: (cm('B', 'project', m, 'sel', 'cov')[0], cm('B', 'project', m, 'sel', 'prec')[0]) for m in TR}
+assert all(cm('B', 'project', m, 'sel', 'prec')[1] == 3 for m in TR)
+selAr = [cm('A', 'random', m, 'sel', 'cov')[0] for m in TR]; selArp = [cm('A', 'random', m, 'sel', 'prec')[0] for m in TR]
+F['RESULTS_PARA_CAL'] = (
+    f"*Calibration and the confidence gate.* The raw softmax scores were over-confident on unseen projects. On Task A "
+    f"project-held-out folds the expected calibration error (ECE) of the three transformers was {rng2(eceA)}, and a "
+    f"threshold of 0.95 on the raw scores would have auto-labelled {pct(min(rawA))}\u2013{pct(max(rawA))} of the items at a "
+    f"precision of only {rng2(rawAp)}. BERT was badly calibrated on Task B as well (ECE {rng2(eceBb)}, against "
+    f"{f2(max(eceBo))} or less for DistilBERT and RoBERTa). Cross-fitted temperature scaling reduced the Task A "
+    f"project-held-out ECE to {rng2(eceAc)}, but it also showed how little of that task can be automated safely: after "
+    f"scaling, no Task A item of an unseen project reached a confidence of 0.95, and the cross-fitted threshold "
+    f"auto-labelled at most {pct(selA['roberta'][0])} of the items (RoBERTa), at a precision of {f2(selA['roberta'][1])}, "
+    f"short of the 0.95 target. Task B behaved better. With the cross-fitted threshold, DistilBERT auto-labelled "
+    f"{pct(selB['distilbert'][0])} of the unseen-project items at a precision of {f2(selB['distilbert'][1])}, RoBERTa "
+    f"{pct(selB['roberta'][0])} at {f2(selB['roberta'][1])} and BERT {pct(selB['bert'][0])} at {f2(selB['bert'][1])}; the "
+    f"remaining items would go to review. Under random folds the same procedure auto-labelled about "
+    f"{pct(np.mean(selAr))} of Task A items at a precision of {rng2(selArp)}, which again shows how optimistic random "
+    f"splits are.")
+
+# ---------------------------------------------------------------- external test
+cnt = RES['external_counts']; bk, bd = cnt['by_kind'], cnt['by_dataset']
+assert cnt['total'] == 327 and RES['data_card_v2']['external_dropped_neither'] == 4
+nd = {d: sum(v.values()) for d, v in bd.items()}
+F.update(EXT_N=str(cnt['total']), EXT_ONLYF=str(bk['onlyF']), EXT_ONLYQ=str(bk['onlyQ']), EXT_FQ=str(bk['FQ']),
+         EXT_M=str(bk['onlyF'] + bk['onlyQ']), EXT_DRON=str(nd['dronology']), EXT_LEEDS=str(nd['leeds']),
+         EXT_REQV=str(nd['reqview']), EXT_WASP=str(nd['wasp']), EXT_DRON_Q=str(bd['dronology']['onlyQ']), EXT_WASP_Q=str(bd['wasp']['onlyQ']),
+         RECLASS_N=str(ER['reclass|svm|42']['n_train']))
+assert ER['reclass|svm|42']['n_train'] == 612 and RES['data_card_v2']['text_overlap_with_promise'] == 0
+em = lambda s, m, k='macroF1': ES[f'{s}|{m}'][k]['mean']
+ems = lambda s, m: f"{f3(em(s, m))} \u00b1 {f3(ES[f'{s}|{m}']['macroF1']['sd'])}"
+s44 = [ER[f'orig|{m}|44']['macroF1'] for m in TR]; oth = [ER[f'orig|{m}|{s}']['macroF1'] for m in TR for s in (42, 43)]
+assert max(s44) < min(oth)
+vs = {s: [EB[f'{s}|{m}|vs_svm'] for m in TR] for s in ['orig', 'reclass']}
+assert all(excl(b) and b['diff'] > 0 for v in vs.values() for b in v)
+rmo = {m: EB[f'reclass_minus_orig|{m}|macroF1'] for m in ALL}
+assert excl(rmo['roberta']) and not any(excl(rmo[m]) for m in ['svm', 'distilbert', 'bert'])
+qf = [em(s, m, 'qflag_F1') for s in ['orig', 'reclass'] for m in ALL]
+oF = {m: em('orig', m, 'onlyF_flagged') for m in ALL}; fq = [em('orig', m, 'FQ_flagged') for m in TR]
+assert oF['svm'] > 0.44 and max(oF[m] for m in TR) < 0.35
+pdR = {d: float(np.mean([ER[f'orig|roberta|{s}']['per_dataset'][d] for s in SEEDS])) for d in bd}
+assert pdR['leeds'] > 0.75 and pdR['reqview'] > 0.75 and pdR['dronology'] < 0.5 and pdR['wasp'] < 0.5
+rc = em('reclass', 'roberta', 'onlyF_flagged')
+F['RESULTS_PARA_EXT'] = (
+    f"*External test.* Trained on all of PROMISE with its original labels and applied to the {cnt['total']} industrial "
+    f"requirements, the SVM reached a macro-F1 of {f3(em('orig', 'svm'))} on the {bk['onlyF'] + bk['onlyQ']} items that have "
+    f"only a functional or only a quality aspect. The transformers reached {ems('orig', 'distilbert')} (DistilBERT), "
+    f"{ems('orig', 'bert')} (BERT) and {ems('orig', 'roberta')} (RoBERTa), and the within-document bootstrap put their "
+    f"seed-averaged advantage over the SVM at +{f3(min(b['diff'] for b in vs['orig']))} to +{f3(max(b['diff'] for b in vs['orig']))}, "
+    f"with every interval excluding zero. The large standard deviations come mostly from seed 44, which gave "
+    f"{rng3(s44)} for all three transformers against {rng3(oth)} for seeds 42 and 43. Training on the relabelled PROMISE "
+    f"instead changed little for the SVM, DistilBERT and BERT (all intervals for the difference include zero), but it "
+    f"raised RoBERTa to {ems('reclass', 'roberta')}, a gain of {f3(rmo['roberta']['diff'])} (95% interval "
+    f"{f3(rmo['roberta']['lo'])} to {f3(rmo['roberta']['hi'])}). As a quality flag over all {cnt['total']} items, every "
+    f"model reached an F1 between {f2(min(qf))} and {f2(max(qf))}. The errors differ, however: with the original labels the "
+    f"transformers flagged {pct(min(oF[m] for m in TR))}\u2013{pct(max(oF[m] for m in TR))} of the purely functional items "
+    f"as having a quality aspect, against {pct(oF['svm'])} for the SVM, and flagged {pct(min(fq))}\u2013{pct(max(fq))} of "
+    f"the mixed F+Q items. Results also varied by document. RoBERTa reached {f2(pdR['leeds'])} on Leeds and "
+    f"{f2(pdR['reqview'])} on ReqView, but only {f2(pdR['dronology'])} on Dronology and {f2(pdR['wasp'])} on WASP, where "
+    f"only {bd['dronology']['onlyQ']} and {bd['wasp']['onlyQ']} items are purely quality requirements, so those two "
+    f"values rest on very few items.")
+
+# calibration transfer
+taus = {k: v for k, v in EC.items() if v['tau'] is not None}
+assert len(taus) == 8 and 'distilbert|43' not in taus
+met = [k for k, v in taus.items() if v['prec'] >= 0.95]; fail = sorted(set(taus) - set(met))
+assert len(met) == 5 and all(k.endswith('|44') for k in fail) and len(fail) == 3
+er = [v['ECE_raw'] for v in EC.values()]; ecl = [v['ECE_cal'] for v in EC.values()]
+cov = [v['cov'] for v in taus.values()]; na = [v['n_auto'] for v in taus.values()]; pr = [v['prec'] for v in taus.values()]
+F['RESULTS_PARA_TRANSFER'] = (
+    f"The calibration did not transfer well. With the temperature fitted on the PROMISE out-of-fold predictions of the "
+    f"same model and seed, the external ECE fell from {rng2(er)} to {rng2(ecl)}, so the scores stayed miscalibrated. A "
+    f"threshold for 0.95 precision could be set on PROMISE in eight of the nine runs. Applied unchanged to the external "
+    f"items, it auto-labelled {pct(min(cov))}\u2013{pct(max(cov))} of them ({min(na)}\u2013{max(na)} items) at a precision "
+    f"of {rng2(pr)}, and met the target in only {len(met)} of the {len(taus)} runs; the three failures were the seed-44 "
+    f"runs of all three transformers.")
+
+# zero-shot LLM
+assert LLM['A_share_pred_NFR'] < 0.1 and LLM['E_qflag_R'] < 0.05 and abs(LLM['B_macroF1'] - mf('B', 'project', 'svm')) < 0.01
+F['RESULTS_PARA_LLM'] = (
+    f"*Zero-shot LLM.* Without any training, Qwen2.5-1.5B-Instruct reached a macro-F1 of {f3(LLM['A_macroF1'])} on Task A, "
+    f"because it called only {pct(LLM['A_share_pred_NFR'])} of the requirements non-functional although {pct(370 / 625)} are. "
+    f"On Task B it reached {f3(LLM['B_macroF1'])}, about the same as the SVM on unseen projects. On the external items it "
+    f"flagged only {pct(LLM['E_qflag_R'])} of the items with a quality aspect (macro-F1 {f3(LLM['E_macroF1'])}). A "
+    f"model of this size with one fixed prompt is a weak baseline, and larger models or few-shot prompts may do much "
+    f"better; we did not test them.")
+
+# fold-level spread (DistilBERT, random Task B) for the pooled-score remark
+zb = np.load(f'{BPR}/B_random_distilbert_42.npz')
+facc = [float((zb['pred'][zb['fold'] == k] == zb['y'][zb['fold'] == k]).mean()) for k in np.unique(zb['fold'])]
+F['FOLD_ACC'] = f'{min(facc):.2f} to {max(facc):.2f}'
+F['B_FOLD_N'] = str(round(249 / 10))
+
+# ---------------------------------------------------------------- literature comparison numbers (Section IV-B)
+F['A_SVM_RND'] = f3(mf('A', 'random', 'svm')); F['A_TR_RND'] = rng3([mf('A', 'random', m) for m in TR])
+F['B_ROB_RND'] = f3(mf('B', 'random', 'roberta')); F['B_RND_TR'] = rng3([mf('B', 'random', m) for m in TR])
+
+# ---------------------------------------------------------------- abstract, discussion, conclusion
+trA = [mf('A', 'project', m) for m in TR]
+F['ABSTRACT_RESULT'] = (
+    f"On random folds all models tied on functional versus non-functional classification (macro-F1 {rng3(aR)}). On unseen "
+    f"projects every score fell, but the transformers fell less ({rng3(trA)} versus {f3(mf('A', 'project', 'svm'))} for the "
+    f"SVM; project-bootstrap intervals excluded zero in eight of nine runs). On the industrial requirements they led the SVM "
+    f"by {f3(min(b['diff'] for b in vs['orig']))}\u2013{f3(max(b['diff'] for b in vs['orig']))} macro-F1, but confidence "
+    f"thresholds set on PROMISE met their precision target in only {len(met)} of {len(taus)} runs.")
+F['DISC_RESULT'] = (
+    f"Under random folds a linear TF-IDF model was as good as any transformer for the coarse FR/NFR decision, whereas "
+    f"RoBERTa and DistilBERT were clearly better at separating quality classes. Moving to project-held-out folds cost the "
+    f"SVM {dA['svm'] * 100:.0f} points of macro-F1 on Task A but the transformers only {min(dA[m] for m in TR) * 100:.0f}\u2013"
+    f"{max(dA[m] for m in TR) * 100:.0f}, part of which may come from smaller training sets and uneven test folds rather "
+    f"than from unseen projects alone. The transformers' advantage is therefore largest where it matters for adoption, on "
+    f"projects they have not seen, which agrees with the unseen-project results of NoRBERT {{{{hey2020norbert;hey2022corrected}}}}. "
+    f"The external test points the same way, with a smaller margin: on documents written by other teams and labelled by "
+    f"other researchers, the transformers stayed ahead of the SVM, but their scores ({rng3([em('orig', m) for m in TR])}) "
+    f"were far below the random-fold numbers and varied strongly with the seed and the document. Two cautions follow. BERT-base, "
+    f"the original model of the family, was the weakest transformer on Task B and the worst calibrated, so the choice of "
+    f"encoder matters even within one family. And calibration is not portable: temperature scaling fixed most of the "
+    f"miscalibration on held-out PROMISE folds, but a threshold chosen on PROMISE missed its precision target on the "
+    f"external documents in {len(taus) - len(met)} of {len(taus)} runs. For a team, the practical consequence is that any "
+    f"model, and especially its confidence threshold, should be re-checked on the team's own items before its labels are "
+    f"trusted.")
+F['CONCL_RESULT'] = (
+    f"on random folds the fully fine-tuned DistilBERT, BERT and RoBERTa were no better than a linear SVM at separating "
+    f"functional from non-functional requirements (macro-F1 {rng3(aR)}), but RoBERTa and DistilBERT were clearly better at "
+    f"telling the four most frequent quality classes apart. When whole projects were held out, every model lost ground, "
+    f"and the first task changed from a statistical tie to a clear transformer lead ({rng3(trA)} against "
+    f"{f3(mf('A', 'project', 'svm'))}). On {cnt['total']} industrial requirements from four other projects the "
+    f"transformers kept a smaller lead over the SVM, and its bootstrap intervals excluded zero. Even so, the best model found only about two thirds of "
+    f"the functional requirements of an unseen project, and confidence thresholds did not carry over from PROMISE to "
+    f"new documents, so a confidence gate needs calibration on the team's own items before it can be trusted.")
 json.dump(F, open('/home/user/work/fill.json', 'w'), indent=1, ensure_ascii=False)
-for k, v in F.items(): print(k, ':', v)
+for k, v in F.items(): print(k, ':', v if k != 'RES_ROWS' else '\n  ' + '\n  '.join(' | '.join(r) for r in v))

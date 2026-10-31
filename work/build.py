@@ -67,7 +67,7 @@ TEX_SPECIAL = [('\\', r'\textbackslash{}'), ('&', r'\&'), ('%', r'\%'), ('$', r'
                ('{', r'\{'), ('}', r'\}'), ('~', r'\textasciitilde{}'), ('^', r'\^{}')]
 TEX_UNI = {'⟨': r'$\langle$', '⟩': r'$\rangle$', '≈': r'$\approx$', '≥': r'$\geq$', 'κ': r'$\kappa$', 'α': r'$\alpha$',
            '×10⁻⁵': r'$\times 10^{-5}$', '·': r'\textperiodcentered{}', '>': r'\textgreater{}', '<': r'\textless{}', 'τ': r'$\tau$',
-           '±': r'$\pm$', '†': r'$^{\dagger}$', '≤': r'$\leq$', '−': r'$-$'}
+           '±': r'$\pm$', '†': r'$^{\dagger}$', '‡': r'$^{\ddagger}$', '≤': r'$\leq$', '−': r'$-$'}
 
 def tex_plain(s):
     for a, b in TEX_SPECIAL: s = s.replace(a, '\x00' + str(TEX_SPECIAL.index((a, b))) + '\x01')
@@ -124,6 +124,7 @@ def build_tex():
 \usepackage{xurl}
 \usepackage[hidelinks]{hyperref}
 \graphicspath{{figures/}}
+\raggedbottom
 \begin{document}
 \bstctlcite{IEEEexample:BSTcontrol}   % et al. after six authors, no dash for repeated authors (see references.bib)
 ''')

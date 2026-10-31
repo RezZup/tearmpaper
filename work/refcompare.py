@@ -9,7 +9,7 @@ flat=re.sub(r'\s+',' ',raw.replace('\f',''))
 N=lambda x: re.sub(r'[\s\-\u2009]','',unicodedata.normalize('NFC',x))
 starts=[]; pos=0
 for t in dref:
-    body=t.split('\t',1)[1]; q=flat.find(body[:12],pos); starts.append(q); pos=q+1
+    body=t.split('\t',1)[1]; q=flat.find(body[:40],pos); starts.append(q); pos=q+1
 starts.append(len(flat)); bad=0
 for i,t in enumerate(dref):
     body=t.split('\t',1)[1]; seg=flat[starts[i]:starts[i+1]].strip()
